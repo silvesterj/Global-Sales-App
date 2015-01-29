@@ -1,0 +1,264 @@
+<?xml version='1.0'?>
+  <clc:CalculationInput xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' detailed-errors='true' request-id='1' xmlns='http://www.example.org/AmLife_Lifestyle'>
+    <clc:DeplR dep-name='AmLife Lifestyle' ver-sel='last'/>
+    <clc:CalculationData>
+      <Policy id='ID1'>
+        <Features>
+          <CoverageTerm><TermType>Duration</TermType><Term>69</Term></CoverageTerm>
+          <DeductibleLevel xsi:nil='true'/>
+          <ExtendedCoverageOption xsi:nil='true'/>
+          <InsurancePortion>2000</InsurancePortion>
+          <PaymentFrequency>1</PaymentFrequency>
+          <PaymentTerm><TermType>Duration</TermType><Term>69</Term></PaymentTerm>
+          <PlanCode xsi:nil='true'/>
+          <ProductCode>ULLA5</ProductCode>
+          <SustainabilityOptionTerm xsi:nil='true'/>
+          <TargetAge xsi:nil='true'/>
+          <TargetValue xsi:nil='true'/>
+          <TotalPremium>3000</TotalPremium>
+          <WithdrawalOption xsi:nil='true'/>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage id='ID22'>
+              <Features>
+                <CoverageCode>ULLA5</CoverageCode>
+                <CoverageTerm><TermType>Duration</TermType><Term>69</Term></CoverageTerm>
+                <InsuredAmount>5000</InsuredAmount>
+                <PaymentTerm><TermType>Duration</TermType><Term>69</Term></PaymentTerm>
+                <PlanCode>ULLA5</PlanCode>
+              </Features>
+              <Links>
+                <Insured>
+                  <clc:Reference ref='ID66'/>
+                </Insured>
+              </Links>
+            </Coverage>
+          </Coverage>
+          <FundInvestment>
+            <FundInvestment id='ID32'>
+              <Features>
+                <FundCode>AMBF</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID35'>
+              <Features>
+                <FundCode>AMTBF</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID38'>
+              <Features>
+                <FundCode>AMBAF</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID41'>
+              <Features>
+                <FundCode>AMDT</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID44'>
+              <Features>
+                <FundCode>AMDF</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID47'>
+              <Features>
+                <FundCode>AMEF</FundCode>
+                <FundPercentage>20</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID50'>
+              <Features>
+                <FundCode>AMAIEF</FundCode>
+                <FundPercentage>10</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID53'>
+              <Features>
+                <FundCode>AMAPRF</FundCode>
+                <FundPercentage>5</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID56'>
+              <Features>
+                <FundCode>AMPMF</FundCode>
+                <FundPercentage>5</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID59'>
+              <Features>
+                <FundCode>AMGAF</FundCode>
+                <FundPercentage>5</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID62'>
+              <Features>
+                <FundCode>AMGEMF</FundCode>
+                <FundPercentage>5</FundPercentage>
+              </Features>
+            </FundInvestment>
+          </FundInvestment>
+          <Insured>
+            <Insured id='ID66'>
+              <Features>
+                <RoleCode>Insured</RoleCode>
+              </Features>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID73'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+          <Owner/>
+          <TopUp/>
+        </Links>
+      </Policy>
+      <Person id='ID73'>
+        <Features>
+          <AgeNextBirthday>30</AgeNextBirthday>
+          <BirthDate xsi:nil='true'/>
+          <Gender>1</Gender>
+          <OccupationClass xsi:nil='true'/>
+          <SmokingHabit>N</SmokingHabit>
+        </Features>
+      </Person>
+    </clc:CalculationData>
+    <clc:Calculation name='main test'>
+      <Policy ref='ID1'>
+        <Features>
+          <CoverageTerm/>
+          <DeductibleLevel/>
+          <ExtendedCoverageOption/>
+          <InsurancePortion/>
+          <PaymentFrequency/>
+          <PaymentTerm/>
+          <PlanCode/>
+          <ProductCode/>
+          <SustainabilityOptionTerm/>
+          <TargetAge/>
+          <TargetValue/>
+          <TotalPremium/>
+          <WithdrawalOption/>
+          <PremiumPerMode/>
+          <RequiredAmount/>
+          <Tables/>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage ref='ID22'>
+              <Features>
+                <CoverageCode/>
+                <CoverageTerm/>
+                <InsuredAmount/>
+                <PaymentTerm/>
+                <PlanCode/>
+                <PremiumPerMode/>
+              </Features>
+              <Links>
+                <Insured>
+                  <clc:Reference ref='ID66'/>
+                </Insured>
+              </Links>
+            </Coverage>
+          </Coverage>
+          <FundInvestment>
+            <FundInvestment ref='ID32'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID35'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID38'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID41'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID44'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID47'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID50'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID53'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID56'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID59'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+            <FundInvestment ref='ID62'>
+              <Features>
+                <FundCode/>
+                <FundPercentage/>
+              </Features>
+            </FundInvestment>
+          </FundInvestment>
+          <Insured>
+            <Insured ref='ID66'>
+              <Features>
+                <RoleCode/>
+              </Features>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID73'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+        </Links>
+      </Policy>
+      <Person ref='ID73'>
+        <Features>
+          <AgeNextBirthday/>
+          <BirthDate/>
+          <Gender/>
+          <OccupationClass/>
+          <SmokingHabit/>
+        </Features>
+      </Person>
+      <clc:CalculationDates><clc:At>2014-09-30</clc:At></clc:CalculationDates>
+      <clc:InputData scenario='main'/>
+    </clc:Calculation>
+  </clc:CalculationInput>

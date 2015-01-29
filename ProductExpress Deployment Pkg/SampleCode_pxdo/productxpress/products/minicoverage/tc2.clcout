@@ -1,0 +1,378 @@
+<?xml version='1.0'?>
+  <clc:CalculationOutput xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.example.org/MiniCov_Calculator_-_Deployment'>
+    <clc:RuntimeConfiguration name='MiniCov Calculator - Deployment' version='1.0' id='ID:5a359910-7769-4ddb-9d25-423b4b5f3b8d'/>
+    <clc:Calculation name='Test 1'>
+      <DCompProd ref='ID1' ext-id='b1c78df0-63e6-46d7-acf9-65ac8999051f:1'>
+        <Features>
+          <DCompProdOutput>
+            <Value date='2003-01-01T00:00:00'>10</Value>
+            <Value date='2004-01-01T00:00:00'>30</Value>
+            <Value date='2005-01-01T00:00:00'>60</Value>
+            <Value date='2006-01-01T00:00:00'>100</Value>
+            <Value date='2007-01-01T00:00:00'>150</Value>
+          </DCompProdOutput>
+        </Features>
+        <Links>
+          <DCompProdPart>
+            <DCompProdPart ref='ID5' ext-id='01dbda73-8086-4c4d-aa59-ed9dd446b97a:1'>
+              <Features>
+                <DCompProdPartOutput>0.0005</DCompProdPartOutput>
+              </Features>
+            </DCompProdPart>
+          </DCompProdPart>
+          <DCompProdRole>
+            <DCompProdRole ref='ID10' ext-id='0a2bcd45-646a-4696-8bed-cb45ff0bf27c:1'>
+              <Features>
+                <DCompProdRoleOutput>1993-01-01</DCompProdRoleOutput>
+              </Features>
+            </DCompProdRole>
+          </DCompProdRole>
+          <DSubCompProd>
+            <DSubCompProd ref='ID16' ext-id='149017cb-070d-41a3-9f8d-50f312120631:1'>
+              <Features>
+                <DSubCompProdOutput>Yes!</DSubCompProdOutput>
+              </Features>
+            </DSubCompProd>
+          </DSubCompProd>
+        </Links>
+      </DCompProd>
+      <DAssoc ref='ID20' ext-id='83b16430-c662-41e7-8fd7-5757dc27eb9c:1'>
+        <Features>
+          <DAssocOutput>2.5</DAssocOutput>
+        </Features>
+      </DAssoc>
+      <DAssoc ref='ID25' ext-id='83b16430-c662-41e7-8fd7-5757dc27eb9c:2'>
+        <Features>
+          <DAssocOutput>3.6</DAssocOutput>
+        </Features>
+      </DAssoc>
+      <DEnvComp ref='ID31' ext-id='7f9f4dc3-a491-487b-8ed6-2c268425af48:1'>
+        <Features>
+          <DEnvOutput>
+            <Value date='2003-01-01T00:00:00'>20030</Value>
+            <Value date='2004-01-01T00:00:00'>20040</Value>
+            <Value date='2005-01-01T00:00:00'>20050</Value>
+            <Value date='2006-01-01T00:00:00'>20060</Value>
+            <Value date='2007-01-01T00:00:00'>20070</Value>
+          </DEnvOutput>
+        </Features>
+      </DEnvComp>
+      <DObj ref='ID35' ext-id='f714ce77-a497-42c9-b595-401674ca314e:1'>
+        <Features>
+          <DObjOutput>
+            <Value date='2003-01-01T00:00:00'>.</Value>
+            <Value date='2004-01-01T00:00:00'>abc.</Value>
+            <Value date='2005-01-01T00:00:00'>abcabc.</Value>
+            <Value date='2006-01-01T00:00:00'>abcabcabc.</Value>
+            <Value date='2007-01-01T00:00:00'>abcabcabcabcabc.</Value>
+          </DObjOutput>
+        </Features>
+      </DObj>
+      <DObj ref='ID38' ext-id='f714ce77-a497-42c9-b595-401674ca314e:2'>
+        <Features>
+          <DObjOutput>
+            <Value date='2003-01-01T00:00:00'>.</Value>
+            <Value date='2004-01-01T00:00:00'>abcabc.</Value>
+            <Value date='2005-01-01T00:00:00'>abcabcabc.</Value>
+            <Value date='2006-01-01T00:00:00'>abcabcabcabc.</Value>
+            <Value date='2007-01-01T00:00:00'>abcabcabcabc.</Value>
+          </DObjOutput>
+        </Features>
+      </DObj>
+      <DProd ref='ID42' ext-id='aa4f6b71-438a-45a0-bda6-28d55b50230a:1'>
+        <Features>
+          <DProdMulti>
+            <Value date='2003-01-01T00:00:00'>110.01</Value>
+            <Value date='2004-01-01T00:00:00'>110.01</Value>
+            <Value date='2005-01-01T00:00:00'>110.01</Value>
+            <Value date='2006-01-01T00:00:00'>110.01</Value>
+            <Value date='2007-01-01T00:00:00'>110.01</Value>
+          </DProdMulti>
+          <DProdOutput>
+            <Value date='2003-01-01T00:00:00'>0</Value>
+            <Value date='2004-01-01T00:00:00'>0</Value>
+            <Value date='2005-01-01T00:00:00'>0</Value>
+            <Value date='2006-01-01T00:00:00'>0</Value>
+            <Value date='2007-01-01T00:00:00'>88693.47231</Value>
+          </DProdOutput>
+        </Features>
+        <Links>
+          <DMod>
+            <DMod ref='ID47' ext-id='f4449544-6f77-4e5d-b26b-cdc83b983c2c:1'>
+              <Features>
+                <DModOutput>
+                  <Value date='2003-01-01T00:00:00'>2.44</Value>
+                  <Value date='2004-01-01T00:00:00'>2.44</Value>
+                  <Value date='2005-01-01T00:00:00'>2.44</Value>
+                  <Value date='2006-01-01T00:00:00'>2.44</Value>
+                  <Value date='2007-01-01T00:00:00'>2.44</Value>
+                </DModOutput>
+                <DModOutput2>
+                  <Value date='2003-01-01T00:00:00'>2.44</Value>
+                  <Value date='2004-01-01T00:00:00'>2.44</Value>
+                  <Value date='2005-01-01T00:00:00'>2.44</Value>
+                  <Value date='2006-01-01T00:00:00'>2.44</Value>
+                  <Value date='2007-01-01T00:00:00'>2.44</Value>
+                </DModOutput2>
+              </Features>
+              <Links>
+                <DInsObj>
+                  <DInsObj ref='ID53' ext-id='c0f0daff-c4f4-4920-ae56-dbb3c3ffc036:1'>
+                    <Features>
+                      <DInsObjOutput>
+                        <Value date='2003-01-01T00:00:00'>false</Value>
+                        <Value date='2004-01-01T00:00:00'>true</Value>
+                        <Value date='2005-01-01T00:00:00'>false</Value>
+                        <Value date='2006-01-01T00:00:00'>true</Value>
+                        <Value date='2007-01-01T00:00:00'>false</Value>
+                      </DInsObjOutput>
+                    </Features>
+                    <Links>
+                      <DInsObjRisk>
+                        <DInsObjRisk ref='ID57' ext-id='0a8b35e3-110a-4842-9555-a0d351834e8f:1'>
+                          <Features>
+                            <DInsObjRiskOutput>10</DInsObjRiskOutput>
+                          </Features>
+                        </DInsObjRisk>
+                        <DInsObjRisk ref='ID60' ext-id='0a8b35e3-110a-4842-9555-a0d351834e8f:2'>
+                          <Features>
+                            <DInsObjRiskOutput>20</DInsObjRiskOutput>
+                          </Features>
+                        </DInsObjRisk>
+                      </DInsObjRisk>
+                    </Links>
+                  </DInsObj>
+                </DInsObj>
+                <DInv>
+                  <DInv ref='ID65' ext-id='60c3bb32-fac9-4197-9fc9-8f4a898d4800:1'>
+                    <Features>
+                      <DInvOutput>0.0005</DInvOutput>
+                    </Features>
+                    <Links>
+                      <DInvRole>
+                        <DInvRole ref='ID69' ext-id='baeb5434-e1f4-49ed-8fc3-3e9af86d5f96:1'>
+                          <Features>
+                            <DInvRoleOutput>8.6</DInvRoleOutput>
+                          </Features>
+                        </DInvRole>
+                      </DInvRole>
+                      <DSubInv>
+                        <DSubInv ref='ID74' ext-id='3a2f3bf4-e1fb-4dd7-aaae-2798baf82f9d:1'>
+                          <Features>
+                            <DSubInvOutput>10.8</DSubInvOutput>
+                          </Features>
+                        </DSubInv>
+                      </DSubInv>
+                    </Links>
+                  </DInv>
+                  <DInv ref='ID78' ext-id='a7e4449e-c50d-42ac-90b4-89a968cb04b2:1'>
+                    <Features>
+                      <DInvOutput>0.0005</DInvOutput>
+                    </Features>
+                    <Links>
+                      <DInvRole>
+                        <DInvRole ref='ID82' ext-id='baeb5434-e1f4-49ed-8fc3-3e9af86d5f96:1'>
+                          <Features>
+                            <DInvRoleOutput>6.4</DInvRoleOutput>
+                          </Features>
+                        </DInvRole>
+                      </DInvRole>
+                    </Links>
+                  </DInv>
+                </DInv>
+                <DModAssocRole>
+                  <DModAssocRole ref='ID87' ext-id='de694ff1-6bd7-4833-9d7d-018bc0b8064c:1'>
+                    <Features>
+                      <DModAssocRoleOutput>31.6</DModAssocRoleOutput>
+                    </Features>
+                  </DModAssocRole>
+                  <DModAssocRole ref='ID91' ext-id='de694ff1-6bd7-4833-9d7d-018bc0b8064c:2'>
+                    <Features>
+                      <DModAssocRoleOutput>21.8</DModAssocRoleOutput>
+                    </Features>
+                  </DModAssocRole>
+                </DModAssocRole>
+                <DRisk>
+                  <DRisk ref='ID96' ext-id='5b8ec093-d188-41bd-9cad-43898ea5f4db:1'>
+                    <Features>
+                      <DRiskOutput>3</DRiskOutput>
+                    </Features>
+                    <Links>
+                      <DRiskRole>
+                        <DRiskRole ref='ID100' ext-id='8aba65d5-3448-48aa-bddc-42eb0712668d:1'>
+                          <Features>
+                            <DRiskRoleOutput>4</DRiskRoleOutput>
+                          </Features>
+                        </DRiskRole>
+                      </DRiskRole>
+                      <DSubRisk>
+                        <DSubRisk ref='ID105' ext-id='af90e09a-1fd7-408c-a495-00cfb66a989c:1'>
+                          <Features>
+                            <DSubRiskOutput>3.75</DSubRiskOutput>
+                          </Features>
+                        </DSubRisk>
+                      </DSubRisk>
+                    </Links>
+                  </DRisk>
+                </DRisk>
+              </Links>
+            </DMod>
+            <DMod ref='ID109' ext-id='0ed52119-7a77-4001-8747-fd75c6df8db3:1'>
+              <Features>
+                <DModOutput>
+                  <Value date='2003-01-01T00:00:00'>54.95</Value>
+                  <Value date='2004-01-01T00:00:00'>54.95</Value>
+                  <Value date='2005-01-01T00:00:00'>54.95</Value>
+                  <Value date='2006-01-01T00:00:00'>54.95</Value>
+                  <Value date='2007-01-01T00:00:00'>54.95</Value>
+                </DModOutput>
+                <DModOutput2>
+                  <Value date='2003-01-01T00:00:00'>54.95</Value>
+                  <Value date='2004-01-01T00:00:00'>54.95</Value>
+                  <Value date='2005-01-01T00:00:00'>54.95</Value>
+                  <Value date='2006-01-01T00:00:00'>54.95</Value>
+                  <Value date='2007-01-01T00:00:00'>54.95</Value>
+                </DModOutput2>
+              </Features>
+              <Links>
+                <DInsObj>
+                  <DInsObj ref='ID115' ext-id='c0f0daff-c4f4-4920-ae56-dbb3c3ffc036:1'>
+                    <Features>
+                      <DInsObjOutput>
+                        <Value date='2003-01-01T00:00:00'>true</Value>
+                        <Value date='2004-01-01T00:00:00'>true</Value>
+                        <Value date='2005-01-01T00:00:00'>true</Value>
+                        <Value date='2006-01-01T00:00:00'>true</Value>
+                        <Value date='2007-01-01T00:00:00'>true</Value>
+                      </DInsObjOutput>
+                    </Features>
+                    <Links>
+                      <DInsObjRisk>
+                        <DInsObjRisk ref='ID119' ext-id='0a8b35e3-110a-4842-9555-a0d351834e8f:1'>
+                          <Features>
+                            <DInsObjRiskOutput>30</DInsObjRiskOutput>
+                          </Features>
+                        </DInsObjRisk>
+                      </DInsObjRisk>
+                    </Links>
+                  </DInsObj>
+                </DInsObj>
+                <DInv>
+                  <DInv ref='ID124' ext-id='60c3bb32-fac9-4197-9fc9-8f4a898d4800:1'>
+                    <Features>
+                      <DInvOutput>0.0005</DInvOutput>
+                    </Features>
+                    <Links>
+                      <DInvRole>
+                        <DInvRole ref='ID128' ext-id='baeb5434-e1f4-49ed-8fc3-3e9af86d5f96:1'>
+                          <Features>
+                            <DInvRoleOutput>7.6</DInvRoleOutput>
+                          </Features>
+                        </DInvRole>
+                      </DInvRole>
+                      <DSubInv>
+                        <DSubInv ref='ID133' ext-id='3a2f3bf4-e1fb-4dd7-aaae-2798baf82f9d:1'>
+                          <Features>
+                            <DSubInvOutput>9.8</DSubInvOutput>
+                          </Features>
+                        </DSubInv>
+                      </DSubInv>
+                    </Links>
+                  </DInv>
+                  <DInv ref='ID137' ext-id='a7e4449e-c50d-42ac-90b4-89a968cb04b2:1'>
+                    <Features>
+                      <DInvOutput>0.0005</DInvOutput>
+                    </Features>
+                    <Links>
+                      <DInvRole>
+                        <DInvRole ref='ID141' ext-id='baeb5434-e1f4-49ed-8fc3-3e9af86d5f96:1'>
+                          <Features>
+                            <DInvRoleOutput>5.4</DInvRoleOutput>
+                          </Features>
+                        </DInvRole>
+                      </DInvRole>
+                    </Links>
+                  </DInv>
+                </DInv>
+                <DModAssocRole>
+                  <DModAssocRole ref='ID146' ext-id='de694ff1-6bd7-4833-9d7d-018bc0b8064c:1'>
+                    <Features>
+                      <DModAssocRoleOutput>20.8</DModAssocRoleOutput>
+                    </Features>
+                  </DModAssocRole>
+                  <DModAssocRole ref='ID150' ext-id='de694ff1-6bd7-4833-9d7d-018bc0b8064c:2'>
+                    <Features>
+                      <DModAssocRoleOutput>30.6</DModAssocRoleOutput>
+                    </Features>
+                  </DModAssocRole>
+                </DModAssocRole>
+                <DRisk>
+                  <DRisk ref='ID155' ext-id='5b8ec093-d188-41bd-9cad-43898ea5f4db:1'>
+                    <Features>
+                      <DRiskOutput>2</DRiskOutput>
+                    </Features>
+                    <Links>
+                      <DRiskRole>
+                        <DRiskRole ref='ID159' ext-id='8aba65d5-3448-48aa-bddc-42eb0712668d:1'>
+                          <Features>
+                            <DRiskRoleOutput>3</DRiskRoleOutput>
+                          </Features>
+                        </DRiskRole>
+                      </DRiskRole>
+                      <DSubRisk>
+                        <DSubRisk ref='ID164' ext-id='af90e09a-1fd7-408c-a495-00cfb66a989c:1'>
+                          <Features>
+                            <DSubRiskOutput>2.75</DSubRiskOutput>
+                          </Features>
+                        </DSubRisk>
+                      </DSubRisk>
+                    </Links>
+                  </DRisk>
+                </DRisk>
+              </Links>
+            </DMod>
+          </DMod>
+          <DProdRole>
+            <DProdRole ref='ID168' ext-id='6006c40b-e329-4b56-a6b3-7e443424e7b1:1'>
+              <Features>
+                <DProdRoleOutput>3</DProdRoleOutput>
+              </Features>
+            </DProdRole>
+          </DProdRole>
+        </Links>
+      </DProd>
+      <DRel ref='ID173' ext-id='55012502-ec52-4295-8037-56aa05486a97:1'>
+        <Features>
+          <DRelOutput>
+            <Value date='2003-01-01T00:00:00'>P</Value>
+            <Value date='2004-01-01T00:00:00'>PX</Value>
+            <Value date='2005-01-01T00:00:00'>PXDesigner</Value>
+            <Value date='2006-01-01T00:00:00'>PXDesigneris</Value>
+            <Value date='2007-01-01T00:00:00'>PXDesignerisfun</Value>
+          </DRelOutput>
+        </Features>
+      </DRel>
+      <DRel ref='ID176' ext-id='55012502-ec52-4295-8037-56aa05486a97:2'>
+        <Features>
+          <DRelOutput>
+            <Value date='2003-01-01T00:00:00'>PXDesigner</Value>
+            <Value date='2004-01-01T00:00:00'>PXDesigneris</Value>
+            <Value date='2005-01-01T00:00:00'>PXDesignerisfun</Value>
+            <Value date='2006-01-01T00:00:00'>PXDesignerisfunaswellas</Value>
+            <Value date='2007-01-01T00:00:00'>PXDesignerisfunaswellasPXCalculator!</Value>
+          </DRelOutput>
+        </Features>
+      </DRel>
+      <DRel ref='ID179' ext-id='55012502-ec52-4295-8037-56aa05486a97:3'>
+        <Features>
+          <DRelOutput>
+            <Value date='2003-01-01T00:00:00'>as</Value>
+            <Value date='2004-01-01T00:00:00'>aswell</Value>
+            <Value date='2005-01-01T00:00:00'>aswellas</Value>
+            <Value date='2006-01-01T00:00:00'>aswellasPX</Value>
+            <Value date='2007-01-01T00:00:00'>aswellasPXCalculator!</Value>
+          </DRelOutput>
+        </Features>
+      </DRel>
+    </clc:Calculation>
+  </clc:CalculationOutput>

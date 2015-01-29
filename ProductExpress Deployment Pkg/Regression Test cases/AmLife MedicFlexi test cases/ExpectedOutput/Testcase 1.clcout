@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+  <clc:CalculationOutput xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.example.org/AmLife_MedicFlexi'> <clc:RuntimeConfiguration name='AmLife MedicFlexi'/>  <clc:Calculation name="main test">   <Person>
+    <Features>
+      <AgeNextBirthday>34</AgeNextBirthday>
+      <Gender>1</Gender>
+      <OccupationClass>1</OccupationClass>
+      <SmokingHabit>N</SmokingHabit>
+    </Features>
+  </Person>
+  <Person>
+    <Features>
+      <AgeNextBirthday>55</AgeNextBirthday>
+      <Gender>2</Gender>
+    </Features>
+  </Person>
+  <Policy ref='ID1'>
+    <Validations>
+      <All_validations/>
+    </Validations>
+    <Features>
+      <DeductibleLevel>0</DeductibleLevel>
+      <PaymentFrequency>1</PaymentFrequency>
+      <PremiumPerMode><SetElement><Frequency>1</Frequency><Premium>460</Premium></SetElement></PremiumPerMode>
+      <Tables></Tables>
+    </Features>
+    <Links>
+      <Coverage>
+        <Coverage>
+          <Features>
+            <CoverageCode>AMF1</CoverageCode>
+            <InsuredAmount>100000</InsuredAmount>
+            <PlanCode>AMF1</PlanCode>
+            <PDFInfo><AccidentalDeath xsi:nil="true"/><PermanentDisablement xsi:nil="true"/><DoubleIndemnities xsi:nil="true"/><WeeklyIndemnityTotalAndContinuousDisability xsi:nil="true"/><WeeklyIndemnityPartialAndContinuousDisability xsi:nil="true"/><HospitalWeeklyIndemnity xsi:nil="true"/><SurgicalIndemnityFrom xsi:nil="true"/><SurgicalIndemnityTo xsi:nil="true"/><ExtendedPayment xsi:nil="true"/><TotalSurrenderValueScenarioAMaturityAccumulated xsi:nil="true"/><TotalSurrenderValueScenarioAMaturityWithdraw xsi:nil="true"/><TotalSurrenderValueScenarioBMaturityAccumulated xsi:nil="true"/><TotalSurrenderValueScenarioBMaturityWithdraw xsi:nil="true"/><ExtraPremiumClass3>115</ExtraPremiumClass3><ExtraPremiumClass4>230</ExtraPremiumClass4><BasicPremium>460</BasicPremium><ExtraPremiumApplied>0</ExtraPremiumApplied></PDFInfo>
+          </Features>
+        </Coverage>
+      </Coverage>
+      <Insured>
+        <Insured>
+          <Features>
+            <RoleCode>Insured</RoleCode>
+          </Features>
+        </Insured>
+      </Insured>
+      <Owner>
+        <Owner>
+          <Features>
+            <RoleCode>Parent / Guardian</RoleCode>
+          </Features>
+        </Owner>
+      </Owner>
+    </Links>
+  </Policy>
+ </clc:Calculation> </clc:CalculationOutput>

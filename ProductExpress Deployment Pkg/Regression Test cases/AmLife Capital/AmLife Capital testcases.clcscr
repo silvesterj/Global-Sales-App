@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<CalcServerTest>
+	<Connector>
+		<Request>.\Input\Test case 01.clcin</Request>
+		<Result>.\Output\Test case 01.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 01.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 02.clcin</Request>
+		<Result>.\Output\Test case 02.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 02.clcout</Expected>
+	</Connector>
+</CalcServerTest>

@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<CalcServerTest>
+	<Connector>
+		<Request>.\Input\Testcase 1.clcin</Request>
+		<Result>.\Output\Testcase 1.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 1.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 2 occupation class 3.clcin</Request>
+		<Result>.\Output\Testcase 2 occupation class 3.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 2 occupation class 3.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 4 occupation class 4.clcin</Request>
+		<Result>.\Output\Testcase 4 occupation class 4.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 4 occupation class 4.clcout</Expected>
+	</Connector>
+</CalcServerTest>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs
+END
+FiaJNI-67bd4255c4740626d36848b955c8f68d.jar
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/FiaJNI-67bd4255c4740626d36848b955c8f68d.jar
+END
+pxjavaruntime-1cb39d4b46d1b99e2552f0979b8ce6be.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/pxjavaruntime-1cb39d4b46d1b99e2552f0979b8ce6be.jar
+END
+pxjavaruntime-c66d3be4703c1b14138ef15521e132a9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/pxjavaruntime-c66d3be4703c1b14138ef15521e132a9.jar
+END
+PxUtils-3026b68401e6da3f756da01f1268cf07.jar
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/PxUtils-3026b68401e6da3f756da01f1268cf07.jar
+END
+PxVal-0fdd3a2769216c01fe4479b036acd22e.jar
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/PxVal-0fdd3a2769216c01fe4479b036acd22e.jar
+END
+FiaJNI-dc54334d23a73418a49c5f08f71edb90.jar
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/FiaJNI-dc54334d23a73418a49c5f08f71edb90.jar
+END
+PxVal-cb6a4a78d5e07eed8fbc341ca89cd249.jar
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/PxVal-cb6a4a78d5e07eed8fbc341ca89cd249.jar
+END
+PxUtils-b43350a11fe3d6110aff556a153b39de.jar
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/PxUtils-b43350a11fe3d6110aff556a153b39de.jar
+END
+android-support-v4-d87c7d0ae160a05ce8747619ad5a6b4f.jar
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/android-support-v4-d87c7d0ae160a05ce8747619ad5a6b4f.jar
+END
+android-support-v4-908002fa5d76a97587c60781823f3cf7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/dexedLibs/android-support-v4-908002fa5d76a97587c60781823f3cf7.jar
+END

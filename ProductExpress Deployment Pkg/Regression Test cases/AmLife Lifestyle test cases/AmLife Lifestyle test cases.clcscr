@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<CalcServerTest>
+	<Connector>
+		<Request>.\Input\Test case 01.clcin</Request>
+		<Result>.\Output\Test case 01.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 01.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 02.clcin</Request>
+		<Result>.\Output\Test case 02.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 02.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 03.clcin</Request>
+		<Result>.\Output\Test case 03.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 03.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 04.clcin</Request>
+		<Result>.\Output\Test case 04.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 04.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 05.clcin</Request>
+		<Result>.\Output\Test case 05.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 05.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 06.clcin</Request>
+		<Result>.\Output\Test case 06.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 06.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 07.clcin</Request>
+		<Result>.\Output\Test case 07.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 07.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 08.clcin</Request>
+		<Result>.\Output\Test case 08.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 08.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 09.clcin</Request>
+		<Result>.\Output\Test case 09.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 09.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 10.clcin</Request>
+		<Result>.\Output\Test case 10.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 10.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 11.clcin</Request>
+		<Result>.\Output\Test case 11.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 11.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 12.clcin</Request>
+		<Result>.\Output\Test case 12.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 12.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 13.clcin</Request>
+		<Result>.\Output\Test case 13.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 13.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 14.clcin</Request>
+		<Result>.\Output\Test case 14.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 14.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 15.clcin</Request>
+		<Result>.\Output\Test case 15.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 15.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 16.clcin</Request>
+		<Result>.\Output\Test case 16.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 16.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 17.clcin</Request>
+		<Result>.\Output\Test case 17.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 17.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 18.clcin</Request>
+		<Result>.\Output\Test case 18.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 18.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 19.clcin</Request>
+		<Result>.\Output\Test case 19.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 19.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 20.clcin</Request>
+		<Result>.\Output\Test case 20.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 20.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 21.clcin</Request>
+		<Result>.\Output\Test case 21.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 21.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Test case 22.clcin</Request>
+		<Result>.\Output\Test case 22.clcout</Result>
+	<Expected>.\ExpectedOutput\Test case 22.clcout</Expected>
+	</Connector>
+</CalcServerTest>
