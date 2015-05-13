@@ -1,0 +1,109 @@
+<ul>
+	<li>
+		<div class="sales_plan_bar" ng-click="openTab('tab one')">
+			<span>Basic plan</span>
+			<div class="sales_plan_bar_right">
+				<label>Basic Premium</label> <input type="text" /> <span
+					class="expand_button"></span>
+			</div>
+		</div>
+		<div id="basicPlanSection" class="sales_plan_description"
+			ng-show="isOpenTab('tab one')">
+			<ul>
+				<li><label>Plan Code</label> <input
+					ng-model="illustration.planCode" type="text" /></li>
+				<li><label>Plan Name</label> <input
+					ng-model="illustration.planName" type="text" /></li>
+				<li><label>Policy Term</label> <input
+					id="illustration.coverageTerm" ng-model="illustration.coverageTerm"
+					type="number" ng-change="basicPlanDataChange();" /></li>
+
+
+				<li><label>Premium Term</label> <input
+					id="illustration.paymentTerm" ng-model="illustration.paymentTerm"
+					type="number" ng-change="fillTopUps();basicPlanDataChange();" /></li>
+				<li><label>Payment Frequency</label> <span>
+						<div class="styled-select">
+							<select ng-model="illustration.tempPaymentFrequency"
+								ng-options="option.name for option in frequencyData"
+								ng-change="illustration.paymentFrequency=illustration.tempPaymentFrequency.value;">
+							</select>
+						</div>
+				</span></li>
+				<li><label>Yearly Premium</label> <input
+					id="illustration.totalPremium" ng-model="illustration.totalPremium"
+					type="text" /></li>
+				<li><label>Sum Assured ({{$Language.commonData.currency}})</label> <input
+					id="illustration.insuredAmount"
+					ng-model="illustration.insuredAmount" type="text"
+					ng-change="basicPlanDataChange();" /></li>
+
+
+				<li ng-if="illustration.recommentations.length>0"><label>Recommended
+						Amount</label> <span
+					ng-repeat="recommentation in illustration.recommentations"
+					class="small_blue_txt">{{recommentation}}</span></li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<div class="sales_plan_bar" ng-click="openTab('tab two')">
+			<span>Riders</span>
+			<div class="sales_plan_bar_right">
+				<label>Riders Premium</label><input
+					ng-model="illustration.totalRidersPremium" type="text" /><span
+					class="expand_button"></span>
+			</div>
+		</div>
+		<div id="riderSection" class="sales_plan_description"
+			ng-show="isOpenTab('tab two')"><div></div></div>
+	</li>
+
+	<li>
+		<div class="sales_plan_bar" ng-click="openTab('tab five')">
+			<span>Preferences</span>
+		</div>
+		<div class="sales_plan_description" ng-show="isOpenTab('tab five')">
+			<div class="si_preference_main">
+				<!-- <input class="si_pref_radiobox" type="checkbox" id="policy_sustain" name="preference_radio" /> -->
+				<label class="si_preference_inner"><span
+					class="si_prefernce_left">
+						<h5>Guaranteed Cash Payment and Cash Dividend Option</h5> <span
+						class="si_pref_radio_main"> <input
+							ng-model="illustration.withdrawalOption" id="upto_65_3"
+							class="si_radio_btn" type="radio" name="policy_radio"
+							ng-value="1"> <label class="si_radio_label"
+							for="upto_65_3">Leave with company to accumulate with
+								interest</label> <input ng-model="illustration.withdrawalOption"
+							id="upto_85_3" class="si_radio_btn" type="radio"
+							name="policy_radio" ng-value="2"> <label
+							class="si_radio_label" for="upto_85_3">Withdraw every
+								year</label>
+					</span>
+				</span> <span class="selected"></span> </label>
+				<!-- <input class="si_pref_radiobox" type="checkbox" id="policy_sustain" name="preference_radio" /> -->
+				<label class="si_preference_inner"> <span
+					class="si_prefernce_left">
+						<h5>Coverage Option</h5> <span class="si_pref_radio_main">
+							<input ng-model="illustration.extendedCoverageOption"
+							id="Coverage_optn" class="css-checkbox" type="checkbox">
+							<label class="css-label" for="Coverage_optn">Extended
+								Coverage Option</label>
+					</span>
+				</span> <span class="selected"></span>
+				</label> <input ng-model="illustration.isCashValueSelected"
+					class="si_pref_radiobox" type="checkbox" name="preference_radio"
+					id="cash_value3" /> <label class="si_preference_inner"
+					for="cash_value3">
+					<h5>Cash Value(CV) / Surrender Value(SV) Projection</h5>
+					<ul>
+						<li><label>Target CV/SV</label> <input
+							ng-model="illustration.cvProjectionTargetValue" type="text" /></li>
+						<li><label>ANB</label> <input
+							ng-model="illustration.cvProjectionANB" type="text" /></li>
+					</ul> <span class="selected"></span>
+				</label>
+			</div>
+		</div>
+	</li>
+</ul>

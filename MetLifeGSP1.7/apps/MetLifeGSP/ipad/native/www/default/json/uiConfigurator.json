@@ -1,0 +1,95 @@
+{
+    "login": {
+        "loginPage": [
+            {
+                "tagName": "ul",
+				 "properties": {
+                    "class":"login_right_ul"
+                },
+                "child": [
+                    {
+                        "tagName": "li",
+                        "child": [
+                            {
+                                "tagName": "label",
+								"properties": {
+                                "ng-bind": "$parent.$Language.login.username"
+								}
+                            },
+                            {
+                                "tagName": "input",
+                                "properties": {
+                                    "type": "text",
+									"ng-model": "$parent.agent.username"
+                                }
+                            }
+						]
+                    },
+					{
+                        "tagName": "li",
+                        "child": [
+                            {
+                                "tagName": "label",
+								"properties": {
+                                "ng-bind": "$parent.$Language.login.password"
+								}
+                            },
+                            {
+                                "tagName": "input",
+                                "properties": {
+                                    "type": "password",
+									"ng-model": "$parent.agent.password"
+                                }
+                            }
+						]
+                    },
+					{
+                        "tagName": "li",
+                        "child": [
+                            {
+                                "tagName": "label",
+								"properties": {
+                                "ng-bind": "$parent.$Language.commonData.language"
+								}
+                            },
+                            {
+                                "tagName":"span",
+                                "child" : [
+                                    {
+                                        "tagName": "div",
+                                        "properties": {
+                                            "class":"styled-select"
+                                        },
+                                        "child":[
+                                            {
+                                                 "tagName": "select",
+                                                "properties": {
+                                                "ng-model":"$parent.selectedOption",
+                                                "ng-options":"option.name for option in $parent.options",
+                                                "ng-change":"$parent.changeLanguage()"
+
+                                                 }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+						]
+                    },
+					{
+                        "tagName": "li",
+                        "child": [
+                            {
+                                "tagName": "button",
+								"properties": {
+									"ng-bind": "$parent.$Language.login.login",
+									"ng-click":"$parent.submit()"
+								}
+                            }
+						]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+
+/* Stylesheet content from metlife.mobile.common/css/styles/metlife.mobile.footer.css in folder common */
+footer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-orient:vertical;
+    -moz-box-orient:vertical;
+    box-orient:vertical;
+}
+
+footer div.horizontal,footer div.vertical{
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;	
+}
+
+footer .horizontal{
+	-webkit-box-orient:horizontal;
+    -moz-box-orient:horizontal;
+    box-orient:horizontal;
+}
+
+footer .vertical{
+	-webkit-box-orient:vertical;
+    -moz-box-orient:vertical;
+    box-orient:vertical;
+}
+
+footer .horizontal div,footer .vertical div{
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    box-flex:1;  
+}
+
+footer .horizontal div:last-child {text-align: right;}
+
+footer .horizontal div a,footer .vertical div a{
+    display:block;
+    padding:15px;
+}

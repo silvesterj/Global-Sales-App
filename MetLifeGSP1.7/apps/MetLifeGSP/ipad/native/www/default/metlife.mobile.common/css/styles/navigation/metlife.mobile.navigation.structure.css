@@ -1,0 +1,101 @@
+
+/* Stylesheet content from metlife.mobile.common/css/styles/navigation/metlife.mobile.navigation.structure.css in folder common */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 15px 12px 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+}
+
+nav.main ul li {
+	background: #007CC2;
+	border-bottom:1px solid #FFF;
+}
+
+nav.main ul li:last-child{border-bottom:none;}
+
+nav.main ul li.active{background:#006CA9;}
+
+nav ul li a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav ul li a .item {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    padding: 5px 0 0 0;
+}
+nav.main ul li a .item {padding: 8px 0 0 0;}
+
+nav.subnav ul li a .item{
+    margin-right:15px; /*Added 15px margin for right on subnavigations */
+}
+nav ul li a .item .title {
+    color: #ffffff;
+    font: 18px/20px FrutigerLTstdBold; 
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+nav ul li a.icon {
+    display: inline-block ;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px !important; /* To handle multiple languages*/
+}
+
+/* Regular devices & portrait mode*//*For MDPI devices*/
+@media screen and (min-width: 150px) and (max-width: 500px) and (-webkit-device-pixel-ratio: 1.0) {
+    
+}
+/* tabs, iPads in Portrait mode and SmartPhones in landscape mode  */
+/* for MDPI devices*/
+@media screen and (min-width: 501px) and (max-width: 800px) and (-webkit-device-pixel-ratio: 1.0) {
+    /* TODO: Write CSS rules only if required */
+}
+
+/* Regular devices & portrait mode*//*For HDPI devices*/
+@media screen and (min-width: 150px) and (max-width: 500px) and (-webkit-device-pixel-ratio: 1.5) {
+    
+}
+
+/* Regular devices & portrait mode*//*For Retina devices like iPhone*/
+@media screen and (min-width: 320px) and (-webkit-device-pixel-ratio: 2.0) {
+   
+}
+
+/* tabs, iPads in Portrait mode and SmartPhones in landscape mode  */
+/* for Retina devices*/
+@media screen and (min-width: 501px) and (max-width: 800px) and (-webkit-device-pixel-ratio: 2.0) {
+    /* TODO: Write CSS rules only if required */
+}
+
+/* Regular devices & portrait mode*//*for devices with min-width is 321 E.g. Google Nexus, Galaxy Note, S3, iPhone 5 etc*/
+@media screen and (min-width: 321px) and (max-width: 500px) and (-webkit-device-pixel-ratio: 2.0) {
+    /* TODO: Write CSS rules only if required */
+} 
+
+/* Laptops, Desktops and tabs,iPads in landscape mode */
+@media screen and (min-width: 801px) and (max-width: 1820px) {
+    /* TODO: Write CSS rules only if required */
+}

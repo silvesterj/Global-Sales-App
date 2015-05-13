@@ -1,0 +1,949 @@
+<form name="userForm" novalidate>
+<div id="popup_overlay"></div>
+<div class="main_body">
+<ng-include src="'layouts/subHeader.html'"></ng-include>
+     <div class="main_body_inner">
+      <div class="ira_main" id="fna_tab1_body">
+            
+                <div class="fact_body_inner" id="ira_tab1_inner">
+                 
+                <div class="child_edu_profile">
+     
+           <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                    
+                           <h3>{{customer.customerName}}</h3>
+                     </div>
+                     <div class="child_edu_header">
+                           <h3>{{$Language.commonData.incomeReplacement}}</h3>
+                     </div>
+                </div>
+                 <form name="userForm" novalidate>
+     <div class="head_main_lbl">
+           <label>{{$Language.commonData.designedFor}}*</label>
+           <span class="form-group" show-errors >
+           <input type="text" ng-model="fnaIncomeRA.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaIncomeRA.designedFor}}"/>
+           </span>
+     </div>
+     
+                <div class="cff_main_height">
+     <div class="mainCommon_main_body">
+           <div class="mainCommon_left_body">
+                <div class="descLabel">
+                     <div><label>{{$Language.fna.incomeReplacement.currentAnnualIncome}}*</label></div>
+                     <div><label>{{$Language.fna.incomeReplacement.percentageIncomeToBeProtected}}*</label></div>
+                     <div><label>{{$Language.commonData.desiredIncomeToBeProtected}}</label></div>
+                </div>
+               
+                <div class="descLabel_right">
+                     <div class="frstCurre_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <span class="form-group" show-errors >
+                           <input type="number" ng-model="fnaIncomeRA.currentIncome" min="1" max="99999999999" ng-keyup="calculateDesiredIncome()" name="currentIncome" class="form-control" value="{{fnaIncomeRA.currentIncome}}" ng-required="true"/>
+                           </span>
+                     </div>
+                     <div class="secPercent_mrg">
+                     	<span class="form-group" show-errors >
+                           <input type="number" ng-model="fnaIncomeRA.incomePercentage" min="0" max="100" step="any" ng-keyup="calculateDesiredIncome()" name="incomePercentage" class="form-control" value="{{fnaIncomeRA.incomePercentage}}" ng-required="true"/>
+                         </span>
+                         <label>%</label>
+                           <label>{{$Language.commonData.range100}}</label>
+                     
+						  
+                      	
+					<div class="info_btn_main">
+						<span class="info_btn" ng-click="information_open1()" ></span>
+						
+						<!-- info popup starts -->
+						<div class="popup_main information_popup" id="info_popup1">
+							<span class="popup_up_arrow"></span>
+							<div class="popup_header">
+								<button class="popup_close" ng-click="delete_popup_close()"></button>
+							</div>
+							<div class="popup_body">
+								<p>{{$Language.informationMessage.percentageOfIncomeToBeProtectedToKeep}}</p>
+							</div>
+						</div>
+						<!-- info popup ends -->
+					</div>
+					
+						 
+                     </div>
+                     <div  class="trdDesire_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <input type="text"  ng-model="fnaIncomeRA.desiredIncome" disabled />
+                     </div>
+                </div>
+           </div>
+     </div>
+     </div>
+     
+                </form>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="$Footer.selectCustomer('fna_tab1')">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.selectCustomer}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="ira_protect()">
+                                <span class="navi_txt">{{$Language.commonData.incomeProtection}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                       
+                           <div class="navi_inner navi_center" ng-click="saveFnaIncomeRA('1')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt">{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+                <div class="fact_body_inner display_none" id="ira_tab2_inner">
+
+                <div class="child_edu_profile">
+              
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                 
+                           <h3>{{customer.customerName}}</h3>
+                     </div>
+                     <div class="child_edu_header">
+                           <h3>{{$Language.commonData.incomeProtection}}</h3>
+                     </div>
+                </div>
+                <form name="userForm" novalidate>
+                <div class="head_main_lbl">
+           <label>{{$Language.commonData.designedFor}}*</label>
+           <span class="form-group" show-errors>
+           <input type="text" ng-model="fnaIncomeRA.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaIncomeRA.designedFor}}"/>
+           </span>
+     </div>
+     
+                <div class="cff_submain_height">
+     
+     <div class="mainCommon_main_body">
+           <div class="mainCommon_left_body">
+                <div class="descLabel">
+                     <div><label>{{$Language.commonData.desiredIncomeToBeProtected}}</label></div>
+                     <div><label>{{$Language.fna.incomeProtection.inflationRate}}*</label></div>
+                     <div><label>{{$Language.fna.incomeProtection.projectionOfInvestmentRate}}*</label></div>
+                     <div><label>{{$Language.fna.incomeProtection.yearsOfIncomeProtection}}*</label></div>
+                     <div><label>{{$Language.fna.incomeProtection.presentValuePV}} {{$Language.fna.incomeProtection.capitalRequirement}} ({{$Language.commonData.currency}})</label></div>
+                </div>
+                
+                <div class="descLabel_right">
+                     <div class="frstCurre_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <input type="number"  ng-model="fnaIncomeRA.desiredIncome" disabled/>
+                     </div>
+                     <div class="secPercent_mrg">
+                     <span class="form-group" show-errors >
+                           <input type="number" min="0" max="50" step="any" ng-model="fnaIncomeRA.inflationRate" ng-keyup="calculatePV()" name="inflationRate" class="form-control" value="{{fnaIncomeRA.inflationRate}}" ng-required="true"/>
+                       </span>
+                          <label>%</label>
+                           <label>{{$Language.commonData.range50}}</label>
+                         <div class="info_btn_main">
+						<span class="info_btn" ng-click="information_open2()" ></span>
+						
+						<!-- info popup starts -->
+						<div class="popup_main information_popup" id="info_popup2">
+							<span class="popup_up_arrow"></span>
+							<div class="popup_header">
+								<button class="popup_close" ng-click="delete_popup_close()"></button>
+							</div>
+							<div class="popup_body">
+								<p>{{$Language.informationMessage.generalInflation}}</p>
+							</div>
+						</div>
+						<!-- info popup ends -->
+						</div>  
+						 
+                     </div>
+                     <div class="secPercent_mrg">
+                         <span class="form-group" show-errors >
+                           <input type="number" min="0" max="50" step="any" ng-model="fnaIncomeRA.investmentRate" ng-keyup="calculatePV()" name="investmentRate" class="form-control" value="{{fnaIncomeRA.investmentRate}}" ng-required="true" />
+                         </span>
+                           <label>%</label>
+                            <label>{{$Language.commonData.range50}}</label>
+                         
+                         <div class="info_btn_main">
+								<span class="info_btn" ng-click="information_open3()" ></span>
+
+								<!-- info popup starts -->
+								<div class="popup_main information_popup" id="info_popup3">
+									<span class="popup_up_arrow"></span>
+									<div class="popup_header">
+										<button class="popup_close" ng-click="delete_popup_close()"></button>
+									</div>
+									<div class="popup_body">
+										<p>{{$Language.informationMessage.theExpectedRateOf}}</p>
+									</div>
+								</div>
+								<!-- info popup ends -->
+						</div>  
+						 
+						 
+						 
+                     </div>
+                     <div class="secPercent_mrg">
+                     <span class="form-group" show-errors >
+                           <input type="number" min="1" step="any" max="80" ng-model="fnaIncomeRA.yearsProtection" ng-keyup="calculatePV()" name="yearsProtection" class="form-control" value="{{fnaIncomeRA.yearsProtection}}" ng-required="true"/>
+                        </span>
+                           <label>%</label>
+                            <label>{{$Language.commonData.range80}}</label>
+                          
+						 <div class="info_btn_main">
+						<span class="info_btn" ng-click="information_open4()" ></span>
+						
+						<!-- info popup starts -->
+						<div class="popup_main information_popup" id="info_popup4">
+							<span class="popup_up_arrow"></span>
+							<div class="popup_header">
+								<button class="popup_close" ng-click="delete_popup_close()"></button>
+							</div>
+							<div class="popup_body">
+								<p>{{$Language.informationMessage.numberOfYears}}</p>
+							</div>
+						</div>
+						<!-- info popup ends -->
+						</div>
+						 
+						 
+                     </div>
+                     <div  class="trdDesire_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <input type="number" min="0" step="any" ng-model="fnaIncomeRA.presentValue" disabled />
+                     </div>
+                </div>
+           </div>
+     </div>
+     <div>
+     </div>
+     </div>
+     
+                </form>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+				
+                           <div class="navi_inner navi_left" ng-click="ira_replace()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.incomeReplacement}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="ira_need_anlys()">
+                                <span class="navi_txt">{{$Language.commonData.incomeNeedAnalysis}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaIncomeRA('2')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt" >{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+                <div class="fact_body_inner display_none" id="ira_tab3_inner">
+                     
+                <div class="child_edu_profile">
+            
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                           <h3>{{customer.customerName}}</h3>
+                     </div>
+                     <div class="child_edu_header">
+                           <h3>{{$Language.commonData.incomeNeedAnalysis}}</h3>
+                     </div>
+                </div>
+                
+                <form name="userForm" novalidate>
+                <div class="head_main_lbl">
+           <label>{{$Language.commonData.designedFor}}*</label>
+           <span class="form-group" show-errors>
+           <input type="text" ng-model="fnaIncomeRA.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaIncomeRA.designedFor}}" ng-required="true"/>
+           </span>
+     </div>
+                <div class="cff_submain_height">
+     
+     <div class="mainCommon_main_body">
+           <div class="mainCommon_left_body">
+                <div class="needDescLabel">
+                     <div><label>{{$Language.fna.incomeNeedAnalysis.capitalRequiredTo}}</label></div>
+                     <div><label>{{$Language.fna.incomeNeedAnalysis.existingFundsAvailable}}* <i>{{$Language.fna.incomeNeedAnalysis.inclusiveOfSavings}}</i></label></div>
+                     <div><label>{{$Language.fna.incomeNeedAnalysis.additionalCapitalRequiredTo}} <i>{{$Language.commonData.ifTheValueIs}}</i></label></div>
+                </div>
+                <div class="needDescLabel_right">
+                     <div class="frstCurre_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <input type="number" min="1" step="any" ng-model="fnaIncomeRA.capitalRequired" disabled />
+                     </div>
+                     <div class="frstCurre_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <span class="form-group" show-errors >
+                           <input type="number" min="0" step="any" ng-model="fnaIncomeRA.existingFunds" name="existingFunds" class="form-control" value="{{fnaIncomeRA.existingFunds}}" ng-keyup="calculateAddlCapital()" ng-required="true"/>
+                           </span>
+                     </div>
+                     <div  class="trdDesire_mrg">
+                           <label class="rmList_algn">{{$Language.commonData.currency}}</label>
+                           <input type="number" ng-model="fnaIncomeRA.additionalCapital" disabled />
+                       
+                          <div class="info_btn_main">
+								<span class="info_btn" ng-click="information_open5()" ></span>
+
+								<!-- info popup starts -->
+								<div class="popup_main information_popup" id="info_popup5">
+									<span class="popup_up_arrow"></span>
+									<div class="popup_header">
+										<button class="popup_close" ng-click="delete_popup_close()"></button>
+									</div>
+									<div class="popup_body">
+										<p>{{$Language.informationMessage.thisIsTheShortfallOfCapital}}</p>
+									</div>
+								</div>
+								<!-- info popup ends -->
+						</div>
+                     </div>
+                </div>
+           </div>
+     </div>
+     <div>
+     </div>
+     </div>
+    </form>
+                     <div class="clear"></div>
+                      
+                     <div class="navigation_bar">
+                          <div class="navi_inner navi_left" ng-click="ira_protect()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.incomeProtection}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="ira_finance()">
+                                <span class="navi_txt">{{$Language.commonData.financialSummary}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaIncomeRA('3')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt" >{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+               
+                <div class="fact_body_inner display_none" id="ira_tab4_inner">
+                <div class="child_edu_profile">
+      
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                    
+                           <h3>{{customer.customerName}}</h3>
+                     </div>
+                     <div class="child_edu_header">
+                           <h3>{{$Language.commonData.financialSummary}}</h3>
+                     </div>
+                </div>
+           
+                <form name="userForm" novalidate>
+               <div class="head_main_lbl">
+           <label>{{$Language.commonData.designedFor}}*</label>
+           <span class="form-group" show-errors>
+           <input type="text"  ng-model="fnaIncomeRA.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaIncomeRA.designedFor}}"/>
+           </span>
+           <button class="si_button generate_pdf_product" ng-click="getPDF()"></button>
+        
+     </div>
+     </form>
+           <div class="cff_submain_height">
+ 
+     <div class="mainCommon_main_body">
+           <div class="mainCommon_left_body">
+                <div class="descAll_in">
+                     <label>{{$Language.commonData.summaryGraph}}</label>
+                     <p>{{$Language.fna.financialSummary.theAmountof}} ({{$Language.commonData.currency}}) <input type="text"  ng-model="fnaIncomeRA.additionalCapital" disabled/> {{$Language.fna.financialSummary.wouldHelpTo}}</p>
+                     <p>{{$Language.commonData.allowUsTo}}</p>
+                </div>
+                <div class="descAll_in_right">
+                 <div ng-controller="fnaCtrl">
+    				<nvd3-multi-bar-chart id="incomeGraph"
+			            data="graphIncome"
+			            width="450"
+			            height="450"
+			            tooltips="true"
+			            showXAxis="true"
+			            showYAxis="true"           
+			            showValues="true" 
+			            stacked ="true">
+			        <svg></svg>
+			    </nvd3-multi-bar-chart>
+</div>
+                <!--  <cr-d3-bars id="chart1" data='historicalBarChart' style="margin: 0px;padding: 0px;height:100%; width: 100%;">
+                <svg style="margin: 0px;padding: 0px;height:100%; width: 100%;"></svg>
+                 </cr-d3-bars>  -->           
+                </div>
+           </div>
+     </div>
+     </div>
+     <div id="genereatePdf">
+     <div>
+	 <div class="full main_div main_body">
+		<div class="headPart_algn">
+			<div class="addresInfo_algn">
+				<span style="line-height: 20px; float: left; width: 300px;">AmMetlife Insurance Berhad(15743-P)<br/>
+					(<i>formerly known as Amlife Insurance Berhad</i>)Licensed insurer<br/>
+					Level 19,Menera AmMetlife. No.1,Jalan Lumut,50400 Kaula Lampur<br/>
+				</span>
+				<img src="assets/images/meltlifelogo_pdf.png" style="float:right; width: 200px; height: 28px;">
+			</div>
+		
+		</div>
+		<div>
+		<img src="assets/images/metlifeline.png" >
+	</div>
+		<div  style="line-height: 30px; text-align: center; font-size: 150%;">Income Replacement Assessment</div>
+		<div  style="line-height: 30px;">
+	        <label>{{$Language.commonData.designedFor}}  <b>Jimmy</b></label> 
+			
+		</div>
+
+			<ul  style="line-height: 30px;">
+				<li>
+					{{$Language.fna.incomeReplacement.currentAnnualIncome}} <b>{{fnaIncomeRA.currentIncome}}</b>
+				</li>
+				<li>
+					{{$Language.fna.incomeReplacement.percentageIncomeToBeProtected}} <b>{{fnaIncomeRA.incomePercentage}}</b>
+				</li>
+				<li>
+					{{$Language.fnaIncomePdfData.desiredofIncomeToBeProtected}} <b>{{fnaIncomeRA.desiredIncome}}</b>
+				</li>
+				<li>
+					{{$Language.fna.incomeProtection.yearsOfIncomeProtection}} <b>{{fnaIncomeRA.yearsProtection}}</b>
+					</li>
+					<div class="paraIncAll_algn incAlgn">{{$Language.commonData.incomeProtection}}</div>
+					<table>
+					
+					<thead>
+						<tr>
+	                        <th>1</th>
+							<th>2</th>
+							<th>3</th>
+							<th>4</th>
+							<th>5</th>
+						</tr>
+						</thead>
+						<tr>
+	                        <td>{{$Language.fnaIncomePdfData.desiredAnnualIncome}} {$Language.fnaIncomePdfData.protectionRM}}</td>
+							<td>{{$Language.fna.incomeProtection.inflationRate}}</td>
+							<td>{{$Language.fnaIncomePdfData.projectionOf}} {{$Language.fnaIncomePdfData.investmentRate}}</td>
+							<td>{{$Language.fnaIncomePdfData.yearsOfIncome}} {{$Language.fnaIncomePdfData.protectionRM}}</td>
+							<td>{{$Language.fnaIncomePdfData.presentValuePVCapital}} {{$Language.fnaIncomePdfData.requirementRM}}
+							</td>
+						</tr>
+						<tr>
+							<td>{{fnaIncomeRA.desiredIncome}}</td>
+							<td >{{fnaIncomeRA.inflationRate}}</td>
+							<td>{{fnaIncomeRA.investmentRate}}</td>
+							<td>{{fnaIncomeRA.yearsProtection}}</td>
+							<td>{{fnaIncomeRA.presentValue}}</td>
+						</tr>
+					</table>
+					
+				
+				<li>
+					{{$Language.fna.incomeNeedAnalysis.capitalRequiredTo}} <b>{{fnaIncomeRA.capitalRequired}}</b>
+				</li>
+				<li>
+					{{$Language.fnaIncomePdfData.existingFundsAvailablepart}}<br/>{{$Language.fnaIncomePdfData.inclusiveOfSavingspart}}<b>{{fnaIncomeRA.existingFunds}}</b>
+					<div class="clear"></div>
+				</li>
+				<li>
+					{{$Language.fna.incomeNeedAnalysis.additionalCapitalRequiredTo}} <b>{{fnaIncomeRA.additionalCapital}}</b>
+				</li>	
+		</ul>
+<div class="paraAlllast_mrg"><p class="paraAlgn_mrg">{{$Language.fnaIncomePdfData.negativeValue}}<br/>{{$Language.fnaIncomePdfData.noAdditionalFund}}</p></div>
+		<div class="finanSolAlgn_mrg">
+			<div class="solFinanc_algn">
+				<label>{{$Language.commonData.financialSolution}}</label>
+			</div>
+			<div class="algnFinSol_mrg">
+				<div class="finSolFrst_algn">{{$Language.commonData.sumAssured}}</div>
+				<div class="numAlgn_mrg">{{fnaIncomeRA.additionalCapital}}</div>
+			</div>
+			<ul class="finSolDesc_algn">
+				<li><p>{{$Language.fna.financialSummary.theAmountof}} <span class="numTota_algn">501,508</span> {{$Language.fna.financialSummary.wouldHelpTo}}</p></li>
+	            <li>{{$Language.commonData.allowUsTo}}</li>
+			</ul>
+		</div>
+		<p class="paraLst_algn"><i>{{$Language.fnaIncomePdfData.disclaimer}}</i></p>
+		<div class="footData_algn">
+				<div>
+					<span>{{$Language.fnaIncomePdfData.preparedBy}}</span>
+					<span class="dateAlgn_mrg">{{$Language.fnaIncomePdfData.fnaDate}}</span>
+				</div>
+				<div>
+					<span>{{$Language.fnaIncomePdfData.contactNo}}</span>
+				</div>
+				<div>
+					<span>{{$Language.fnaIncomePdfData.email}}</span>
+				</div>
+		</div>
+	</div>
+	</div>
+     </div>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="ira_need_anlys()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.incomeNeedAnalysis}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="goToProfileStatusFromFnaIncome()">
+                                <span class="navi_txt">{{$Language.commonData.profileStatus}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaIncomeRA('4')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt" >{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+     </div> 
+     <div class="cdf_main" id="fna_tab2_body">
+
+                <div class="fact_body_inner" id="cdf_tab1_inner">
+
+           <div class="child_edu_main">
+                <div class="child_edu_profile">
+             
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                    
+                           <label>{{customer.customerName}}</label>
+                     </div>
+                     <div class="child_edu_header">
+                          <label>{{$Language.commonData.childEducationFund}}</label>
+                     </div>
+                </div>
+                
+                     <form name="userForm" novalidate>
+                <div class="head_main_lbl">
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.designedFor}}*</label>
+                                <span class="form-group" show-errors>
+                                <input type="text" ng-model="fnaChildEducation.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.designedFor}}"/>
+                                </span>
+                           </div>
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.childName}}*</label>
+                                <span class="form-group" show-errors>
+                                <input type="text" ng-model="fnaChildEducation.childName" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.childName}}">
+                                </span>
+                           </div>
+                     </div>
+                <div class="cff_submain_height">
+                     
+                     <div class="child_fund_main">
+                           <ul class="child_fund_first">
+                                <li>
+                                     <label>{{$Language.fna.childEducationFund.currentEducationFees}}*</label>
+                                     <div><span class="usd">{{$Language.commonData.currency}}</span><span class="usd_input orm-group" show-errors><input type="number" min="1" ng-model="fnaChildEducation.currentEducationFees" name="currentEducationFees" class="form-control" value="{{fnaChildEducation.currentEducationFees}}" ng-keyup="calculateNoOfYearsToCollege()" ng-required="true"/></span></div>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationFund.projectionOfEducationCostInflation}}</label>
+                                     <span class="form-group" show-errors ><input type="number" class="inpt_small" min="0" max="50" step="any" ng-model="fnaChildEducation.projectedInflation" name="projectedInflation" class="form-control" value="{{fnaChildEducation.projectedInflation}}" ng-keyup="calculateNoOfYearsToCollege()" />
+                                     <label>% {{$Language.commonData.range50}}</label>
+                                   
+						<div class="info_btn_main">
+								<span class="info_btn" ng-click="information_open6()" ></span>
+
+								<!-- info popup starts -->
+								<div class="popup_main information_popup" id="info_popup6">
+									<span class="popup_up_arrow"></span>
+									<div class="popup_header">
+										<button class="popup_close" ng-click="delete_popup_close()"></button>
+									</div>
+									<div class="popup_body">
+										<p>{{$Language.informationMessage.usuallyTheProjectOf}}</p>
+									</div>
+								</div>
+								<!-- info popup ends -->
+						</div>
+										 
+										 
+									</span>
+                                    
+                                     
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationFund.currentAge}}*</label>
+                                     <span class="form-group" show-errors ><input type="number" class="inpt_small form-control" ng-model="fnaChildEducation.currentAge" min="0" name="currentAge" value="{{fnaChildEducation.currentAge}}" ng-keyup="calculateNoOfYearsToCollege()" ng-required="true"/></span>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationFund.uniCollegeEntryAge}}*</label>
+                                     <span class="form-group" show-errors ><input type="number" class="inpt_small form-control" ng-model="fnaChildEducation.uniEntryAge" name="uniEntryAge" value="{{fnaChildEducation.uniEntryAge}}" min="0" ng-keyup="calculateNoOfYearsToCollege()" ng-required="true"/></span>
+                                </li>
+                                <li class="small_wdth">
+                                     <label>{{$Language.fna.childEducationFund.noOfYearsTo}}*</label>
+                                     <span><input type="number" class="inpt_small" ng-model="fnaChildEducation.yearsLeftToUni" disabled /></span>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationFund.projectionOfEducationCostWhen}}*</label>
+                                     <span><input type="number" class="inpt_small" ng-model="fnaChildEducation.childDesiredIncome" disabled />{{$Language.fna.childEducationFund.yearsOld}}</span>
+                                </li>
+                           </ul>
+                           <ul class="child_fund_second">
+                                <li>
+                                     <label>{{$Language.fna.childEducationFund.years1}}</label>
+                                     <input type="text" ng-model="fnaChildEducation.year1" disabled />
+                                </li>
+                                <li>
+                                     <label>{{$Language.fna.childEducationFund.years2}}</label>
+                                     <input type="text" ng-model="fnaChildEducation.year2" disabled />
+                                </li>
+                                <li>
+                                     <label>{{$Language.fna.childEducationFund.years3}}</label>
+                                     <input type="text" ng-model="fnaChildEducation.year3" disabled />
+                                </li>
+                                <li>
+                                     <label>{{$Language.fna.childEducationFund.years4}}</label>
+                                     <input type="text" ng-model="fnaChildEducation.year4" disabled />
+                                </li>
+                                <li class="bg_color">
+                                     <label>{{$Language.fna.childEducationFund.total}}</label>
+                                     <input type="text" ng-model="fnaChildEducation.total" disabled />
+                                </li>
+                           </ul>
+                     </div>
+                    
+           </div>
+           </form>
+           </div>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="$Footer.selectCustomer('fna_tab2')">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.selectCustomer}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="cdf_educ_need()">
+                                <span class="navi_txt">{{$Language.commonData.childEducationNeed}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaChildEducation('1')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt">{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+                <div class="fact_body_inner display_none" id="cdf_tab2_inner">
+
+           <div class="child_edu_main">
+                <div class="child_edu_profile">
+         
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                           <label>{{customer.customerName}}</label>
+                     </div>
+                     <div class="child_edu_header">
+                          <label>{{$Language.commonData.childEducationNeed}}</label>
+                     </div>
+                </div>
+                 <form name="userForm" novalidate>
+                <div class="head_main_lbl">
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.designedFor}}*</label>
+                                <span class="form-group" show-errors>
+                                <input type="text" ng-model="fnaChildEducation.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.designedFor}}" ng-required="true"/>
+                                </span>
+                           </div>
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.childName}}*</label>
+                                <span class="form-group" show-errors>
+                              <input type="text" ng-model="fnaChildEducation.childName" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.childName}}" ng-required="true"/>
+                              </span>
+                           </div>
+                     </div>
+                <div class="cff_submain_height">
+                     
+                     <div class="child_fund_main">
+                    
+                           <ul class="child_fund_first">
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationNeed.existingSavingsAnd}}*</label>
+                                     
+                                     	<div><span class="usd1">{{$Language.commonData.currency}}</span><span class="usd_input1 form-group" show-errors ><input type="number"  ng-model="fnaChildEducation.existingSavings" min="0" ng-keyup="calculateEducationNeed()" name="existingSavings" class="form-control" value="{{fnaChildEducation.existingSavings}}" ng-required="true"/>
+                                     </span></div>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                    
+                                     <span class="form-group" show-errors >
+                                     <span>{{$Language.fna.childEducationNeed.yield}}</span>
+                                     <input type="number" class="inpt_small form-control" ng-model="fnaChildEducation.existingSavingsYield" min="0" max="50" step="any" ng-keyup="calculateEducationNeed()" name="existingSavings" value="{{fnaChildEducation.existingSavings}}"/>
+                                     <label>% {{$Language.commonData.range50}}</label>
+									</span>
+                                    
+                                </li class="cea_li_label_wdth_fna">
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationNeed.futureYearlySavings}}*</label>                                     
+                                     	<div><span class="usd1">{{$Language.commonData.currency}}</span>
+                                     	<span class="usd_input1"><input type="number" ng-model="fnaChildEducation.futureYearlySavings" ng-keyup="calculateEducationNeed()" name="futureYearlySavings" value="{{fnaChildEducation.futureYearlySavings}}" class="form-control" class="form-group" show-errors ng-required="true"/>
+                                     </span>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <span class="form-group" show-errors >
+                                     	<span>{{$Language.fna.childEducationNeed.yield}}</span>
+                                     	<input type="number" min="0" max="50" step="any" ng-model="fnaChildEducation.futureYearlySavingsYield" ng-keyup="calculateEducationNeed()" class="inpt_small form-control" name="futureYearlySavingsYield" value="{{fnaChildEducation.futureYearlySavingsYield}}" />
+                                     	<label>% {{$Language.commonData.range50}}</label>
+                                     </span>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationNeed.projectionOfTotalSavings}}*</label>
+                                     <span><span>{{$Language.commonData.currency}}</span><input type="number" ng-model="fnaChildEducation.savingsProjection" disabled/></span>
+                                </li>
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.childEducationNeed.additionalFundsRequired}}</label>
+                                     <span><span>{{$Language.commonData.currency}}</span><input type="number" ng-model="fnaChildEducation.addlFundsRequired" class="inpt_small" disabled />
+										 
+						<div class="info_btn_main">
+								<span class="info_btn" ng-click="information_open7()" ></span>
+
+								<!-- info popup starts -->
+								<div class="popup_main information_popup" id="info_popup7">
+									<span class="popup_up_arrow"></span>
+									<div class="popup_header">
+										<button class="popup_close" ng-click="delete_popup_close()"></button>
+									</div>
+									<div class="popup_body">
+										<p>{{$Language.informationMessage.thisIsTheShortfallOfEducation}}</p>
+									</div>
+								</div>
+								<!-- info popup ends -->
+						</div>
+									
+									
+									</span>
+                                </li>
+                                <li>
+                                     <label class="small_font">{{$Language.commonData.ifTheValueIs}}</label>
+                                </li>
+                           </ul>
+                     </div>
+           </div>
+           </form>
+           </div>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="cdf_child()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.childEducationFund}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="cdf_finance()">
+                                <span class="navi_txt">{{$Language.commonData.financialSolution}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaChildEducation('2')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt">{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+                <div class="fact_body_inner display_none" id="cdf_tab3_inner">
+                     
+           <div class="child_edu_main">
+                <div class="child_edu_profile">
+           
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+            
+                           <label>{{customer.customerName}}</label>
+                     </div>
+                     <div class="child_edu_header">
+                          <label>{{$Language.commonData.financialSolution}}</label>
+                     </div>
+                </div>
+                
+                     <form name="userForm" novalidate>
+                <div class="head_main_lbl">
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.designedFor}}*</label>
+                                <span class="form-group" show-errors >
+                                <input type="text" ng-model="fnaChildEducation.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.designedFor}}"/>
+                                </span>
+                           </div>
+                           <div class="left_wdth">
+                                <label>{{$Language.commonData.childName}}*</label>
+                                <span class="form-group" show-errors >
+                                <input type="text" ng-model="fnaChildEducation.childName" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.childName}}"/>
+                                </span>
+                           </div>
+                     </div>
+                     
+                <div class="cff_submain_height">
+                     
+                     <div class="child_fund_main">
+                           <ul class="child_fund_first">
+                                <li class="cea_li_label_wdth_fna">
+                                     <label>{{$Language.fna.financialSolution.projectionOfInvestmentReturn}}*</label>
+                                     <span class="form-group" show-errors ><input type="number" class="inpt_small form-control" ng-model="fnaChildEducation.invstReturnProjection" ng-keyup="financialCal()" name="invstReturnProjection" value="{{fnaChildEducation.invstReturnProjection}}" ng-required="true"/><span class="small_percnt_wdth">% {{$Language.commonData.range50}}</span>
+										 
+						<div class="info_btn_main">
+								<span class="info_btn" ng-click="information_open8()" ></span>
+
+								<!-- info popup starts -->
+								<div class="popup_main information_popup" id="info_popup8">
+									<span class="popup_up_arrow"></span>
+									<div class="popup_header">
+										<button class="popup_close" ng-click="delete_popup_close()"></button>
+									</div>
+									<div class="popup_body">
+										<p>{{$Language.informationMessage.expectedInvestmentRate}}</p>
+									</div>
+								</div>
+								<!-- info popup ends -->
+						</div>
+									
+									</span>
+                                </li>
+                                <li>
+                                     <label>{{$Language.fna.financialSolution.optionA}}</label>
+                                     <span><span>{{$Language.commonData.currency}}</span><input type="text" ng-model="fnaChildEducation.optionAYearly" disabled/></span>
+                                </li>
+                               
+                                <li>
+                                     <label>{{$Language.fna.financialSolution.optionB}}</label>
+                                     <span><span>{{$Language.commonData.currency}}</span><input type="text" ng-model="fnaChildEducation.optionBMonthly" disabled/></span>
+                                </li>
+                           </ul>
+                           </div>
+           </div>   
+           </form>      
+           </div>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="cdf_educ_need()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.childEducationNeed}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="cdf_finance_summary()">
+                                <span class="navi_txt">{{$Language.commonData.financialSummary}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center" ng-click="saveFnaChildEducation('3')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt">{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+                <div class="fact_body_inner display_none" id="cdf_tab4_inner">
+                     <div class="main-tab">
+                <div class="main-tab-line"></div>
+           </div>
+           <div class="child_edu_main">
+                <div class="child_edu_profile">
+              
+                     <img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+                     <div class="child_edu_name">
+                     
+                           <label>{{customer.customerName}}</label>
+                     </div>
+                     <div class="child_edu_header">
+                           <label>{{$Language.commonData.childEducationFund}}</label>
+                     </div>
+                </div>
+                <form name="userForm" novalidate>
+                 <div class="head_main_lbl">
+          <div class="left_wdth">
+              <label>{{$Language.commonData.designedFor}}*</label>
+              <span class="form-group" show-errors >
+                 <input type="text" ng-model="fnaChildEducation.designedFor" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.designedFor}}">
+                 </span>
+          </div>
+          <div class="left_wdth">
+             <label>{{$Language.commonData.childName}}*</label>
+             <span class="form-group" show-errors >
+               <input type="text" ng-model="fnaChildEducation.childName" class="form-control" name="designedFor" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{fnaChildEducation.childName}}">
+               </span>
+          </div>
+          
+           <button class="si_button generate_pdf_product" ng-click="getchildPDF()"></button>
+  
+     </div>
+     </form>
+                <div class="cff_submain_height">
+    
+     <div class="mainCommon_main_body">
+           <div class="mainCommon_left_body">
+                <div class="descAll_in">
+                     <label>{{$Language.commonData.summaryGraph}}</label>
+                     <p>{{$Language.fna.financialSummary.toAccumulateThisAmount}} ({{$Language.commonData.currency}}) <input type="text" ng-model="fnaChildEducation.addlFundsRequired" disabled/> {{$Language.fna.financialSummary.andToEnsureThat}}</p>
+                     <p>{{$Language.commonData.allowUsTo}}</p>
+                </div>
+                <div class="descAll_in_right">
+                <div ng-controller="fnaCtrl">
+    				<nvd3-multi-bar-chart id="childGraph"
+			            data="childEducation"
+			            width="500"
+			            height="500"
+			            tooltips="true"
+			            showXAxis="true"
+			            showYAxis="true"           
+			            showValues="true"
+			            stacked ="true">
+        <svg></svg>
+    </nvd3-multi-bar-chart>
+           </div>
+     </div>
+     </div>
+           </div>
+                     <div class="clear"></div>
+                     <div class="navigation_bar">
+                           <div class="navi_inner navi_left" ng-click="cdf_finance()">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.financialSolution}}</span>
+                           </div>
+                           <div class="navi_inner navi_right" ng-click="goToProfileStatusFromFnaChildDducation()">
+                                <span class="navi_txt">{{$Language.commonData.profileStatus}}</span>
+                                <span class="navi_rgt_arrow"></span>
+                           </div>
+                           <div class="navi_inner navi_center"  ng-click="saveFnaChildEducation('4')">
+                                <span class="navi_save_btn"></span>
+                                <span class="navi_txt">{{$Language.commonData.save}}</span>
+                                <div class="clear"></div>
+                           </div>
+                     </div>
+                </div>
+     </div>
+</div>
+</div>
+ </div>
+ </div>
+<ng-include src="'layouts/footer.html'"></ng-include>
+
+
+
+<!-- popup starts for profile name-->
+<div class="popup_main" id="fna_profile_status_popup">
+	<div class="popup_header">
+		<h3 ng-bind-html="content"></h3>
+		<button class="popup_close" ng-click="closePopup()"></button>
+	</div>
+	<div class="popup_body">
+		<ul>
+			<li>
+			<!-- <label>{{$Language.cff.profileStatus.profileName}}</label> -->	
+				<textarea ng-model="userenteredProfilename"></textarea>
+			</li>
+		</ul>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closePopup()">Create</button>
+	</div>
+</div>
+<!--  alert popups -->
+<div class="popup_main" id="fna_alert_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="closeAlert()"></button>
+	</div>
+	<div class="popup_body" ng-bind-html="content"></div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closeAlert()">OK</button>
+	</div>
+</div>
+</form>

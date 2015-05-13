@@ -1,0 +1,233 @@
+<div id="popup_overlay"></div>
+<div class="main_body">
+    <ng-include src="'layouts/subHeader.html'"></ng-include>	
+		<div class="fact_body_inner">
+			<div class="child_edu_profile">
+				<img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+				<div class="child_edu_name">
+					<h3>{{customer.customerName}}</h3>
+				</div>
+				<div class="child_edu_header">
+					<h3>{{$Language.commonData.profileStatus}}</h3>
+				</div>
+			</div>
+			
+			<div class="full risk_prof">
+				<label>{{$Language.cff.profileStatus.profileName}}</label><input type="text" ng-model="cffProfile.profileName"/>
+				<span >{{$Language.commonData.profileUpdatedOn}}</span><span>{{cffProfile.updatedDate| date:'mediumDate'}}</span>
+			</div>
+			
+			<div class="cff_submain_height">
+			
+			<div class="clear"></div>
+			<div class="full prof_stat_main">
+				<div class="full prof_stat_inner prof_stat_inner_cff">
+						<ul>
+							<li>
+								<span ng-click="editCffProfile()">{{$Language.commonData.customerFactFind}}</span>
+								<span></span>
+								<span class="status_color">{{cffProfile.cffStatus}}</span>
+								<span class="ng-binding">{{$Language.cff.profileStatus.status}} :</span>
+							</li>
+						</ul>
+				</div>		
+				<div class="full prof_stat_main" >
+				<h3>{{$Language.commonData.financialNeedAnalysis}}</h3>
+				<div class="full prof_stat_inner prof_stat_inner_fna">
+						<ul>
+							<li class="profile_stat_hd">
+								<span>{{$Language.commonData.no}}</span>
+								<span>{{$Language.commonData.type}}</span>
+								<span>{{$Language.cff.profileStatus.description}}</span>
+								<span>{{$Language.cff.profileStatus.status}}</span>
+								<span>{{$Language.cff.profileStatus.creationDate}}</span>
+								<span></span>
+							</li>
+							</ul>
+							<ul>
+							<li ng-repeat="customerfnaIncomeItem in fnaIncomes" ng-click="goToFnaIncomeFromProfileStatus(customerfnaIncomeItem)" >
+								<span >{{$index+1}}</span>
+								<span>IR</span>
+							    <span>Annual Income :{{customerfnaIncomeItem.json.currentIncome}} {{$Language.commonData.currency}} Capital required : {{$Language.commonData.currency}} {{customerfnaIncomeItem.json.capitalRequired}}</span>
+								<span>{{customerfnaIncomeItem.json.status}}</span>
+								<span>{{customerfnaIncomeItem.json.createDate | date:'mediumDate'}}</span>
+								<span></span> 
+							</li>
+							<li ng-repeat="customerchildEducationItem in fnaChildEducations" ng-click="goToFnaChildDducationFromProfileStatus(customerchildEducationItem)">
+								 <span>{{serialNumber+$index}}</span>
+								<span>CE</span>
+							    <span>{{$Language.fna.childEducationFund.educationCost}} :{{customerchildEducationItem.json.total}} {{$Language.fna.capitalRequired}} :{{customerchildEducationItem.json.addlFundsRequired}}</span>
+								<span>{{customerchildEducationItem.json.status}}</span>
+								<span>{{customerchildEducationItem.json.createDate | date:'mediumDate'}}</span>
+								<span></span> 
+							</li>
+						</ul>
+						<div class="add_row_btn" ng-click="fna_popup_open()">{{$Language.commonData.addFinancialNeeAnalysis}}</div>
+					</div>
+			</div>
+			<div class="full prof_stat_main" ng-click="$Footer.salesIllustration('salesIllustration')">
+				<h3>{{$Language.commonData.salesIllustration}}</h3>
+				<div class="full prof_stat_inner prof_stat_inner_si">
+						<ul>
+							<li class="profile_stat_hd">
+								<span>{{$Language.commonData.no}}</span>
+								<span>{{$Language.commonData.planCode}}</span>
+								<span>{{$Language.commonData.planName}}</span>
+								<span>{{$Language.commonData.lifeAssured}}</span>
+								<span>{{$Language.commonData.anb}}</span>
+								<span>{{$Language.commonData.annualPremium}}</span>
+								<span>{{$Language.commonData.sumAssured}}</span>
+								<span>{{$Language.cff.profileStatus.creationDate}}</span>
+								<span></span>
+							</li>
+							</ul>
+							<ul>
+							<li ng-repeat="customerillustrationItem in illustrations">
+								<span>{{$index+1}}</span>
+								<span>{{customerillustrationItem.json.planCode && customerillustrationItem.json.planCode || "NA"}}</span>
+								<span>{{customerillustrationItem.json.planName && customerillustrationItem.json.planName || "NA"}}</span>
+								<span>{{customerillustrationItem.json.customerName && customerillustrationItem.json.customerName || "NA"}}</span>
+								<span>{{customerillustrationItem.json.anb && customerillustrationItem.json.anb || "NA"}}</span>
+								<span>{{customerillustrationItem.json.yearlyPremium && customerillustrationItem.json.yearlyPremium || "NA"}}</span>
+								<span>{{customerillustrationItem.json.guaranteedCashPaymentWithdrawEveryYear && customerillustrationItem.json.guaranteedCashPaymentWithdrawEveryYear || "NA"}}</span>
+								<span>{{customerillustrationItem.json.createdDate && customerillustrationItem.json.createdDate | date:'mediumDate' || "NA"}}</span>
+								<span></span>
+							</li>
+						</ul>
+						<div class="add_row_btn" ng-click="goToSalesIllustration()">{{$Language.commonData.addSalesIllustration}}</div>
+					</div>
+					<p>{{$Language.cff.profileStatus.note}} : {{$Language.cff.profileStatus.notedetail}}</p>
+			</div>
+			</div>
+                </div>
+                
+			 <div class="navigation_bar">
+
+                 <!--------------------------- Customer Fact Find ------------------------------>
+                 
+                  <span ng-switch="$Footer.preSubFooter">
+                
+				<div class="navi_inner navi_left" ng-click="$Footer.customerAdvice('customerAdvice', 'familydetails')" ng-switch-when="cff">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">{{$Language.commonData.familyDetails}}</span>
+				</div>
+				
+				<div class="navi_inner navi_left" ng-click="$Footer.customerAdvice('customerAdvice', 'familydetails')" ng-switch-when="recordofadvice">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">{{$Language.commonData.familyDetails}}</span>
+				</div>
+                 
+                 <!--------------------------- FNA - Investment ----------------------------->
+                 
+                 <div class="navi_inner navi_left" ng-click="$Footer.financialNeed('fna_tab1_body', 'fna_tab1', 'income')" ng-switch-when="income">
+                                <span class="navi_lft_arrow"></span>
+                                <span class="navi_txt">{{$Language.commonData.financialSummary}}</span>
+                           </div>
+                 
+                  <!--------------------------- FNA - Child Education ---------------------------->
+                 
+                <div class="navi_inner navi_left" ng-click="$Footer.financialNeed('fna_tab2_body', 'fna_tab2', 'childeducation')" ng-switch-when="childeducation">
+                    <span class="navi_lft_arrow"></span>
+                    <span class="navi_txt">{{$Language.commonData.childEducationFund}}</span>
+               </div>                
+                 
+                  <!--------------------------- Sales Illustrion ---------------------------->
+                 
+                       <div class="navi_inner navi_left" ng-click="$Footer.salesIllustration('illustration')" ng-switch-when="salesIllustration">
+                    <span class="navi_lft_arrow"></span>
+                    <span class="navi_txt">Illustration</span>
+               </div>    
+				
+				
+                 
+                 </span>
+                 
+                   <!--------------------------- END ------------------------------>
+                 
+                 <div class="navi_inner navi_right" ng-click="storeRecomandations();$Footer.customerAdvice('customerAdvice', 'recordofadvice')">
+					<span class="navi_txt">{{$Language.commonData.recordOfAdvice}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div> 
+                 
+                 
+			
+				<div class="navi_inner navi_center" ng-click="saveProfileData()">
+	                <span class="navi_save_btn"></span>
+					<span class="navi_txt">{{$Language.commonData.save}}</span>
+					<div class="clear"></div>
+				</div>
+                 
+			</div>
+                
+               
+                
+            
+           
+		
+		<div class="clear"></div>
+    </div>
+</div>
+
+<ng-include src="'layouts/footer.html'"></ng-include>
+
+<!-- popup starts -->
+<!-- popup starts for profile name-->
+<div class="popup_main" id="profile_status_popup">
+	<div class="popup_header">
+		<h3 ng-bind-html="content"></h3>
+		<button class="popup_close" ng-click="closePopup()"></button>
+	</div>
+	<div class="popup_body">
+		<ul>
+			<li>
+			<!-- <label>{{$Language.cff.profileStatus.profileName}}</label> -->	
+				<textarea ng-model="cffProfile.profileName"></textarea>
+			</li>
+		</ul>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closePopup('save')">Create</button>
+	</div>
+</div>
+<!--  alert popups -->
+<div class="popup_main" id="alert_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="closeAlert()"></button>
+	</div>
+	<div class="popup_body" ng-bind-html="content"></div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closeAlert()">OK</button>
+	</div>
+</div>
+ 
+ <div id="select_create_popup"  class="popup_main three_popup">
+                                <div class="popup_header">
+                                    <button class="popup_close" ng-click="delete_fna_popup_close()"></button>
+                                </div>
+								<div class="fna_popup_inner" ng-click="$Footer.createCustomer('profileStatus')">
+								
+									<span>Create Customer</span>
+								</div>
+								<div class="fna_popup_inner" ng-click="$Footer.selectCustomer('profileStatus')" >
+								
+									<span>Select Customer</span>
+								</div>
+                                <div class="fna_popup_inner"  ng-click="delete_fna_popup_close()">
+								
+									<span>No Save</span>
+								</div>
+							</div>
+<div id="fna_popup"  class="popup_main">
+        <div class="popup_header">
+            <button class="popup_close" ng-click="delete_popup_close()"></button>
+        </div>
+		<div class="fna_popup_inner" ng-click="$Footer.financialNeed('fna_tab1_body', 'fna_tab1')">
+			<img src="assets/images/Income_replacement_assesment_icon.png" alt="Income Replacement Assessment">
+			<span>Income Replacement Assessment</span>
+		</div>
+		<div class="fna_popup_inner" ng-click="$Footer.financialNeed('fna_tab2_body', 'fna_tab2')">
+			<img src="assets/images/child_education_fund_assesment_icon.png" alt="Income Replacement Assessment">
+			<span>Child Education Fund Assessment</span>
+		</div>
+	</div>

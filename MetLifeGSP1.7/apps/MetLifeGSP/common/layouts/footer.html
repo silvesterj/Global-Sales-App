@@ -1,0 +1,289 @@
+
+
+<div ng-switch="$Footer.showFooter">
+    <footer ng-switch-when="home">
+        <ul class="cust_foot_left home_footer">
+		<li ng-click="$Footer.createCustomer('createCustomer')">
+			<span class="foot_lft_img cdm_img"></span>
+			<span class="foot_lft_txt">{{$Language.commonData.clientData}}<br>{{$Language.commonData.management}}</span>
+		</li>
+		<li id="customerAdvice" ng-click="$Footer.selectCustomer('customerAdvice')">
+			<span  class="foot_lft_img cff_img"></span>
+			<span class="foot_lft_txt">{{$Language.commonData.customer}}<br>{{$Language.commonData.factFind}}</span>
+		</li>
+		<li id="financialNeedAnalysis" ng-click="$Footer.selectCustomer('fna_tab1')">
+			<span class="foot_lft_img fna_img"></span>
+			<span class="foot_lft_txt">{{$Language.commonData.financial}}<br>{{$Language.commonData.needAnalysis}}</span>
+		</li>
+		<li id="si_footer_selectCust" ng-click="$Footer.selectCustomer('salesIllustration')">
+			<span class="foot_lft_img si_img"></span>
+			<span class="foot_lft_txt">{{$Language.commonData.sales}}<br>{{$Language.commonData.illustration}}</span>
+		</li>
+		<li id="myContent" ng-click="$Footer.myContent()">
+			<span  class="foot_lft_img mc_img"></span>
+			<span class="foot_lft_txt">{{$Language.commonData.myContent}}</span>
+		</li>
+	</ul>
+	<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>
+    </footer>
+    
+
+    
+    <!--    Create Customer -->
+    
+    <footer ng-switch-when="createCustomer" class="cdm_foot">
+		<div class="foot_inner cust_foot_left">
+            <div ng-switch="$Footer.subFooter">
+			<ul>
+				<li class="foot_li_normal">
+					<div class="foot_li_div_normal">
+						<span class="foot_lft_img cdm_img"></span>
+						<span class="foot_lft_txt">{{$Language.commonData.clientData}}<br>{{$Language.commonData.management}}</span>
+					</div>
+				</li>
+                <span ng-switch-when="cdm_tab1">
+				<li id="cdm_tab1" class="foot_li_orange" ng-click="$Footer.createCustomer('cdm_tab1')">
+					<span class="gradient_left_normal gradient_left_orange"></span>
+					<div class="foot_li_div_normal foot_li_div_orange ">
+						<span  class="foot_lft_img creat_cust_img"></span>
+						<span class="foot_lft_txt">{{$Language.commonData.create}}<br>{{$Language.commonData.customer}}</span>
+					</div>
+					<span class="gradient_right_normal gradient_right_orange"></span>
+				</li>
+				<li id="cdm_tab2" class="foot_li_normal" ng-click="$Footer.home('cdm_tab2')">
+					<span class="gradient_left_normal gradient_left_orange"></span>
+					<div class="foot_li_div_normal foot_li_div_orange">
+						<span class="foot_lft_img cust_histry_img"></span>
+						<span class="foot_lft_txt">{{$Language.commonData.customer}}<br>{{$Language.commonData.history}}</span>
+					</div>
+					<span class="gradient_right_normal gradient_right_orange"></span>
+				</li>
+                    </span>
+                <span ng-switch-when="cdm_tab2">
+				<li id="cdm_tab1" class="foot_li_normal" ng-click="$Footer.createCustomer('cdm_tab1')">
+				<span class="gradient_left_normal gradient_left_orange"></span>
+					<div class="foot_li_div_normal foot_li_div_orange ">
+					<span  class="foot_lft_img creat_cust_img"></span>
+					<span class="foot_lft_txt">{{$Language.commonData.create}}<br>{{$Language.commonData.customer}}</span>
+					</div>
+					<span class="gradient_right_normal gradient_right_orange"></span>
+				</li>
+				<li id="cdm_tab2" class="foot_li_orange">
+				<span class="gradient_left_normal gradient_left_orange"></span>
+					<div class="foot_li_div_normal foot_li_div_orange ">
+					<span class="foot_lft_img cust_histry_img"></span>
+					<span class="foot_lft_txt">{{$Language.commonData.customer}}<br>{{$Language.commonData.history}}</span>
+					</div>
+					<span class="gradient_right_normal gradient_right_orange"></span>
+				</li>
+                    </span>
+			</ul>
+            </div>
+			<span class="footer_right_arrow"></span>
+		</div>
+		<div class="foot_icon cff_img" ng-click="$Footer.selectCustomer('customerAdvice')"></div>
+		<div class="foot_icon fna_img" ng-click="$Footer.selectCustomer('fna_tab1')"></div>
+		<div class="foot_icon si_img" ng-click="$Footer.selectCustomer('salesIllustration')"></div>
+		<div class="foot_icon mc_img" ng-click="$Footer.myContent()"></div>
+		<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>   
+    </footer>
+    
+    <!---------------- END ---------------------------------->
+    
+    <!-- Customer Advice -->
+    <footer ng-switch-when="customerAdvice" class="fact_foot">
+  <div class="foot_icon cdm_img" ng-click="$Footer.createCustomer()"></div>
+    <div class="foot_inner fact_foot_left">
+		<div class="fact_foot_left_icon">
+		<div class="foot_li_div_normal">
+			<span class="search_black"></span>
+			<span class="fact_foot_left_txt">{{$Language.commonData.customer}}<br>{{$Language.commonData.factFind}}</span>
+			</div>
+		</div>
+        <span ng-switch = $Footer.mainTabs>
+			<ul class="fact_indicator" id="defaultTabs" ng-switch-when="cff">
+             
+                 <span ng-switch="$Footer.subFooter">
+                    <li id="cff_tab1" ng-click="$Footer.customerAdvice('customerAdvice')" ng-switch-when="customerAdvice"><span></span></li>
+
+                    <li id="cff_tab1" class="active" ng-click="$Footer.customerAdvice('customerAdvice')" ng-switch-when="customerFactFind"><span></span></li>
+                </span>
+				<li id="cff_tab2" ng-click="validateCustomerDisclouser()"><span></span></li>
+                   
+				<li id="cff_tab3" ng-click="cff_finance_need()"><span></span></li>
+				<li id="cff_tab4" ng-click="cff_risk_profile()"><span></span></li>
+				<li id="cff_tab5" ng-click="validate_existing_policy()"><span></span></li>
+                <span ng-switch = $Footer.cffFooter> 
+				<li id="cff_tab6" ng-click="$Footer.customerAdvice('customerAdvice', 'familydetails')"  ng-switch-when="familydetails" class="active"><span></span></li>
+                    <li id="cff_tab6" ng-click="$Footer.customerAdvice('customerAdvice', 'familydetails')"  ng-switch-when="nofamilydetails"><span></span></li>
+                </span>
+                 <span ng-switch="$Footer.preFooter">
+				    <li id="cff_tab7" ng-click="goToProfilestatus();$Footer.profileStatus('commonProfile')" ng-switch-when="commonProfile" class="active"><span></span></li>
+                      <li id="cff_tab7" ng-click="goToProfilestatus();$Footer.profileStatus('commonProfile')" ng-switch-when="customerAdvice" ><span></span></li>
+                </span>
+		</ul>
+            <ul class="fact_indicator" id="subTabs" ng-switch-when="recordofadvice">
+                <li id="cff_tab7" class="visited" ng-click="goToProfilestatus();$Footer.profileStatus('commonProfile')"><span></span></li>
+                <li id="cff_tab8" class="active" ng-click="cff_record_advice()"><span></span></li>
+                <li id="cff_tab9" ng-click="cff_declaration()"><span></span></li>
+                <li id="cff_tab10" ng-click="cff_confirm_advice()"><span></span></li>	
+        </ul>
+        </span>
+			<span class="footer_right_arrow footer_right_arrow_wide"></span>
+        </div>
+	<div class="foot_icon fna_img" ng-click="$Footer.selectCustomer('fna_tab1')"></div>
+	<div class="foot_icon si_img" ng-click="$Footer.selectCustomer('salesIllustration')"></div>
+	<div class="foot_icon mc_img" ng-click="$Footer.myContent()"></div>
+	<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>
+    </footer>
+    
+    <!---------------- END ---------------------------------->
+    
+    <!-- Financial Need Analysis -->
+    
+     <footer ng-switch-when="financialNeedAnalysis" class="fna_foot">
+	<div class="foot_icon cdm_img" ng-click="$Footer.createCustomer()"></div>
+	<div class="foot_icon cff_img" ng-click="$Footer.selectCustomer('customerAdvice')"></div>
+	<div class="foot_inner cust_foot_left">
+	<div ng-switch="$Footer.subFooter">
+		<ul>
+			<li class="foot_li_normal">
+				<div class="foot_li_div_normal">
+					<span class="foot_lft_img fna_img"></span>
+					<span class="foot_lft_txt fna_txt">{{$Language.commonData.financial}}<br>{{$Language.commonData.needAnalysis}}</span>
+				</div>
+			</li>
+			
+   			<span  ng-switch-when="fna_tab1">
+			<li id="fna_tab1" class="foot_li_orange" ng-click="$Footer.selectCustomer('fna_tab1')">
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span  class="foot_lft_img ira_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.incomeReplacement}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			<li id="fna_tab2" class="foot_li_normal" ng-click="$Footer.selectCustomer('fna_tab2')" >
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span class="foot_lft_img cea_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.childEducation}}<br>{{$Language.commonData.EducationFund}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			</span>
+			<span  ng-switch-when="fna_tab2">
+			<li id="fna_tab1" class="foot_li_normal" ng-click="$Footer.selectCustomer('fna_tab1')">
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span  class="foot_lft_img ira_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.incomeReplacement}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			<li id="fna_tab2" class="foot_li_orange" ng-click="$Footer.selectCustomer('fna_tab2')" >
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span class="foot_lft_img cea_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.childEducation}}<br>{{$Language.commonData.EducationFund}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			</span>
+		</ul>
+		</div>
+		<span class="footer_right_arrow fna_footer_right_arrow"></span>
+	</div>
+	<div class="foot_icon si_img" ng-click="$Footer.selectCustomer('salesIllustration')"></div>
+	<div class="foot_icon mc_img" ng-click="$Footer.myContent()"></div>
+	<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>
+</footer>
+    
+    <!---------------- END ---------------------------------->
+ 
+	<!---------------------- Sales Illustration ------------>
+
+<footer ng-switch-when="salesIllustration" class="fact_foot si_foot">
+	<div class="foot_icon cdm_img" ng-click="$Footer.createCustomer('cdm_tab1')"></div>
+	<div class="foot_icon cff_img" ng-click="$Footer.selectCustomer('customerAdvice')"></div>
+	<div class="foot_icon fna_img" ng-click="$Footer.selectCustomer('fna_tab1')"></div>
+    <div class="foot_inner fact_foot_left">
+		<div class="fact_foot_left_icon">
+		<div class="foot_li_div_normal">
+			<span class="si_icon"></span>
+			<span class="fact_foot_left_txt">{{$Language.commonData.sales}}<br>{{$Language.commonData.illustration}}</span>
+			</div>
+		</div>
+			<ul class="fact_indicator">
+			<span ng-switch="$Footer.presubFooter">
+				<li id="si_tab1" class="active" ng-click="siTabClick('si_tab1')"  ng-switch-when="salesIllustration"><span></span></li>
+				<li id="si_tab2" ng-click="siTabClick('si_tab2')"  ng-switch-when="salesIllustration"><span></span></li>
+				<li id="si_tab3" ng-click="siTabClick('si_tab3')"  ng-switch-when="salesIllustration"><span></span></li>
+				<li id="si_tab4" ng-click="siTabClick('si_tab4')" ng-switch-when="salesIllustration"><span></span></li>
+				<li id="si_tab1" class="visited" ng-click="siTabClick('si_tab1')"  ng-switch-when="illustration"><span></span></li>
+				<li id="si_tab2" ng-click="siTabClick('si_tab2')" class="visited" ng-switch-when="illustration"><span></span></li>
+				<li id="si_tab3" ng-click="siTabClick('si_tab3')"  class="visited" ng-switch-when="illustration"><span></span></li>
+				<li id="si_tab4"  class="active" ng-click="siTabClick('si_tab4')" ng-switch-when="illustration"><span></span></li>
+				</span>
+			</ul>
+			<span class="footer_right_arrow footer_right_arrow"></span>
+        </div>
+	<div class="foot_icon mc_img" ng-click="$Footer.myContent()"></div>
+	<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>
+</footer>
+
+
+	<!---------------- END ---------------------------------->   
+		<!-- My Content --->
+    
+    
+    <footer ng-switch-when="myContent"  class="mc_foot">
+	<div class="foot_icon cdm_img" ng-click="$Footer.createCustomer()"></div>
+	<div class="foot_icon cff_img" ng-click="$Footer.selectCustomer('customerAdvice')"></div>
+	<div class="foot_icon fna_img" ng-click="$Footer.selectCustomer('fna_tab1')"></div>
+	<div class="foot_icon si_img" ng-click="$Footer.selectCustomer('salesIllustration')"></div>
+	<div class="foot_inner cust_foot_left">
+		<ul>
+			<li class="foot_li_normal">
+			<div class="foot_li_div_normal">
+				<span class="foot_lft_img mc_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.myContent}}</span>
+				</div>
+			</li>
+			<li id="Reference_tab" class="foot_li_orange" ng-click="mcTabClick('Reference')">
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span  class="foot_lft_img reference_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.reference}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			<li id="Brochure_tab" class="foot_li_normal" ng-click="mcTabClick('Brochure')">
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span class="foot_lft_img brocher_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.brochures}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li>
+			<li id="Presentation_tab" class="foot_li_normal" ng-click="mcTabClick('Presentation')">
+			<span class="gradient_left_normal gradient_left_orange"></span>
+				<div class="foot_li_div_normal foot_li_div_orange ">
+				<span class="foot_lft_img present_img"></span>
+				<span class="foot_lft_txt">{{$Language.commonData.presentations}}</span>
+				</div>
+				<span class="gradient_right_normal gradient_right_orange"></span>
+			</li> 
+		</ul>
+		<span class="footer_right_arrow"></span>
+	</div>
+	<div class="foot_icon home_icon" ng-click="$Footer.home()"></div>
+</footer>
+</div>
+
+<!---------------- END ---------------------------------->
+
+
+
+
+

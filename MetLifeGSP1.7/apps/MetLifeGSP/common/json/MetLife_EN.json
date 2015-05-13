@@ -1,0 +1,343 @@
+{
+    "screen1": {
+        "title": "Login",
+        "fields": [
+            [
+                {
+                    "label": "Email",
+                    "type": "email",
+                    "placeholder": "email",
+                    "model": "loginEmail",
+                    "required": "required"
+                }
+            ],
+            [
+                {
+                    "label": "Password",
+                    "type": "password",
+                    "placeholder": "password",
+                    "model": "loginPwd",
+                    "required": "required"
+                }
+            ]
+        ]
+    },
+    "screen3": {
+        "title": "Create new client",
+        "fields": [
+            [
+                {
+                    "label": "CLK",
+                    "counter": "0",
+                    "type": "text",
+                    "placeholder": "customer name",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Gender",
+                    "type": "text",
+                    "placeholder": "Gender",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Militry ID",
+                    "counter": "0",
+                    "type": "text",
+                    "placeholder": "Militry ID",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Marital Status",
+                    "type": "text",
+                    "placeholder": "Gender",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Date Of Birth",
+                    "type": "date",
+                    "placeholder": "Gender",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "ANB",
+                    "type": "number",
+                    "placeholder": "Gender",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation",
+                    "type": "text",
+                    "placeholder": "Occupation",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Contact",
+                    "type": "number",
+                    "placeholder": "Contact",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Category",
+                    "type": "text",
+                    "placeholder": "Occupation Category",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Alternate Contact",
+                    "type": "number",
+                    "placeholder": "Alternate Contact",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Class",
+                    "type": "text",
+                    "placeholder": "Occupation Class",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Annual Income",
+                    "type": "number",
+                    "placeholder": "Annual Income",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Email",
+                    "type": "email",
+                    "placeholder": "Email",
+                    "model": "customername"
+                }
+            ]
+        ]
+    },
+    "screen4": {
+        "title": "Sales Illustation",
+        "fields": [
+            [
+                {
+                    "label": "Total Premium",
+                    "inputfield": "no"
+                }
+            ],
+            [
+                {
+                    "label": "Yearly",
+                    "type": "text",
+                    "placeholder": "Yearly",
+                    "model": "Yearly"
+                }
+            ],
+            [
+                {
+                    "label": "Half Yearly",
+                    "type": "text",
+                    "placeholder": "Half Yearly",
+                    "model": "Half Yearly"
+                }
+            ],
+            [
+                {
+                    "label": "Quarterly",
+                    "type": "text",
+                    "placeholder": "Quarterly",
+                    "model": "Quarterly"
+                }
+            ],
+            [
+                {
+                    "label": "Monthly",
+                    "type": "text",
+                    "placeholder": "Monthly",
+                    "model": "Monthly"
+                }
+            ],
+            [
+                {
+                    "label": "Calculate",
+                    "type": "submit",
+                    "model": "loginBtn"
+                }
+            ]
+        ]
+    },
+    "screen5": {
+        "title": "Sales Illustation",
+        "fields": [
+            [
+                {
+                    "label": "Basic plan",
+                    "inputfield": "no"
+                }
+            ],
+            [
+                {
+                    "label": "Basic Premium",
+                    "type": "text",
+                    "placeholder": "Basic Premium",
+                    "model": "Basic Premium"
+                }
+            ]
+        ]
+    },
+    "screen6": {
+        "title": "Basic plan",
+        "fields": [
+            [
+                {
+                    "label": "Plan Code",
+                    "type": "text",
+                    "placeholder": "Plan Code",
+                    "model": "Plan Code"
+                }
+            ],
+            [
+                {
+                    "label": "Policy Term",
+                    "type": "text",
+                    "placeholder": "Policy Term",
+                    "model": "Policy Term"
+                }
+            ],
+            [
+                {
+                    "label": "Plan Name",
+                    "type": "text",
+                    "placeholder": "Plan Name",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Premium Term",
+                    "type": "text",
+                    "placeholder": "Premium Term",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Sum Assured(RM)",
+                    "type": "text",
+                    "placeholder": "Sum Assured(RM)",
+                    "model": "Plan Name"
+                }
+            ],
+            [
+                {
+                    "label": "Payment Frequency",
+                    "type": "text",
+                    "placeholder": "Payment Frequency",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Insurance Portion",
+                    "type": "text",
+                    "placeholder": "Insurance Portion",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Yearly Premium",
+                    "type": "text",
+                    "placeholder": "Yearly Premium",
+                    "model": "Premium Term"
+                }
+            ]
+        ]
+    },
+    "screen7": {
+        "title": "Riders",
+        "fields": [
+            [
+                {
+                    "label": "Plan Code",
+                    "type": "text",
+                    "placeholder": "Plan Code",
+                    "model": "Plan Code"
+                }
+            ],
+            [
+                {
+                    "label": "Policy Term",
+                    "type": "text",
+                    "placeholder": "Policy Term",
+                    "model": "Policy Term"
+                }
+            ],
+            [
+                {
+                    "label": "Plan Name",
+                    "type": "text",
+                    "placeholder": "Plan Name",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Premium Term",
+                    "type": "text",
+                    "placeholder": "Premium Term",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Sum Assured(RM)",
+                    "type": "text",
+                    "placeholder": "Sum Assured(RM)",
+                    "model": "Plan Name"
+                }
+            ],
+            [
+                {
+                    "label": "Payment Frequency",
+                    "type": "text",
+                    "placeholder": "Payment Frequency",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Insurance Portion",
+                    "type": "text",
+                    "placeholder": "Insurance Portion",
+                    "model": "Premium Term"
+                }
+            ],
+            [
+                {
+                    "label": "Yearly Premium",
+                    "type": "text",
+                    "placeholder": "Yearly Premium",
+                    "model": "Premium Term"
+                }
+            ]
+        ]
+    }
+}

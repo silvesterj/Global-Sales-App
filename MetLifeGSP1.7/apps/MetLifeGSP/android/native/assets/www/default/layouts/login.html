@@ -1,0 +1,38 @@
+
+<div class="login_main">
+
+	 <div class="login_left">
+		<div class="container slider">
+
+        <img ng-repeat="photo in photos" class="slide" ng-show="isActive($index)" ng-src="{{photo.src}}" />
+        <ul class="nav">
+            <li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">
+                <img ng-src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" />
+            </li>
+        </ul>
+
+    </div>
+	</div>
+	<div class="login_right" ng-switch="$Footer.loginStatus">
+		<h2 ng-switch-when="login">{{$Language.login.validCredentials}}</h2>
+		<h2 ng-switch-when="logout">You have successfully logged out</h2>	
+		<ui uiScope="loginScope"></ui>
+	</div>	
+</div>
+
+<label class="version_txt">MetLife App Version {{appVersion}}</label>
+
+<ng-include src="'layouts/loader.html'"></ng-include>
+<div id="popup_overlay"></div>
+<div class="popup_main" id="login_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="delete_popup_close()"></button>
+	</div>
+	<div class="popup_body" ng-bind-html="content"></div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="delete_popup_close()">OK</button>
+	</div>
+</div>
+
+

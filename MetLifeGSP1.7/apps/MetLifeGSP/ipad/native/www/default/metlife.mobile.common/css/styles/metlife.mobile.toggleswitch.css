@@ -1,0 +1,21 @@
+
+/* Stylesheet content from metlife.mobile.common/css/styles/metlife.mobile.toggleswitch.css in folder common */
+.toggleswitch{overflow:hidden;}
+
+.toggleswitch .options{
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	color: #595959;
+	border: 1px solid #c0c0c0;
+	background:#ebebeb;
+	padding:6px 10px 4px 10px;
+    font-family:FrutigerLTstdBold;
+	font-size: 12px;
+	line-height:12px;
+}
+
+.toggleswitch .active {
+	color: #FFFFFF;
+   	background:#007CC2;   	
+}

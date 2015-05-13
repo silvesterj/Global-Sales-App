@@ -1,0 +1,411 @@
+<div id="loader">
+<div id="popup_overlay_loader"></div>
+<div class="spinner circles">
+
+</div>
+</div>
+<div id="popup_overlay"></div>
+
+<div class="main_body">
+<ng-include src="'layouts/subHeader.html'"></ng-include>
+		<div class="fact_body_inner" id="si_tab1_body">
+			<div class="child_edu_profile">
+				<img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+				<div class="child_edu_name">
+					<h3>{{illustration.customerName}}</h3>
+				</div>
+				<div class="child_edu_header">
+					<h3>Basic Information</h3>
+				</div>
+			</div>
+			<div class="cff_main_height">
+				<div class="si_basic_inner">
+					<h3>Life Assured Details</h3>
+					<form name="form">
+						<ul class="create_new_left">
+							<li class="clkNum_algn">
+								<span>
+									 <div class="styled-select">
+									  <select
+                            ng-model="illustration.salutation" 
+                            required ng-options="salutationoption for salutationoption in $Language.commonData.salutation"></select>
+									</div>
+								</span>
+								<input ng-model="illustration.customerName" type="text" placeholder="Customer Name">
+							</li>
+							<li class="gendAign_main_right">
+		                        <label>{{$Language.commonData.gender.gender}}*</label>
+		                        <span 
+		                        class="gender_main">
+		                        <input ng-model="illustration.gender" id="radio_male" class="css-checkbox" type="radio" name="gender" value="1">
+		                        <label class="css_gender" for="radio_male">{{$Language.commonData.gender.male}}</label>
+		                        <input ng-model="illustration.gender" id="radio_female" class="css-checkbox" type="radio" name="gender" value="2">
+		                        <label class="css_gender" for="radio_female">{{$Language.commonData.gender.female}}</label>
+		                        <input ng-model="illustration.gender" id="radio_na" class="css-checkbox" type="radio" name="gender" value="3">
+		                        <label class="css_gender right" for="radio_na">{{$Language.commonData.gender.na}}</label>
+		                        </span>
+							</li>
+							<li Class="dobAlgn_mrg">
+								<label>Date Of Birth*</label>
+								<input ng-model="illustration.dob" ng-change="yearcalculation(illustration.dob,'lifeAssured')" type="date"/>
+							</li>
+							<li class="anbAlgn_mrg">
+								<label>ANB</label>
+								<input ng-model="illustration.anb" type="text" disabled=disabled/>
+							</li>
+							<li>
+								<label>Occupation*</label>
+								<div class="form-group" show-errors>
+								<input ng-model="illustration.occupation" ng-click="search_popup_open();selectedOccupation=1;" type="text" class="search_img"/>
+								</div>
+								
+								<!-- <div class="form-group" show-errors>
+						<input id="occupaton_text" ng-click="search_popup_open()" name="occupation" type="text" class="search_img_create form-control" ng-model="customer.occupation" ng-required="true" value="{{customer.occupation}}"/>
+                        </div> -->
+							</li>
+							<li class="smkHabit_algn">
+								<label>Smoking Habit</label>
+								<div class="onoffswitch">
+									<input ng-model="illustration.smokingHabit" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchSmokingHabit">
+									<label class="onoffswitch-label" for="myonoffswitchSmokingHabit">
+										<span class="onoffswitch-active">Yes</span>
+										<span class="onoffswitch-inactive">No</span>
+									</label>
+								</div> 
+							</li>
+							<li>
+								<label>Occupation Class</label>
+								<input ng-model="illustration.occupationClass" type="text" />
+							</li>
+							<li class="smkHabit_algn">
+								<label>Is life assured the policy owner ?</label>
+								<div class="onoffswitch">
+									<input  ng-model="illustration.isPolicyOwner" ng-change="isPolicyOwner();" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="isPolicyOwnerswitch51" >
+									<label class="onoffswitch-label" for="isPolicyOwnerswitch51">
+										<span class="onoffswitch-active">Yes</span>
+										<span class="onoffswitch-inactive">No</span>
+									</label>
+								</div> 
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div id="policyOwnerDetails" class="si_basic_inner" style="visibility:hidden;">
+					<h3>Policy Owner Details</h3>
+					<form name="form">
+						<ul class="create_new_left">
+							<li class="clkNum_algn">
+								<span>
+									 <div class="styled-select">
+									 
+									<select
+                            ng-model="illustration.policyOwnerSalutation" 
+                            required ng-options="salutationoption for salutationoption in $Language.commonData.salutation"></select>
+									</div>
+								</span>
+								<input ng-model="illustration.policyOwnerName" type="text" placeholder="Customer Name">
+							</li>
+							<li class="gendAign_main_right">
+		                        <label>{{$Language.commonData.gender.gender}}*</label>
+		                        <span  class="gender_main">
+		                        <input ng-model="illustration.policyOwnerGender" ng-model="illustration.gender" id="radio_male_owner" class="css-checkbox"  type="radio" name="gender" value="1">
+		                        <label class="css_gender" for="radio_male_owner">{{$Language.commonData.gender.male}}</label>
+		                        <input ng-model="illustration.policyOwnerGender" ng-model="illustration.gender" id="radio_female_owner" class="css-checkbox" type="radio" name="gender" value="2">
+		                        <label class="css_gender" for="radio_female_owner">{{$Language.commonData.gender.female}}</label>
+		                        <input ng-model="illustration.policyOwnerGender" ng-model="illustration.gender" id="radio_na_owner" class="css-checkbox" type="radio" name="gender" value="3">
+		                        <label class="css_gender right" for="radio_na_owner">{{$Language.commonData.gender.na}}</label>
+		                        </span>
+		                    </li>
+							<li Class="dobAlgn_mrg">
+								<label>Date Of Birth*</label>
+								<input ng-model="illustration.policyOwnerDob"  ng-change="yearcalculation(illustration.policyOwnerDob,'policyOwner')" type="date"/>
+							</li>
+							<li class="anbAlgn_mrg">
+								<label>ANB</label>
+								<input ng-model="illustration.policyOwnerAnb" type="text" disabled=disabled/>
+							</li>
+							<li>
+								<label>Occupation*</label>
+								<div class="form-group" show-errors="">
+								<input ng-model="illustration.policyOwnerOccupation" ng-click="search_popup_open();selectedOccupation=2;" type="text" class="search_img"/>
+								</div>
+							</li>
+							<li class="smkHabit_algn">
+								<label>Smoking Habit</label>
+								<div class="onoffswitch">
+									<input ng-model="illustration.policyOwnerSmokingHabit" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchPolicyOwnerSmokingHabit" >
+									<label class="onoffswitch-label" for="myonoffswitchPolicyOwnerSmokingHabit">
+										<span class="onoffswitch-active">Yes</span>
+										<span class="onoffswitch-inactive">No</span>
+									</label>
+								</div> 
+							</li>
+							<li>
+								<label>Occupation Class</label>
+								<input ng-model="illustration.policyOwnerOccupationClass" type="text"/>
+							</li>
+							<li class="si_relationship">
+								<label>Relationship</label>
+								<span>
+									 <div class="styled-select">
+										<select  ng-model="illustration.policyOwnerRelationship" ng-options="option for option in relationshipData">
+											
+										</select>
+									</div> 
+								</span>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="navigation_bar">
+				<div class="navi_inner navi_left" ng-click="$Footer.selectCustomer('salesIllustration')">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">Select Customer</span>
+				</div>
+				<div class="navi_inner navi_right" ng-click="si_select_product('fillProduct')">
+					<span class="navi_txt">Select Product</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				<div class="navi_inner navi_center" ng-click="saveIllustration()">
+					<span class="navi_save_btn"></span>
+					<span class="navi_txt">Save</span>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="fact_body_inner" id="si_tab2_body">
+			<div class="child_edu_profile">
+				<img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+				<div class="child_edu_name">
+					<h3>{{illustration.customerName}}</h3>
+				</div>
+				<div class="child_edu_header">
+					<h3>Plan : {{productList[selectedSubProductIndex].json.productCategory}} - {{productList[selectedSubProductIndex].json.subMarketingName}}</h3>
+				</div>
+			</div>
+			<div class="cff_main_height si_vertical_caurosal_maindiv">
+				<div id="productCategory" class="si_product_left">
+				<div class="corsl_main">
+						 <div id="categoryProtection" class="normal" ng-click="fillSubProduct('Protection');">
+						Protection
+						</div>
+						<div id="categoryWealth" class="normal" ng-click="fillSubProduct('Wealth');">
+						Wealth
+						</div>
+						<div id="categoryHealth" class="normal" ng-click="fillSubProduct('Health');">
+						Health
+						</div>
+						</div>
+				
+				</div>
+				<div id="subProducts" class="si_product_right">
+					<!-- <input type="radio" class="si_sub_product" id="si_sub_product1" name="sub_product_radio"/>
+					<label class="si_sub_product_box" for="si_sub_product1">
+						<h5>AM MetLife SecureBuilder</h5>
+						<span class="selected"></span>
+					</label>
+					<input type="radio" class="si_sub_product" id="si_sub_product2" name="sub_product_radio">
+					<label class="si_sub_product_box" for="si_sub_product2">
+						<h5>AM MetLife SecureGuard Plus</h5>.
+						<span class="selected"></span>
+					</label>
+					<input type="radio" class="si_sub_product" id="si_sub_product3" name="sub_product_radio">
+					<label class="si_sub_product_box" for="si_sub_product3">
+						<h5>Secure Wealth</h5>
+						<span class="selected"></span>
+					</label>
+					<input type="radio" class="si_sub_product" id="si_sub_product4" name="sub_product_radio">
+					<label class="si_sub_product_box" for="si_sub_product4">
+						<h5>AMCapital</h5>
+						<span class="selected"></span>
+					</label> -->
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="navigation_bar">
+				<div class="navi_inner navi_left" ng-click="si_basic_info()">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">Basic Information</span>
+				</div>
+				<div class="navi_inner navi_right" ng-click="si_plan()">
+					<span class="navi_txt">Plan</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				<div class="navi_inner navi_center" ng-click="saveIllustration()">
+					<span class="navi_save_btn"></span>
+					<span class="navi_txt">Save</span>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="fact_body_inner" id="si_tab3_body" >
+			<div class="child_edu_profile">
+				<img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+				<div class="child_edu_name">
+					<h3>{{illustration.customerName}}</h3>
+				</div>
+				<div class="child_edu_header">
+					<h3>Plan : {{productList[selectedSubProductIndex].json.productCategory}} - {{productList[selectedSubProductIndex].json.subMarketingName}}</h3>
+				</div>
+			</div>
+				<div class="sales_plan_inner">
+			<div class="sales_plan_head">
+				<h3>Total Premium</h3>
+				<label>Yearly</label><input ng-model="illustration.yearlyPremium" type="text" />
+				<label>Half Yearly</label><input ng-model="illustration.halfYearlyPremium" type="text" />
+				<label>Quarterly</label><input ng-model="illustration.quarterlyPremium" type="text" />
+				<label>Monthy</label><input ng-model="illustration.monthlyPremium" type="text" />
+				<button ng-click="calculate();">Calculate</button>
+			</div>
+			<div id="sales_plan_body" class="sales_plan_body">
+				
+			</div>
+		</div>
+			<div class="clear"></div>
+			<div class="navigation_bar">
+				<div class="navi_inner navi_left" ng-click="si_select_product()">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">Select Product</span>
+				</div>
+				<div class="navi_inner navi_right" ng-click="si_illustration()">
+					<span class="navi_txt">Illustration</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				<div class="navi_inner navi_center" ng-click="saveIllustration()">
+					<span class="navi_save_btn"></span>
+					<span class="navi_txt">Save</span>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="fact_body_inner" id="si_tab4_body" >
+			<div class="child_edu_profile">
+				<img class="child_edu_pp" src="{{customer.customerImageSmallPath}}"/>
+				<div class="child_edu_name">
+					<h3>{{illustration.customerName}}</h3>
+				</div>
+				<div class="child_edu_header">
+					<h3>Plan : {{productList[selectedSubProductIndex].json.productCategory}} - {{productList[selectedSubProductIndex].json.subMarketingName}}</h3>
+				</div>
+			</div>
+			<div class="cff_main_height">
+				<div class="head_main_lbl si_graph_hd">
+					<div class="left_wdth">
+						<label>Name Of Product : </label>
+						<input type="text">
+					</div>
+					<div class="left_wdth">
+						<label>Proposed Life Assured Name : </label>
+						<input type="text">
+					</div>
+					<button class="si_button generate_pdf_product" ng-click="generatePdf();"></button>
+					<button class="si_button send_email" ng-click="email();"></button>
+					<button id="salesTableButton" class="si_button view_table_format" ng-click="showSalesTableSection()"></button>
+					<button  id="salesGraphButton" class="si_button view_graph_format" ng-click="showSalesGraphSection()"></button>
+				</div>
+				<div class="si_graph_table">
+				
+
+<div   width="800"  height="600" id="salesGraphSection">
+
+    <nvd3-multi-bar-chart
+            data="salesGraphData" id="salesGraph"
+            
+            width="800"
+            height="600"
+            tooltips="true"
+            showXAxis="true"
+            showYAxis="true"           
+            showValues="true"
+            stacked ="false">
+        <svg></svg>
+    </nvd3-multi-bar-chart>
+</div>
+
+				
+			<pxtable id="salesTableSection" pxtableScope="pxScope">
+			</pxtable>
+				</div>
+			</div>
+			<div class="navigation_bar">
+				<div class="navi_inner navi_left" ng-click="si_plan()">
+					<span class="navi_lft_arrow"></span>
+					<span class="navi_txt">Plan</span>
+				</div>
+				<div class="navi_inner navi_right" ng-click="goToProfileStatusFromIllustration();">
+					<span class="navi_txt">Profile Status</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				<div class="navi_inner navi_center" ng-click="saveIllustration()">
+					<span class="navi_save_btn"></span>
+					<span class="navi_txt">Save</span>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<ng-include src="'layouts/footer.html'"></ng-include>
+<!-- popup starts for profile name-->
+<div class="popup_main" id="sales_profile_status_popup">
+	<div class="popup_header">
+		<h3 ng-bind-html="content"></h3>
+		<button class="popup_close" ng-click="closePopup()"></button>
+	</div>
+	<div class="popup_body">
+		<ul>
+			<li>
+			<!-- <label>{{$Language.cff.profileStatus.profileName}}</label> -->	
+				<textarea ng-model="illustration.profileName"></textarea>
+			</li>
+		</ul>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closePopup('saveIllustration')">Save</button>
+	</div>
+</div>
+<!--  alert popups -->
+<div class="popup_main" id="sales_alert_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="closeAlert()"></button>
+	</div>
+	<div class="popup_body" ng-bind-html="content"></div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="closeAlert()">OK</button>
+	</div>
+</div>
+<!-- for occupation -->
+<div class="popup_main" id="search_oocu">
+							<div class="search_oocu_top">
+								<h3>Search Occupation</h3>
+								<button id="search_occu_close" class="popup_close" ng-click="search_occu_close()"></button>
+								<div class="search_oocu_inner">
+									<ul>
+										<li>
+											<label>Occupation</label>
+											<input type="text" class="search_img" ng-model="search.searchText" ng-change="search(search.searchText)"/> 
+										</li>
+										<li class="anbAlgn_mrg">
+											<label>Category</label>
+											<span>
+												 <div class="styled-select">
+												<select ng-model="search.category" ng-options="option for option in categoryArray" ng-change="searchByCategory(search.category)">
+														<option selected>--Select--</option>
+					                            </select>
+												</div> 
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="search_oocu_bottom">
+								<h3 ng-module="numberOfJobs">{{numberOfJobs}} occupations found</h3>
+								<ul>
+									<li ng-repeat="optionName in occuaptionArray track by $index" ng-module="optionName" ng-click="setData(optionName)">{{optionName}}</li>
+								</ul>
+							</div>
+						</div>
+

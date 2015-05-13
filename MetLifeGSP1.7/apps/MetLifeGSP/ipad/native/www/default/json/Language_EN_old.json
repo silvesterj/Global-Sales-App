@@ -1,0 +1,414 @@
+{
+    "commonData": {
+        "addFinancialNeeAnalysis": "Add Financial Need Analysis",
+        "additionalCoverage": "Additional Coverage",
+        "addSalesIllustration": "Add Sales Illustration",
+        "advancedSearch": "Advanced Search",
+        "agentCode": "Agent's Code",
+        "agentName": "Agent's Name",
+        "allowUsTo": "Allow us to use a simple illustration to help you close the gap.",
+        "alternativeContactNo": "Alternative Contact No.",
+        "anb": "ANB",
+        "annualPremium": "Annual Premium",
+        "basicInformation": "Basic Information",
+        "brochures": "Brochures",
+        "childEducationFund": "Child Education Fund Assessment",
+        "childEducationNeed": " Child Education Need Assessment",
+        "childName": "Child's Name",
+        "clientDataManagement": "Client Data Management",
+        "confirmationOfAdvice": "Confirmation of Advice",
+        "contactNo": "Contact No.",
+        "createCustomer": "Create Customer",
+        "customerAdviceChoice": "Customer Advice Choice and Declaration",
+        "customerFactFind": "Customer Fact Find",
+        "customerFactFindFormCompleted": "Customer Fact Find Form : Completed",
+        "customerHistory": "customer History",
+        "customerName": "Customer Name",
+        "customerSearch": "Customer Search",
+        "dateOfBirth": "Date of Birth",
+        "declarationAndAcknowledgement": "Declaration and Acknowledgement",
+        "designedFor": "Designed for",
+        "desiredIncomeToBeProtected": "Desired income to be protected",
+        "disclosureOfAgentStatus": "Disclosure of Agent Status",
+        "email": "Email",
+        "estimatedAnnualIncome": "Estimated Annual Income",
+        "existingPolicyDetails": "Existing Policy Details",
+        "familyDetails": "Family Details",
+        "financialNeedAnalysis": "Financial Need Analysis",
+        "financialSummary": "Financial Summary",
+        "financialSolution": "Financial Solution",
+        "frequency": "Frequency",
+        "healthManning": "Health-Manning",
+        "id": "ID",
+        "idNumber": "ID Number",
+        "ifTheValueIs": "(If the value is negative, no additional funds are required)",
+        "illustration": "Illustration",
+        "incomeNeedAnalysis": "Income Need Analysis",
+        "incomeProtection": "Income Protection Assessment",
+        "incomeReplacement": "Income Replacement Assessment",
+        "language": "Language",
+        "lifeAssured": "Life Assured",
+        "martialStatus": "Martial Status",
+        "myContent": "My Content",
+        "myFinancialNeeds": "My Financial Needs",
+        "no": "No",
+        "occupation": "Occupation",
+        "occupationCategory": "Occupation Category",
+        "occupationClass": "Occupation Class",
+        "phone": "Phone",
+        "plan": "Plan",
+        "planCode": "Plan Code",
+        "planName": "Plan Name",
+        "premium": "Premium",
+        "presentations": "Presentations",
+        "productDownloads": "Product Downloads",
+        "profileStatus": "Profile Status",
+        "profileUpdatedOn": "Profile Updated On",
+        "protectionManning": "Protection-Manning",
+        "recentCustomers": "Recent Customers",
+        "recordOfAdvice": "Record of Advice",
+        "reference": "Reference",
+        "riskProfiling": "Risk Profiling",
+        "rm": "RM",
+        "salesIllustration": "Sales Illustration",
+        "save": "Save",
+        "search": "Search",
+        "selectCustomer": "Select Customer",
+        "selectProduct": "Select Product",
+        "smokingHabit": "Smoking Habit",
+        "sumAssured": "Sum Assured",
+        "sumAssuredRM": "Sum Assured(RM)",
+        "summaryGraph": "Summary(Graph)",
+        "term": "Term",
+        "type": "Type",
+        "typeOfPlan": "Type of Plan",
+        "wealthManning": "Wealth-Manning",
+        "welcome": "Welcome",
+        "yes": "Yes",
+        "gender": {
+            "gender": "Gender",
+            "male": "Male",
+            "female": "Female",
+            "na": "NA"
+        },
+        "maritalStatus": {
+            "single": "Single",
+            "married": "Married",
+            "divorced": "Divorced",
+            "widowed": "Widowed",
+            "seprated": "Seprated"
+        },
+        "contactnotype":{
+        "home":"Home",
+        "mobile":"Mobile",
+        "office":"Office"
+        },
+        "salutation":{
+          "mr": "Mr",
+            "mrs": "Mrs",
+            "miss": "Miss",
+            "ms": "Ms",
+            "dr": "Dr"
+        },
+         "idtype":{
+          "taxid": "Tax ID",
+            "passport": "Passport",
+            "ssn": "SSN",
+            "driverlicens": "driverLicens",
+            "stateid": "State ID",
+            "birthcertificate": "Birth Certificate",
+            "milatryid": "Milatry ID",
+            "govermentemployementid": "Goverment Employement ID"
+        }
+        
+       
+    },
+    "login": {
+        "validCredentials": "Please enter your valid credentials",
+        "loggedOut": "You have successfully logged out",
+        "username": "Username",
+        "password": "Password",
+        "login": "Login"
+    },
+    "productDownload": {
+        "productDownload": "Select the products and download the information. Download at least one product to start the application.",
+        "doneSetup": "Done Setup"
+    },
+    "settings": {
+        "productDownloads": "Product Downloads"
+    },
+    "home": {},
+    "createCustomer": {
+        "customerDetails": {
+            "customerDetails": "Customer Details",
+            "customerFactFind": "Customer Fact Find"
+        },
+        "customerHistory": {
+            "customers": "Customers:"
+        }
+    },
+    "cff": {
+        "sortBy": {
+            "sortBy": "Sort by:",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "id": "ID",
+            "dob": "DOB"
+        },
+        "customerSearch": {
+            "criteria": "Enter one or multiple criteria to search the customer",
+            "mobile": "Mobile"
+        },
+        "customerAdvice": {
+            "discloseInformation": "I/We wish to disclose all information requested for in this form.",
+            "disclosePartialInformation": "I/We wish to disclose partial information requested for in this form(fill in all sections except family details section).",
+            "doNotDisclose": "I/We wish to receive product information only and do not wish to disclose any information requested in this form(fill in all sections except sections Financial Needs Analysis and Family details)."
+        },
+        "disclosureOfAgentStatus": {
+            "iamALifeInsuranceAgent": "I am a life insurance agent who represents AmMetLife Insurance Berhad(AmMetLife)and can advice you on our full range of:",
+            "termInsuranceProducts": "Term insurance products",
+            "enowmentInsuranceProducts": "Enowment insurance products",
+            "wholeLifeInsuranceProducts": "Whole life insurance products",
+            "medicalInsuranceProducts": "Medical, Accident and Health Insurance products",
+            "investmentInsuranceProducts": "Investment Linked Insurance Products",
+            "iReceiveRemuneration": "I receive remuneration from Am MetLife Insurance Berhad for providing advice on and selling of their insurance product(s).",
+            "importantNoticeToCustomer": "IMPORTANT NOTICE TO CUSTOMER Please read this carefully before proceding with your Customer Fact Find(CFF)",
+            "yourAgentMustHave": "Your agent must have sufficient information before making a suitable recommendation. The information that you provide will be the basis on which advice is given.",
+            "ifYouChooseNotTo": "If you choose not to provide all the relevant information requested, your agent may not be able to provide you with suitable advice and as a result, you may risk making a financial commitment to a life insurance policy inappropriate to your needs."
+        },
+        "myFinancialNeeds": {
+            "alreadyPlanned": "Already Planned",
+            "toDiscuss": "To Discuss",
+            "priority": "Priority",
+            "remarks": "Remarks",
+            "iNeedToProtectMyself": "I need to protect myself and my family against the family impact of death, disability and critical illness",
+            "iamLookingForSecurity": "I am looking for security during retirement",
+            "iWantToMakeProvision": "I want to make provision to my children's education",
+            "iamSavingFor": "I am saving for a specific need",
+            "iWantToMakeLump": "I want to make lump sum investment",
+            "indicateUnderRemarkColumn": "Indicate under remark column,area not be discussed and why eg,'already planned','review in future','not important now' etc",
+            "priorityLowHigh": "Priority-1-Low,5-High"
+        },
+        "riskProfiling": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "preference": "Preference",
+            "iamPreparedFor": "I am prepared to invest for",
+            "onlyAYearOrTwo": "Only a year or two",
+            "upto5Years": "Up to 5 years",
+            "moreThan10Years": "More than 10 years",
+            "iCanAccept": "I can accept",
+            "veryLowRisk": "Very low risk and know that my capital is safe",
+            "someFluctuations": "Some fluctuations in value",
+            "aHigherRisk": "A higher risk for the chance of a higher return",
+			"totalScore":"totalScore"
+        },
+        "existingPolicyDetails": {
+            "policy1": "Policy 1",
+            "policy2": "Policy 2",
+            "policy3": "Policy 3",
+            "policyOwner": "Policy Owner",
+            "company": "Company",
+            "deathBenefits": "Death Benefits",
+            "criticalIllnessBenefits": "Critical Illness Benefits",
+            "startDate": "Start Date",
+            "projecedLumpSum": "Projected Lump sum at Maturity",
+            "noOfExistingPolicy": "Number of Existing Policy(s)",
+            "disabilityBenefits": "Disability Benefits",
+            "otherBenefits": "Other Benefits",
+            "premiumType": "Premium Type",
+            "maturityDate": "Maturity Date",
+            "affordability": "Affordability",
+            "howMuchOfYourCurrentIncome": "How much of your current income would you like to allocate for protection/retirement/education/savings/investments per month ?",
+            "protection": "Protection",
+            "retirement": "Retirement",
+            "education": "Education",
+            "savings": "Savings",
+            "investment": "Investment",
+            "doYouHaveAny": "Do you have any other income during retirement(such as pension, annuity etc.)",
+            "ifYesPleaseSpecify": "If yes, please specify"
+        },
+        "familyDetails": {
+            "familyMember1": "Family Member 1",
+            "familyMember2": "Family Member 2",
+            "familyMember3": "Family Member 3",
+            "familyMemberName": "Family Member Name",
+            "memberName": "Member Name",
+            "noOfFamilyMember": "Number of Family member(s)",
+            "existingFamilyDetails": "Existing Family Details"
+        },
+        "profileStatus": {
+            "profileName": "Profile Name",
+            "status": "Status",
+            "no.": "No.",
+            "description": "Description",
+            "creationDate": "Creation Date",
+            "note": "Note",
+            "notedetail": "Record of Advice will be activated when at least one Sales Illustration is associated for the current customer profile."
+        },
+        "recordOfAdvice": {
+            "recommendation1": "Recommendation #1",
+            "recommendation2": "Recommendation #2",
+            "recommendation3": "Recommendation #3",
+            "noOfRecommendations": "Number of Recommendations",
+            "illustrationSelected": "Illustration Selected",
+            "sumCoveredRM": "Sum Covered(RM)",
+            "nameOfPolicyOwner": "Name of policy owner",
+            "premiumRM": "Premium(RM)",
+            "reasonOfRecommending": "Reason of recommending",
+            "others": "Others",
+            "bought": "Bought",
+            "actionTakenByCustomer": "Action taken by customer if different from recommendations"
+        },
+        "declarationAndAcknowledgement": {
+            "customer": "Customer",
+            "agent": "Agent",
+            "agentName": "Agent Name",
+            "date:": "Date:",
+            "tapToEnterSignature": "Tap To Enter Signature",
+            "tapToEnterAgentsSignature": "Tap To Enter Agent's Signature",
+            "agentStatus": "Agent status",
+            "oneYearAndBelow": "One(1) year and below",
+            "oneYearAndAbove": "One(1) year and above",
+            "customerAcknowledgement1": "I/We acknowledge that the agent has explained the purpose of this Customer Fact Find to me/us and I/We have provided information to the best of my/our understanding and knowledge.",
+            "customerAcknowledgement2": "I/We acknowledge that a copy of this completed Customer Fact Find Form and the 'Confirmation of Advice' will be sent to me together with the life policy insurance contract.",
+            "agentDeclaration1": "I declare that I will treat the information provided to me in the Customer Fact Find form with STRICT CONFIDENTIALITY and I will use it only for the purpose of fact finding in the process of recommending suitable insurance products and shall not use it for any other purpose.",
+            "agentDeclaration2": "The above analysis/advice is based on the facts furnished in the Form. I have taken reasonable steps to ensure that the advice is suitable for the client, having regard to the facts disclosed and the other relevant facts which are made available to me.",
+            "agentDeclaration3": "I have also explained to the client about the features of the product recommended and have given sufficient information to enable the client to make an informed decision.",
+            "agentDeclaration4": "For leader/supervisor: I declare that I have reviewed this Customer Fact Find Form and to my best belief and knowledge. The advice and recommendation given by the intermediary is sound and appropriate(applicable for agent who has been contracted for one(1) year and below)."
+        },
+        "confirmationOfAdvice": {
+            "proposalNo": "Proposal No.",
+            "generatePDF": "Generate PDF",
+            "basedOnTheInformationProvided": "Based on the information provided in the Customer Fact Find Form, I have conducted that the customer's prioritised financial goals are as follows:",
+            "<INFORMATION NEEDS TO BE DISCUSSED>": " <TBD>",
+            "inOrderToMeetTheseGoals": "In order to meet these goals, I have recommended the above customer to purchase the following life insurance products.",
+            "bought": "Bought",
+            "note": "Note",
+            "notedetail": "You may cancel your life insurance policy document to AmMetLife Insurance Berhad within(15) calendar days after you receive it. The statement should be attached with the insurance policy contract and a copy will be kept by AmMetLife Insurance Berhad and the agent."
+        }
+    },
+    "fna": {
+        "annualIncome": "Annual Income",
+        "capitalRequired": "Capital Required",
+        "incomeReplacement": {
+            "currentAnnualIncome": "Current annual income",
+            "percentageIncomeToBeProtected": "Percentage income to be protected"
+        },
+        "incomeProtection": {
+            "inflationRate": "Inflation rate",
+            "projectionOfInvestmentRate": "Projection of investment rate",
+            "yearsOfIncomeProtection": "Years of income protection",
+            "presentValuePV": " Present Value(PV)",
+            "capitalRequirementRM": "Capital Requirement(RM)"
+        },
+        "incomeNeedAnalysis": {
+            "capitalRequiredTo": "Capital required to fund income needs",
+            "existingFundsAvailable": "Existing funds available to fund income needs",
+            "inclusiveOfSavings": "(inclusive of savings, inevitable and sum assured of all insurance policies)",
+            "additionalCapitalRequiredTo": "Additional capital required to fund income needs"
+        },
+        "financialSummary": {
+            "theAmountof": "The amount of RM",
+            "wouldHelpTo": "would help to ensure that your loved ones and family members can continue the current lifestyle if anything happens to you.",
+            "toAccumulateThisAmount": "To accumulate this amount of RM",
+            "andToEnsureThat": "and to ensure that your child's education journey is not disrupted, should anything happen to you as the payor, we recommend that you take on the payor benefit rider for the plan."
+        },
+        "childEducationFund": {
+            "currentEducationFees": "Current Education Fees",
+            "projectionOfEducationCostInflation": "Projection of Education cost inflation rate",
+            "currentAge": "Current age",
+            "uniCollegeEntryAge": "Uni/College/Entry age",
+            "noOfYearsTo": "No of years to Uni/College",
+            "projectionOfEducationCostWhen": "Projection of Education cost when your child is",
+            "yearsOld": "years old",
+            "years1": "Years 1",
+            "years2": "Years 2",
+            "years3": "Years 3",
+            "years4": "Years 4",
+            "total": "Total"
+        },
+        "childEducationNeed": {
+            "existingSavingsAnd": "Existing savings and Investable Available Assets for Education funding:",
+            "futureYearlySavings": "Future Yearly savings and investment for your child until age 19:",
+            "projectionOfTotalSavings": "Projection of total savings and Investable assets for your child at age 19:",
+            "additionalFundsRequired": "Additional funds required for Education Funding for your child at age 19:",
+            "yield": "Yield"
+        },
+        "financialSolution": {
+            "projectionOfInvestmentReturn": "Projection of investment return(%)",
+            "optionA": "Option A Yearly investment required",
+            "optionB": "Option B Yearly investment required"
+        }
+    },
+    "salesIllustration": {
+        "basicInformation": {
+            "lifeAssuredDetails": {
+                "lifeAssuredDetails": "Life Assured Details",
+                "lifeAssuredsName": "Life Assured's Name",
+                "isLifeAssuredThePolicyOwner": "Is life assured the policy owner?"
+            },
+            "policyOwnerDetails": {
+                "policyOwnerDetails": "Policy Owner Details",
+                "policyOwnerName": "Policy Owner Name",
+                "relationship": "Relationship"
+            }
+        },
+        "planWealth": {
+            "planWealth": "Plan:Wealth-AmMetLife Lifestyle",
+            "totalPremium": "Total Premium",
+            "yearly": "Yearly",
+            "halfYearly": "Half Yearly",
+            "quarterly": "Quarterly",
+            "monthly": "Monthly",
+            "calculate": "Calculate",
+            "basicPlan": {
+                "basicPlan": "Basic Plan",
+                "basicPremium": "Basic Premium",
+                "paymentFrequency": "Payment Frequency",
+                "recommendedAmount": "Recommended Amount",
+                "policyTerm": "Policy Term",
+                "premiumTerm": "Premium Term",
+                "yearlyPremium": "Yearly Premium",
+                "insurancePortion": "Insurance Portion"
+            },
+            "riders": {
+                "riders": "Riders",
+                "ridersPremium": "Riders Premium",
+                "code": "Code",
+                "riderName": "Rider Name"
+            },
+            "fundType": {
+                "fundType": "Fund Type",
+                "fundPortfolio": "Fund Portfolio",
+                "fundName": "Fund Name",
+                "percentage": "Percentage",
+                "totalFundPercentage": "Total fund Percentage"
+            },
+            "topUps": {
+                "topups": "Top Ups",
+                "amount": "Amount"
+            },
+            "preferences": {
+                "preferences": "Preferences",
+                "policySustainability": "Policy Sustainability",
+                "upto65": "Up to 65",
+                "upto85": "Up to 85",
+                "upto99": "Up to 99",
+                "cashSurrenderValueProjection": "Cash Value(CV)/Surrender Value(SV) Projection",
+                "targetCVSV": "Target CV/SV"
+            },
+            "nameOfProduct": "Name of Product:",
+            "proposedLifeAssuredName": "Proposed Life Assured Name:",
+            "guaranteedPremiumAndBenefit": "Guaranteed Premium and Benefit",
+            "policyYear": "Policy Year",
+            "totalPremiumBeginningOf": "Total Premium Beginning Of Year",
+            "cashValue": "Cash Value",
+            "deathTPDBenefit": "Death/TPD Benefit",
+            "guaranteedAnnualCashPayment": "Guaranteed Annual Cash Payment Payable"
+        }
+    }
+}

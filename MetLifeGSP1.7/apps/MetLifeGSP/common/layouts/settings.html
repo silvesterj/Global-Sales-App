@@ -1,0 +1,77 @@
+<form name="userForm" novalidate>
+<div id="popup_overlay"></div>
+<div class="main_body">
+	<div class="main_body_inner bodyMain_mrg">
+		<div class="mainCont_algn">
+            
+			<ul>
+				<li>
+					<label>{{$Language.commonData.agentCode}}</label>
+					<input type="text" ng-model="settings.agentCode" disabled />
+				</li>
+				<li>
+					<label>{{$Language.commonData.agentName}}</label>
+					<span class="form-group" show-errors >
+					<input type="text" class="form-control" ng-model="settings.agentName" name="Name" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{settings.agentName}}"/>
+				    </span>
+				</li>
+				<li>
+					<label>{{$Language.commonData.email}}</label>
+					<span class="form-group" show-errors >
+					<input type="email" name="Email" class="form-control" ng-model="settings.email" ng-required="true" ng-pattern="/^[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+.[a-z0-9-]/" value="{{settings.email}}"/>
+				    </span>
+				</li>
+				<li>
+					<label>{{$Language.commonData.contactNo}}</label>
+					<span class="form-group" show-errors >
+					<input type="tel" name="Contact Number" class="form-control" ng-model="settings.contactNo" ng-pattern="/^[-0-9]*$/" maxlength="15" minlength="7" value="{{settings.contactNo}}"/>
+				    </span>
+				</li>
+				<li>
+					<label>{{$Language.commonData.language}}</label>
+					<div class="styled-select settings_select_arrow">
+					<select class="select_Algn" ng-init="option.name[0]"  ng-model="selectedOption" ng-options="option.name for option in options" ng-change="changeLanguage(selectedOption)">
+					</select> 
+					</div>
+				</li>
+			</ul>
+			<button class="prdDown_algn" ng-click="goToProductpage()" ><span class="download_num" ng-model="downloadCount">{{downloadCount}}</span></span>{{$Language.settings.productDownloads}}</button>
+			<div class="clear"></div>
+			<button class="sync_btn prdDown_algn" ng-click="syncData()" >Sync Data</button>
+	
+
+			
+		</div>
+		<div  class="profImg_algn">
+		<span class="edit_img"></span>
+			<img id="agentImage" ng-click="camera_pic()" />
+		</div>
+		<div class="clear"></div>
+		
+    
+
+<div class="popup_main" id="settings_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="delete_popup_close()"></button>
+	</div>
+	<div class="popup_body" ng-bind-html="content"></div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="delete_popup_close()">OK</button>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="navigation_bar">
+    <div class="navi_inner navi_center" ng-click="updateAgentDetails()">
+            <span class="navi_save_btn"></span>
+            <span class="navi_txt" >{{$Language.commonData.save}}</span>
+            <div class="clear"></div>
+     </div>
+</div>
+<span  ng-switch="$Footer.showFooter">
+<ng-include src="'layouts/footer.html'"></ng-include>
+
+		</span>
+</form>

@@ -1,0 +1,18 @@
+
+/* Stylesheet content from metlife.mobile.common/css/metlife.mobile.common.css in folder common */
+@import url( "styles/metlife.mobile.font.css" );
+@import url( "styles/normalize.min.css" );
+@import url( "styles/metlife.mobile.page.css" );
+@import url( "styles/metlife.mobile.header.css" );
+@import url( "styles/metlife.mobile.navigation.css" );
+@import url( "styles/metlife.mobile.button.css" );
+@import url( "styles/metlife.mobile.form.textinput.css" );
+@import url( "styles/metlife.mobile.flipswitch.css" );
+@import url( "styles/metlife.mobile.toggleswitch.css" );
+@import url( "styles/metlife.mobile.segmentcontrol.css" );
+@import url( "styles/metlife.mobile.accordion.css" );
+@import url( "styles/metlife.mobile.popup.css" );
+@import url( "styles/metlife.mobile.icons.css" );
+@import url("styles/metlife.mobile.maps.css");
+@import url("styles/metlife.mobile.tooltip.css");
+@import url("styles/metlife.mobile.footer.css");

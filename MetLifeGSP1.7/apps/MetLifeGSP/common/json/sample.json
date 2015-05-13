@@ -1,0 +1,75 @@
+
+	[
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"green"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"green"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"white"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"white"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"green"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"green"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"white"
+		},
+		{
+			"code": "CITX",
+			"RiderName": "Critical Illness Term Rider",
+			"Term": "(5-15)",
+			"SumAssured": "(300000-500000)",
+			"Premium":"RM 00.00",
+			"type":"text",
+			"color":"white"
+		}
+	]

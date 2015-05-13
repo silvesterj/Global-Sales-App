@@ -1,0 +1,253 @@
+
+<div id="popup_overlay"></div>
+<div class="main_body">
+	<div class="main_body_inner">
+		<div class="home_main">
+			<div class="home_left">
+				<input type="text" class="search_img" placeholder="{{$Language.commonData.search}}" ng-model="search.json.customerName" ng-change="dynamicLabelChange_CustomerLength()"/>
+				<label class="adv_serch" ng-click="advance_srch()">{{$Language.commonData.advancedSearch}}</label>
+				<div class="advSearch_mrg">
+					<p>{{$Language.cff.customerSearch.criteria}}</p>
+					<div class="advSearch_div_mrg">
+						<span class="enter_left">
+							<label>{{$Language.commonData.gender.gender}}</label>
+						</span>
+						<span class="enter_right">
+							<span class="gender_main">
+                        <input id="radio_male" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="1">
+                        <label class="css_gender" for="radio_male">{{$Language.commonData.gender.male}}</label>
+                        <input id="radio_female" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="2">
+                        <label class="css_gender" for="radio_female">{{$Language.commonData.gender.female}}</label>
+                        <input id="radio_na" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="3">
+                        <label class="css_gender right" for="radio_na">{{$Language.commonData.gender.na}}</label>
+                        </span>
+						</span>
+					</div>
+                    
+                    
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.commonData.dateOfBirth}}</label>
+						</span>
+						<span><input type="text" ng-model="search.json.dob" /></span>
+					</div>
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.cff.customerSearch.mobile}}</label>
+						</span>
+						<span><input type="text" ng-model="search.json.contact"/></span>
+					</div>
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.commonData.email}}</label>
+						</span>
+					<span><input type="text" ng-model="search.json.email"/></span>
+					</div>
+				</div>
+				<label id="searchCustomer">{{$Language.commonData.recentCustomers}}</label>
+				<div class="home_left_inner">
+				<ul>
+				
+				
+				<li  ng-repeat="customer in filteredCustomers=( customers | filter:search) | orderBy:[orderProp,randomSort]" class="{{customer.activeprofile}}"  id="customer{{$index}}" ng-click="selectCustomer(customer,'customer'+$index);">
+							<img src="{{customer.json.customerImageSmallPath}}" title="Customer">
+							<div class="home_left_txt">
+								<h4 >{{customer.json.customerName}}</h4>
+								<span>{{$Language.commonData.id}}:{{customer.json.id}}</span>
+								<span>{{customer.json.contact}}</span>
+								<span>{{customer.json.email}}</span>
+								<span>{{$Language.commonData.dateOfBirth}} :{{customer.json.dob | date:'mediumDate'}} </span>
+							</div>
+							<div ng-init="spinner()">
+							</div>
+							<button class="edit_customer" ng-click="editcustomer(customer)"></button>
+						</li>
+						</ul>
+				</div>
+			</div>
+			<div class="home_right">
+				<div class="home_right_inner">
+					<div class="home_right_top">
+						<ul>
+							<li class="active" ng-repeat= "customerCffItem in cffProfiles">
+								<h4 class="Protection" ng-click="selectProfile(customerCffItem)">{{customerCffItem.json.profileName}}</h4>
+								<span>{{customerCffItem.json.recommendedProduct}}</span>
+							</li>
+						</ul>
+						<div class="home_right_top_add" ng-click="addCffProfile()"></div>
+					<div class="home_sml_inner">
+						<h4 class="home_right_top_lft_txt">{{$Language.commonData.profileUpdatedOn}}{{cffObject.json.updatedDate| date:'mediumDate'}}</h4>
+						
+						<div class="hm_btn_main">
+							<button class="hm_add_btn" ng-click="copyAndCreateNewCff()"></button>
+							<button class="hm_delete_btn" ng-click="delete_confirm_popup_open('deleteCffProfile',null)"></button>
+						</div>
+						<div class="home_right_top_rgt_txt" ng-click="editCffProfile()">{{$Language.commonData.customerFactFindFormCompleted+cffObject.json.cffStatus}}</div>
+					</div>
+					</div>
+					<ul class="home_right_bottom">
+						<li id="fnaIncome{{$index}}" class="home_right_bottom_inner" ng-repeat="customerFnaIncomeItem in fnaIncomes"  myswipe="fnaIncomesSwipe{{$index}}" >
+							<div ng-click="selectfnaIncome(customerFnaIncomeItem)">
+							<div class="home_btm_lft finance_img">
+							</div>
+							<div class="home_btm_right" >
+								<div class="home_btm_rgt_top" >
+									<span class="home_btm_top_lft_txt" >
+										{{$Language.commonData.financialNeedAnalysis}}
+									</span>
+									<span class="home_btm_top_rgt_txt">
+										{{customerFnaIncomeItem.json.createDate| date:'mediumDate'}}
+									</span>
+								</div>
+								<div class="home_btm_rgt_btm"  >
+									<span class="hm_first_span">{{$Language.commonData.type}} :Income Protection</span>
+									<span class="hm_second_span">{{$Language.fna.annualIncome}} :{{$Language.commonData.currency}} {{customerFnaIncomeItem.json.currentIncome}}</span>
+									<span class="hm_third_span">{{$Language.fna.capitalRequired}} :{{$Language.commonData.currency}} {{customerFnaIncomeItem.json.capitalRequired}}</span>
+								</div>
+							</div>
+							</div>
+							<div ng-if="swipeList['fnaIncomesSwipe'+$index]" class="animate_hide_add_delete">
+							  <button class="hm_add_btn"  ng-click="copyfnaIncome(customerFnaIncomeItem)"></button>
+							  <button class="hm_delete_btn"  ng-click="delete_confirm_popup_open('deleteFNAIncome',customerFnaIncomeItem)"></button>
+						
+							</div>
+						</li>
+						
+						
+						
+						<li id="fnaChidEducation{{$index}}"class="home_right_bottom_inner" ng-repeat="customerChildEducationItem in fnaChildEducations"  myswipe="fnaChildsSwipe{{$index}}"  >
+						<div ng-click="selectfnaChidEducation(customerChildEducationItem);">
+							<div class="home_btm_lft finance_img">
+							</div>
+							<div class="home_btm_right" >
+								<div class="home_btm_rgt_top">
+									<span class="home_btm_top_lft_txt">
+										{{$Language.commonData.financialNeedAnalysis}}
+									</span>
+									<span class="home_btm_top_rgt_txt">
+										{{customerChildEducationItem.json.createDate| date:'mediumDate'}}
+									</span>
+								</div>
+								<div class="home_btm_rgt_btm">
+									<span class="hm_first_span">{{$Language.commonData.type}} :{{$Language.commonData.childEducationFund}}</span>
+									<span class="hm_second_span">{{$Language.fna.childEducationFund.educationCost}} :{{customerChildEducationItem.json.total}}</span>
+									<span class="hm_third_span">{{$Language.fna.capitalRequired}} :{{customerChildEducationItem.json.addlFundsRequired}}</span>
+								</div>
+							</div>
+							</div>
+								<div ng-if="swipeList['fnaChildsSwipe'+$index]" class="animate_hide_add_delete">
+							  <button class="hm_add_btn"  ng-click="copyfnaChidEducation(customerChildEducationItem);"></button>
+							  <button class="hm_delete_btn"  ng-click="deletefnaChidEducation(customerChildEducationItem,$index);"></button>
+							
+							</div>
+						</li>
+
+						<li class="home_right_bottom_inner" id="swipeme">
+							<div class="fna_popup_main" ng-click="fna_popup_open()" ng-click="gotoFNA()">
+							<div class="home_btm_lft add_plus_btn">
+							</div>
+							<div class="home_btm_right">
+								<div class="home_btm_rgt_full">
+									{{$Language.commonData.addFinancialNeeAnalysis}}
+								</div>
+							</div>
+							
+							</div>
+							
+						</li>
+						<li id="illustration{{$index}}" class="home_right_bottom_inner home_btm_rgt_btm_sales" ng-repeat="customerIllustration in illustrations" myswipe="illustrationSwipe{{$index}}"  >
+							<div ng-click="selectIllustration(customerIllustration);">
+							<div class="home_btm_lft sales_ills_img"></div>
+							<div class="home_btm_right"  >
+								<div class="home_btm_rgt_top">
+									<span class="home_btm_top_lft_txt">
+										{{$Language.commonData.salesIllustration}}
+									</span>
+									<span class="home_btm_top_rgt_txt">
+										{{customerIllustration.json.createdDate| date:'mediumDate'}}
+									</span>
+								</div>
+								<div class="home_btm_rgt_btm">
+									<span class="hm_first_span">
+										<span>{{$Language.commonData.planCode}} : {{customerIllustration.json.planCode}}</span>
+										<span>{{$Language.commonData.planName}} : {{customerIllustration.json.planName}}</span>
+									</span>
+									<span class="hm_second_span">
+										<span>{{$Language.commonData.lifeAssured}} : {{customerIllustration.json.customerName}}</span>
+										<span>{{$Language.commonData.anb}}:{{customerIllustration.json.anb}}</span>
+									</span>
+									<span class="hm_third_span">
+										<span>{{$Language.commonData.annualPremium}} : {{customerIllustration.json.yearlyPremium}}</span>
+										<span>{{$Language.commonData.sumAssured}} : {{customerIllustration.json.insuredAmount}}</span>
+									</span>
+								</div>
+							</div>
+							</div>
+								<div ng-if="swipeList['illustrationSwipe'+$index]"  class="animate_hide_add_delete">
+							  <button class="hm_add_btn" ng-click="copyIllustration(customerIllustration);"></button>
+							  <button class="hm_delete_btn" ng-click="deleteIllustration(customerIllustration,$index);"></button>
+							</div>
+							
+						</li>
+					
+						<li class="home_right_bottom_inner">
+							<div class="home_btm_lft add_plus_btn" ng-click="$Footer.salesIllustration('salesIllustration')">
+							</div>
+							<div class="home_btm_right">
+								<div class="home_btm_rgt_full">
+									{{$Language.commonData.addSalesIllustration}}
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div> 
+
+<ng-include src="'layouts/footer.html'"></ng-include>
+
+
+<div class="popup_main" id="delete_confirm_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="delete_confirm_popup_close('false')"></button>
+	</div>
+	<div class="popup_body">
+		<p>Are you sure you want to delete?</p>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="delete_confirm_popup_close('false')">No</button>
+		<button class="popup_footer_btn" ng-click="delete_confirm_popup_close('true')">Yes</button>
+	</div>
+</div>
+
+<div class="popup_main" id="add_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="delete_confirm_popup_close('false')"></button>
+	</div>
+	<div class="popup_body">
+		<p>Added Successfully</p>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="delete_confirm_popup_close('true')">OK</button>
+	</div>
+</div>
+<!-- spinner-->
+<ng-include src="'layouts/loader.html'"></ng-include>
+<div id="fna_popup"  class="popup_main">
+                                <div class="popup_header">
+                                    <button class="popup_close" ng-click="delete_confirm_popup_close('false')"></button>
+                                </div>
+								<div class="fna_popup_inner" ng-click="$Footer.financialNeed('fna_tab1_body', 'fna_tab1')">
+									<img src="assets/images/Income_replacement_assesment_icon.png" alt="Income Replacement Assessment">
+									<span>Income Replacement Assessment</span>
+								</div>
+								<div class="fna_popup_inner" ng-click="$Footer.financialNeed('fna_tab2_body', 'fna_tab2')">
+									<img src="assets/images/child_education_fund_assesment_icon.png" alt="Income Replacement Assessment">
+									<span>Child Education Fund Assessment</span>
+								</div>
+							</div>

@@ -1,0 +1,143 @@
+{
+    "screen1": {
+        "title": "Login",
+        "fields": [
+            [
+                {
+                    "label": "Email-AR",
+                    "type": "email",
+                    "placeholder": "email-AR",
+                    "model": "loginEmail",
+                    "required": "required"
+                }
+            ],
+            [
+                {
+                    "label": "Password-AR",
+                    "type": "password",
+                    "placeholder": "password-AR",
+                    "model": "loginPwd",
+                    "required": "required"
+                }
+            ],
+            [
+                {
+                    "label": "Login-AR",
+                    "type": "submit",
+                    "model": "loginBtn"
+                }
+            ]
+        ]
+    },
+    "screen3": {
+        "title": "Create new client-AR",
+        "fields": [
+            [
+                {
+                    "label": "CLK-AR",
+					"counter": "0",
+                    "type": "text",
+                    "placeholder": "customer name",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Gender-AR",
+                    "type": "text",
+                    "placeholder": "Gender-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Militry ID-AR",
+					"counter": "0",
+                    "type": "text",
+                    "placeholder": "Militry ID",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Marital Status-AR",
+                    "type": "text",
+                    "placeholder": "Marital Status-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Date Of Birth-AR",
+                    "type": "date",
+                    "placeholder": "Date Of Birth-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "ANB-AR",
+                    "type": "number",
+                    "placeholder": "ANB-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation-AR",
+                    "type": "text",
+                    "placeholder": "Occupation-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Contact-AR",
+                    "type": "number",
+                    "placeholder": "Contact-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Category-AR",
+                    "type": "text",
+                    "placeholder": "Occupation Category-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Alternate Contact-AR",
+                    "type": "number",
+                    "placeholder": "Alternate Contact-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Class-AR",
+                    "type": "text",
+                    "placeholder": "Occupation Class-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Annual Income-AR",
+                    "type": "number",
+                    "placeholder": "Annual Income-AR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Email-AR",
+                    "type": "email",
+                    "placeholder": "Email-AR",
+                    "model": "customername"
+                }
+            ]
+        ]
+    }
+}

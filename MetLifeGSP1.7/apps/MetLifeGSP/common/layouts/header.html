@@ -1,0 +1,23 @@
+<div ng-switch="$Footer.header"> 
+
+<input type="checkbox" id="header_show_id" class="header_show_checkbox" name="hide_show_arrow" ng-switch-when="hidden"/>
+<label for="header_show_id" id="header_show" class="header_show_label" ng-switch-when="hidden"></label>
+
+<header id="header_id" ng-controller="headerCtrl">
+ <div id="header_main" class="wrap"> 
+		<div class="logo_main">
+			<img class="logo_img" src="assets/images/MetLife_logo.png">
+		</div>	
+		  
+		<div id="header_right_id" class="header_details" ng-switch-when="hidden">
+			<button class="logout" ng-click="$Footer.logout()"></button>
+			<button id="settings_img" class="hd_settings" ng-click="settingsPage()"></button>
+			<div class="hd_user_name">
+				<span>{{$Language.commonData.welcome}}</span>
+				<h3>{{settingsObject.agentName}}</h3>
+			</div>
+			<img class="hd_usr_img" ng-model="agentPic" src="{{settingsObject.imagePath}}" />
+		</div>
+		</div> 
+	</div>
+</header>

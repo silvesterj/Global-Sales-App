@@ -1,0 +1,6042 @@
+[
+    {
+        "categoryName": "ACETYLENE GAS MANUFACTURING INDUSTRY",
+        "data": [
+            {
+                "occName": "Acetylene Filler, Generator, Operator & Other Skill",
+                "occClass": "4",
+                "occLife": 2,
+                "occTpd": "Yes"
+            },
+            {
+                "occName": "Deliveryman, Trucker, Technician",
+                "occClass": "3",
+                "occLife": 0,
+                "occTpd": "Yes"
+            },
+            {
+                "occName": "Engineer, Laboratory Assistant",
+                "occClass": "2",
+                "occLife": 0,
+                "occTpd": "Yes"
+            },
+            {
+                "occName": "Labourer",
+                "occClass": "D",
+                "occLife": 3,
+                "occTpd": "D"
+            },
+            {
+                "occName": "Manager, Clerk, Administrative Assistant, Chemist",
+                "occClass": "1",
+                "occLife": 0,
+                "occTpd": "Yes"
+            }
+        ]
+    },
+    {
+    "categoryName": "ACUPUNTURIST",
+    "data": [
+        {
+            "occName": "Acupuncturist",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ADMINISTRATOR",
+    "data": [
+        {
+            "occName": "Accountant, Actuary, Advocate & Solicitor, Advertising",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ADVERTISING",
+    "data": [
+        {
+            "occName": "Advertising Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Copy-Writer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Clerk, Account Executive, Co-ordinator, Designer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Neon Light Signs - Glass-Bender Or Blower & Layout",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Neon Light Signs - Sign-Erector & Outside Maintenance",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sign-Board Painter - Indoors",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sign-Board Painter - Outdoors",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AGRICULTURE AND FISHERIES",
+    "data": [
+        {
+            "occName": "Agriculture Engineer, Agronomist, Agriculture Engineer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AIR CONDITIONING",
+    "data": [
+        {
+            "occName": "Engineer - Office And Consulting Duties Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Engineer - Superintendent & Inspecting Duties Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Installer & Repairman - (Indoor Duties Only)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Installer & Repairman - (Need To Work At Great Height)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AIRPORT (GROUND DUTIES ONLY)",
+    "data": [
+        {
+            "occName": "Aviation Inspector, Engineers, Flight/Traffic controller, Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Baggage Handler or Porter, Freight Handler, Fueling",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mechanic & Maintenance",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Plane Cleaner Or Washer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Weather Observer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AMBULANCE SERVICES",
+    "data": [
+        {
+            "occName": "Driver, Ambulance man",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Superintendent, Chief Officer (Administrative Work)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AMUSEMENT PARK",
+    "data": [
+        {
+            "occName": "Manager, Clerk, Cashier",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Operator, Game Controller",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ARCHITECTURAL",
+    "data": [
+        {
+            "occName": "Architect",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Draughtsman",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Surveyor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ARMED FORCE (AIRFORCE)",
+    "data": [
+        {
+            "occName": "Air Transport Pilot & Crew All Ages",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bomber Pilot & Crew All Ages",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fighter Pilot & Crew - Age 27 To 39",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fighter Pilot & Crew - Age 40 And Over",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fighter Pilot & Crew - Below Age 27",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Helicopter Pilot & Crew All Ages",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ARMED FORCE (ARMY)",
+    "data": [
+        {
+            "occName": "Ammunition Technician, Commando-Officer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ammunition Technician, Commando-Other Ranks",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bomb Disposal & Chemical Warfare-Officer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bomb Disposal & Chemical Warfare-Other Ranks",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Combat Force-Other Ranks",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Combat Force (During And After Training)(Officer)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Medical Personnel-Male Of Non-Officer Rank",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Medical Personnel, Office Personnel & Others(Officer)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Military Police-Officer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Military Police-Other Ranks",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Motor Cyclist - All Ranks",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Duties - All Ranks, Depending On Duties",
+            "occClass": 2,
+            "occLife": "IC",
+            "occTpd": "IC"
+        }
+    ]
+},
+    {
+    "categoryName": "ARMED FORCE (NAVY)",
+    "data": [
+        {
+            "occName": "At Sea-Male Of Non-Officer Rank",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "At Sea-Officer & Female Of All Ranks",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On Shore Duties Only-Male Of Non-Officer Rank",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On Shore Duties Only-Officer & Female Of All Ranks",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Underwater Demolition-Officer",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Underwater Demolition-Other Ranks",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "ARTIFICIAL FLOWER MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administrative Duties - Owner, Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Artificial Flower-Maker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ARTIST",
+    "data": [
+        {
+            "occName": "Fixed Location",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Free Lance",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sculptor, Potter Craftsman, Engraver (Creative)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ASBESTOS MACHINE OPERATOR",
+    "data": [
+        {
+            "occName": "Assembler (Asbestos Fitting), Cleaner, Fettler",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ASSAYER, CHEMIST, METALLURGIST",
+    "data": [
+        {
+            "occName": "Assayer, Chemist, Metallurgist (Non-Hazardous Duties)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AUTOMOBILE INDUSTRY",
+    "data": [
+        {
+            "occName": "Assembler, Machinist, Mechanic (No Grinding), Technician",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Body Polisher, Buffer, Emery-User, Grinder, Pumicer",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Brush Painter, Dipper, Electroplater, Monogramer",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dealer, Manager, Clerk",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Spray Painter, Duco-Sprayer",
+            "occClass": "4",
+            "occLife": "2.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tester-Road & Proving Grounds",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tester-Shop",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tester-Speed Or Stunt Testing",
+            "occClass": "D",
+            "occLife": "IC",
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Welder",
+            "occClass": "4",
+            "occLife": "2.00",
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AUXILIARY MEDICAL SERVICE",
+    "data": [
+        {
+            "occName": "Auxiliary Nurse, Auxiliary Assistant, Dental Auxiliary",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "AVIATION",
+    "data": [
+        {
+            "occName": "Commercial Aviation-Pilot & Crew Of Major International Airlines",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Commercial Aviation-Pilot & Crew Of Other Airlines",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Glider Pilot",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Passenger Aviation(Private Aircraft):0 - 100 Hours",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Passenger Aviation(Private Aircraft):Ground Staff",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Passenger Aviation(Private Aircraft):More Than 100 Hours",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Passenger Aviation(Schedule Airline)",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Aviation-Licensed Pilot With  less than 100 Hours Flying per annum",
+            "occClass": "2",
+            "occLife": "3.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Aviation-Licensed Pilot With More than 100 Hours Flying per annum",
+            "occClass": "2",
+            "occLife": "4.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Test Pilot",
+            "occClass": "IC",
+            "occLife": "IC",
+            "occTpd": "IC"
+        }
+    ]
+},
+    {
+    "categoryName": "BABYSITTER/ NANNY",
+    "data": [
+        {
+            "occName": "Babysitter, Nanny",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BAKELITE & OTHER NON-PYROXYLIN PLASTIC MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administrative Duties (Manager, Owner, Clerk)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Chemist, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Finisher, Former, Molder, Performer, Stripper",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mixer, Sulphonator & Other Skilled Worker, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BAKERIES (FACTORIES & SHOP)",
+    "data": [
+        {
+            "occName": "Baker, Dough-Mixer, Packer, Proprietor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Machine Operator & Other Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BANK",
+    "data": [
+        {
+            "occName": "Armed Guards",
+            "occClass": 3,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Armoured Car-Driver & Collector",
+            "occClass": 3,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Clerk, Administrative Assistant, Officer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BAR/COFFEE HOUSE",
+    "data": [
+        {
+            "occName": "In 1st Class International Hotels: Bartender, Captain",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "In 1st Class International Hotels: Cashier",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "In 1st Class International Hotels: Singer, Musical Band",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others: Bar-Girl",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others: Bartender, Bouncer Etc",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others: Cashier, Proprietor",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BATEK PAINTER & PRINTER",
+    "data": [
+        {
+            "occName": "Manager, Clerk, Administrative Assistant, Batik Painter",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Batik Painter",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BATHS, BEACHES & POOLS",
+    "data": [
+        {
+            "occName": "Life Guard",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Motor-Boat Driver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Office Personnel, Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BEAUTY PARLOR",
+    "data": [
+        {
+            "occName": "Proprietor, Beautician, Hairdresser & Hairstylist",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BEVERAGE & BOTTLING INDUSTRY",
+    "data": [
+        {
+            "occName": "Boiler Attendant",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bottle Washer, Attendant, Can Feeder, Conveyor Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Clerk, Manager Or Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BICYCLE SHOP",
+    "data": [
+        {
+            "occName": "Proprietor (No Repairing), Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop Assistant (Repairer)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BILL COLLECTOR & POSTER",
+    "data": [
+        {
+            "occName": "Bill Collector & Poster",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BILLIARD ROOM/SNOOKER CENTRE",
+    "data": [
+        {
+            "occName": "Attendant",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cashier, Manager, Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BLACKSMITH",
+    "data": [
+        {
+            "occName": "Blacksmith & Tool dresser (With No Grinding, No Welding)",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BLASTER & OTHERS HANDLING EXPLOSIVES",
+    "data": [
+        {
+            "occName": "Highway, Road & Street Construction",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Mines: Open Mines & Quarries",
+            "occClass": "D",
+            "occLife": 6,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Mines: Underground",
+            "occClass": "D",
+            "occLife": 10,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "BOAT BUILDER",
+    "data": [
+        {
+            "occName": "Boat Builder(Small Boat, Motor-Boat, Etc)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BOILER MANUFACTURE (INSTALLATION & MAINTENANCE)",
+    "data": [
+        {
+            "occName": "Boiler-Cleaner, Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Foreman, Inspector, Layer-Out",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Repairman, Bucker, Riveter",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Welder & Other Skilled Worker, Boilermaker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BOWLING ALLEY",
+    "data": [
+        {
+            "occName": "Attendants",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cashier, Manager",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BRICK MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administrative Duties - Owner, Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Brick & Clay Wheeler Stacker & Other Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Grinder, Machine Operator, Mixer, Moulder",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker Dealing With Silica Fire Bricks",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BRICKLAYER & MASON",
+    "data": [
+        {
+            "occName": "Bridge, Dam, Lock & Reservoir Construction",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "General Construction & Non-Hazardous Industries",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tunnels: Not Under Compressed Air",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tunnels: Under Compressed Air",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "BROOM & BRUSH MANUFACTURE",
+    "data": [
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BUILDING MAINTENANCE",
+    "data": [
+        {
+            "occName": "Cleaner (Using Acid But No Sandblasting)",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrician",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Elevator Inspector & Operator (No Repairing)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Elevator Installer & Repairman",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Insecticide Sprayers",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Janitor (No Outside Window Cleaning)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sandblaster",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Scrubwoman",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Window Cleaner : Max 2 Floors",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Window Cleaner: Over 2 Floors",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BUILDING & CONSTRUCTION",
+    "data": [
+        {
+            "occName": "Aluminum Window Frame Installer",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Architect, Draftsman, Manager, Clerk, Administrative",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Building Demolition Worker",
+            "occClass": "4",
+            "occLife": 3,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bulldozer Operator/Tractor Driver",
+            "occClass": "4",
+            "occLife": 1,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Carpenter",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cement Worker",
+            "occClass": "4",
+            "occLife": 1,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Civil Engineer, Rodman & Transit man",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Concrete Mixer Operator",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Contractor & Sub-Contractor (Working Manually On Site)",
+            "occClass": "4",
+            "occLife": "IC",
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Contractor (Administrative Work Only)",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cornice Worker, Roofer",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Craneman, Derrickman, Hoistman",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Curtain Wall Installation Worker",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Driller",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electric Worker At Construction Site",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Land Surveyor",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Leveler, Chainman",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Odd Job Labourer",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Ornamental Iron-Worker: Not Structural (Erector)",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ornamental Iron-Worker: Not Structural (Shop Work Only)",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ornamental Iron-Worker: Others",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ornamental Iron-Worker: Structural (Erector, Painter)",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Pile Driver Operator",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pipe-Fitter, Plumber, Sprinkle Installer",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Quantity Surveyor",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Safety Officer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Scaffolding Worker",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Sheet Metal Worker/Tinsmith",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Site Clerk",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Steamfitter",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Steeplejack",
+            "occClass": "D",
+            "occLife": 12.5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Stone-Cutter",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor on site",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tile-Setter, Marble, Mosaic & Terrazzo Worker",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BULLDOZER OPERATOR/TRACTOR",
+    "data": [
+        {
+            "occName": "Building & Construction",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mine, Quarry & Logging",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BUS TRANSPORTATION",
+    "data": [
+        {
+            "occName": "Bus Driver & Conductor",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bus Station Officer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BUSINESS MACHINES SALES & SERVICES",
+    "data": [
+        {
+            "occName": "Agency Manager, Administrative Assistant, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Salesman & Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "BUTCHER",
+    "data": [
+        {
+            "occName": "Market Stall",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Retail Shop",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CANNING, PICKLING & PRESERVING FACTORIES",
+    "data": [
+        {
+            "occName": "Boner, Corker, Cutter, Dresser, Opener, Pickler",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Box & Crate Maker, Filler, Labeler, Packer, Sterilizer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fruit, Vegetable Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Truckers, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CARPENTER",
+    "data": [
+        {
+            "occName": "In Shop: Not Using Electric Machinery",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "In Shop: Using Electric Machinery",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On Construction site",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CASHIERS",
+    "data": [
+        {
+            "occName": "General",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CASINO",
+    "data": [
+        {
+            "occName": "Card Dealer, Croupier, General Staff",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cashier",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Operation Director, Management Staff, Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Security guard (Unarmed)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CEMENT, GYPSUM & LIME MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administration Duties - Owner, Manager, Clerk, Administrator",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CHARCOAL MANUFACTURE",
+    "data": [
+        {
+            "occName": "Charcoal Burner & Other Skilled Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor, Manager, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CHEMIST (NON-HAZARDOUS DUTIES)",
+    "data": [
+        {
+            "occName": "Chemist (Non-Hazardous Duties)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CHILD",
+    "data": [
+        {
+            "occName": "Child",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CHIROPRACTOR",
+    "data": [
+        {
+            "occName": "Chiropractor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CINEMA (MOTION PICTURES & STAGE)",
+    "data": [
+        {
+            "occName": "Cleaner, Projectionist",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Ticket-Seller, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mechanic, Maintenance Man, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Usher",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CIRCUS",
+    "data": [
+        {
+            "occName": "Acrobat, Animal Trainer/keeper, Fire Eater",
+            "occClass": "D",
+            "occLife": 10,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Clerical & Managerial Worker, Cashier, Announcer",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dancer & Other Performer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CIVIL SERVICES",
+    "data": [
+        {
+            "occName": "Judges, Magistrates, Coroner, Registrar",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CLOCK SHOP",
+    "data": [
+        {
+            "occName": "Counter-Salesman, Proprietor, Repairer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CLOTHING MANUFACTURE (FACTORY, SHOP OR STORE)",
+    "data": [
+        {
+            "occName": "Cloth Weaver: Using Handloom Only",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cloth Weaver: Using Machinery, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cutter, Presser, Tailor, Examiner, Inspector, Etc",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Proprietor, Administrative Assistant, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COBBLER",
+    "data": [
+        {
+            "occName": "In Shop",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Roadside Cobbler",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COFFEE SHOP",
+    "data": [
+        {
+            "occName": "Assistant, Cashier",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COLD STORAGE",
+    "data": [
+        {
+            "occName": "Employee Who Enters Cold Room",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ice Maker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COMMERCIAL CRIME OFFICER",
+    "data": [
+        {
+            "occName": "Commercial Crime Officer (Not In Uniform)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COMPUTER INDUSTRY",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Clerk, Administrator",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hardware Maintenance Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Programmer, Operator, System Analyst",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CONTAINER INDUSTRY",
+    "data": [
+        {
+            "occName": "Forklift Operator, Crane Operator, Yard Checker",
+            "occClass": 4,
+            "occLife": 1,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Traffic Controller (Stand on Container)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "CONTRACTOR",
+    "data": [
+        {
+            "occName": "Administrative Duties Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On-Site Supervision But No Manual Work",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On-Site Supervision With Manual Work",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "COOK",
+    "data": [
+        {
+            "occName": "Large 1st Class Restaurant",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Home",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Small Restaurant Or Cafe",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "CRANE OPERATOR",
+    "data": [
+        {
+            "occName": "Crane-Driver (Not in Ship Building)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Crane Operator (In control Room)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DANCERS",
+    "data": [
+        {
+            "occName": "Aerobic Instructors",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Show Dancers (Not In Night Club & Bars), Manager",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DATA PROCESSING",
+    "data": [
+        {
+            "occName": "Keypuncher, Programmer, System Analyst",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DECORATOR, INTERIOR",
+    "data": [
+        {
+            "occName": "Consulting Duties Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paperhanger, Indoor Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Varnisher, Indoor Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Workers",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DELIVERYMAN, DRIVER",
+    "data": [
+        {
+            "occName": "Bullock-Cart Driver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bus, Light Van & Private Car (Non-Hazardous Industries)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Deliveryman: Bicycle",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Deliveryman: Motorcycle",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lorry & Truck (Non-Hazardous Industries), Ambulance",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Taxi",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Trishawman",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DELIVERY, EXPRESS & MOVING COMPANIES",
+    "data": [
+        {
+            "occName": "Administrative Duties - Owner, Assistant, Manager",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Document (DHL)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Foreman & Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Furniture, Machinery, Piano & Safe Mover",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DENTAL",
+    "data": [
+        {
+            "occName": "Dental Assistant/Nurse, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dentist, Orthodontist, Consultant, Practitioner",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DEPARTMENTAL STORES",
+    "data": [
+        {
+            "occName": "Manager, Proprietor, Supervisor, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Salesperson, Salesgirl, Promoter",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Security Guard (Unarmed)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DISCO",
+    "data": [
+        {
+            "occName": "Roller Disco D.J., Manager, Cashier",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Waiter, Waitress, Bar Tender",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DIVER (DIVING QUESTIONNAIRE REQUIRED)",
+    "data": [
+        {
+            "occName": "Amateur: Up to 50 ft",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Amateur: Up to 75 ft",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Amateur: Up to 100 ft",
+            "occClass": "4",
+            "occLife": "2.00",
+            "occTpd": "D"
+        },
+        {
+            "occName": "Professional: Do not use explosives",
+            "occClass": "IC",
+            "occLife": "IC",
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Professional: Using Explosives",
+            "occClass": "IC",
+            "occLife": "IC",
+            "occTpd": "IC"
+        }
+    ]
+},
+    {
+    "categoryName": "DOCK",
+    "data": [
+        {
+            "occName": "Cargo-Handling Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Forklift Operator, Stevedore",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lightman, Winchman",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Office Clerk, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pilot (Harbour)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ship Inspector, Tally Clerk",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ship Repairman, Painter",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DOORMAN (OTHER THAN IN LARGE 1ST CLASS HOTEL)",
+    "data": [
+        {
+            "occName": "Doorman (Other Than In Large 1st Class Hotel)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DRESSMAKER, SEAMSTRESS & TAILOR",
+    "data": [
+        {
+            "occName": "Dressmaker, Seamstress & Tailor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DRY-BATTERIES MANUFACTURE",
+    "data": [
+        {
+            "occName": "Cutting Machine/Guillotine Operator, Battery Plates",
+            "occClass": 4,
+            "occLife": 2.5,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Clerk, Administrative Assistant, Superintendant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Worker Exposed To Dust Or Poisonous Compounds",
+            "occClass": 4,
+            "occLife": 2.5,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "DRY-CLEANING & DYEING",
+    "data": [
+        {
+            "occName": "Cleaner, Dyer, Presser, Working Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "EDITOR",
+    "data": [
+        {
+            "occName": "Assistant Editor, Sub-Editor, Press Officer, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Editor, Manager, Interpreter",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lithographic Plate Grainer/Preparer, Process Engraver",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ELECTRICAL INDUSTRY (ELECTRICAL QUESTIONNAIRE REQUIRED)",
+    "data": [
+        {
+            "occName": "Conduits & Tunnels: Cable-Splicer, Lineman",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Conduits & Tunnels: Labourer",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrical Contractor: Administrative & Office Duties",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrical Contractor: Inspecting & Supervising Duties",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrical Engineer : Consulting & Designing Duties",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrical Engineer : Others Handling Electrical Appliances",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Electrician: Housewireman, Maintenance Man In Office",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Clerk, Administrative Assistant, Meter Reader",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V)Inspector",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V): Mechanic",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Chief Engineer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Dynamo Or Generator",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Load Dispatch",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Oiler & Wiper",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Stationary Engineer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power House & Sub-Station (Over 450V):Switchboard Assistant",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Power Line Construction, Maintenance & Operation",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private-Operated Power Plant",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ELECTRONIC INDUSTRY",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Clerk, Administrator",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Assembler, Line Leader",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Engineer, Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ELECTROPLATER (LIGHT INDUSTRIES)",
+    "data": [
+        {
+            "occName": "Electroplater (Light Industries)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ELEVATOR - SEE BUILDING MAINTENANCE",
+    "data": [
+        {
+            "occName": "Inspector & Operator (No Repairing)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Installer & Repairman",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ENGINEER (NON-HAZARDOUS INDUSTRY)",
+    "data": [
+        {
+            "occName": "Office Duties Only",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ENVELOPE & PAPER-BAG MAKER",
+    "data": [
+        {
+            "occName": "Manager, Clerk, Administrative Assistant, Envelope",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "EXPLOSIVES & FIREWORK MANUFACTURE, STORAGE MAGAZINES",
+    "data": [
+        {
+            "occName": "Chemist & Superintendent",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Foreman (Supervising Only), Power-Plant Operator",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer & Truck Driver Carrying Explosives",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Manager, Clerk, Administrative Assistant",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker Handling Explosives Materials",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "FACTORY WORKER",
+    "data": [
+        {
+            "occName": "Non-Hazardous Light Industries, Such As Corset, Gloves. Electronics",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hazardous Industries",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Storekeeper, Etc",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FARM",
+    "data": [
+        {
+            "occName": "Cocoa farm : Blender, Grinder, Roaster, Harvester",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coconut Farm: Coconut Pluckier, Harvester",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coconut Farm: Copra Bagger, Miller",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coconut Farm: Husker, Splitter",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coconut Farm: Other Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coconut Farm: Toddy-Cutter",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coffee Farm: Blender, Grinder, Roaster",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coffee Farm: Harvester & Worker",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Crocodile Farm: Farm Owner",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Crocodile Farm: Worker",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dairy Farm: Fresh-Milk Deliveryman (Bicycle)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dairy Farm: Fresh-Milk Deliveryman (Motorcycle Or Car)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dairy Farm: Hired-Land (General Duties)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dairy Farm: Milkmaid/Milkman",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dairy Farm: Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil Palm farm: Harvester",
+            "occClass": 4,
+            "occLife": 1,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil Palm Farm: labourer",
+            "occClass": 4,
+            "occLife": 1,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil Palm Farm: Lorry Driver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others (Fruit Farm, Nursery, Poultry, Paid Farm, Etc.)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tea Farm: Labourer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tea Farm: Tea Grower & Plucker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FASHION",
+    "data": [
+        {
+            "occName": "Fashion  Designer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FERRY - SEE MARINE",
+    "data": [
+        {
+            "occName": "Crossing: River Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FILE CUTTER",
+    "data": [
+        {
+            "occName": "File Cutter",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FIRE DEPARTMENT",
+    "data": [
+        {
+            "occName": "Divisional/Senior/Station Officer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Driver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fireman",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Superintendent, Chief Officer (Administrative Work)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FISHING (FISHERMAN QUESTIONNAIRE)",
+    "data": [
+        {
+            "occName": "Hatchery Employee",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lake, Pond & River",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Off Shore: Coming Ashore Daily",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Off Shore: Not Coming Ashore Daily",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FISHMONGER",
+    "data": [
+        {
+            "occName": "Retailer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Stall-Owner",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FITTER (NO WELDING OR HANDLING OF MACHINERY)",
+    "data": [
+        {
+            "occName": "Fitter (No Welding Or Handling Of Machinery)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FLOWER-GROWER",
+    "data": [
+        {
+            "occName": "Flower-Grower",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FLOWER-MAKER (ARTIFICIAL)",
+    "data": [
+        {
+            "occName": "Flower-Maker (Artificial)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FORESTER & FOREST RANGER (NOT USING AIRCRAFT)",
+    "data": [
+        {
+            "occName": "Forester & Forest Ranger (Not Using Aircraft)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FORTUNE-TELLER",
+    "data": [
+        {
+            "occName": "Fortune-Teller",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FUMIGATOR & EXTERMINATOR",
+    "data": [
+        {
+            "occName": "Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tree-Sprayer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Using Cyanide Gas",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FURNACEMAN",
+    "data": [
+        {
+            "occName": "Metal Heating & Melting (Electric ARC)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Non-Ferrous Metal Converting & Refining",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "FURNITURE & OTHER WOODWORK",
+    "data": [
+        {
+            "occName": "Band-Saw & Circular Operator",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Jointer, Operator Of Planes, Shaper",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Skilled Worker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Painter, Varnisher & Finisher: Using Brush",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Painter, Varnisher & Finisher: Using Spray",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor, Manager, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GALVANIZER & TINNER",
+    "data": [
+        {
+            "occName": "Galvanizer & Tinner",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GAME WARDEN",
+    "data": [
+        {
+            "occName": "Game Warden",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GARAGE, FILLING & SERVICE",
+    "data": [
+        {
+            "occName": "Battery Service Worker, Filing Station Attendant",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Car Washer, Labourer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Greaser, Mechanic, Repairman, Vulcanizer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Office & Stock Clerk, Proprietor (Office Duties)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mudguard/Panel Beater, Assayers",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Painter In Repaint Shop",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Welder",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor (No Repairing)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GARDENER",
+    "data": [
+        {
+            "occName": "Estate, Business Etc",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Home",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GAS DISTRIBUTOR (COOKING)",
+    "data": [
+        {
+            "occName": "Deliveryman",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Shop Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GLASS & MIRROR",
+    "data": [
+        {
+            "occName": "Blower, Cutter, Edge-Grinder, Glass-Bender, Painter",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Glass-Making Furnace man, Engraver, Glaze Maker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Glass-Pressing, Machine Operator",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop Assistant (Doing Glass-Cutting, Edge-Grinding)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop Proprietor, Manager, Supervisor, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GOLDSMITH",
+    "data": [
+        {
+            "occName": "Owner, Manager, Shop Assistant, Goldsmith",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GRAIN-MILLING",
+    "data": [
+        {
+            "occName": "Grain-Grinder Operator, Rollerman, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor, Manager, Clerk, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "GRINDER, BUFFER, CHIPPER & POLISHER",
+    "data": [
+        {
+            "occName": "Automatic Machine",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Carborundum, Sandstone & Other Wheels",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cloth Or Flet Wheel",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hand-Burnisher, Polisher, Pumicer, Sander",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Metal Industries",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HAWKER",
+    "data": [
+        {
+            "occName": "Fixed Location Indoors",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "No Fixed Location Outdoors",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HEALTH",
+    "data": [
+        {
+            "occName": "Anti-Malaria Sprayer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Inspector",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HEALTH CLUB",
+    "data": [
+        {
+            "occName": "Beautician",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fitness Instructor, Aerobic Instructor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HIGHWAY, ROAD & STREET CONSTRUCTION",
+    "data": [
+        {
+            "occName": "Air-hammer Operator",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Blaster & Other Handling Explosives",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Concrete-Mixer Operator",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Engineer, Surveyor",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Grader, Operator-Ditching, Steamroller Scrapper",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paving Brick, Block & Cement Layer, Stone Setter",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Stone Crusherman",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Traffic Lane Painter",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HOIST OPERATOR",
+    "data": [
+        {
+            "occName": "Hoist Operator",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HORSE RACING",
+    "data": [
+        {
+            "occName": "Betting Seller",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Horse Rider, Jockey",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Stableman, Mafoo, Trainer, Trotting",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HOSPITAL  -  INCLUDING ASYLUM & NURSING HOMES",
+    "data": [
+        {
+            "occName": "Administrator, Manager, Matron, Nursing Sister-Tutor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Attendant, Ayah, Porter Servant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Doctor, Physician, Surgeon, Nursing Manager, Medical Practitioner",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hospital Assistant, Nurse & Supervising Nurse",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Kitchen & Laundry Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Student Nurse",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "X-Ray & Radium Work (Therapeutic Department)",
+            "occClass": 1,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "X-Ray (Diagnosis Department)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HOTELS",
+    "data": [
+        {
+            "occName": "Large 1st Class Hotel: Bartender",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Bellboy, Chambermaid, Housekeeper",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Cashier",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Dance Hostess",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Electrician, Maintenance-Man",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: House Detective",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Janitor, Laundry Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Kitchen Captain, Chef",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Kitchen Helper",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Large 1st Class Hotel: Nite-Club Singer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Small Hotel: Cashier, Manager, Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Small Hotel: Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "HOUSEWIFE",
+    "data": [
+        {
+            "occName": "Housewife",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ICE-CREAM MAKER",
+    "data": [
+        {
+            "occName": "Ice-Cream Maker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ICE-CREAM SELLER",
+    "data": [
+        {
+            "occName": "Fixed Locations Indoors",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "No Fixed Locations Outdoors",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "ICE INDUSTRY",
+    "data": [
+        {
+            "occName": "Artificial Ice-Maker, Carman, Ice-Harvester",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Driver, Deliveryman & Helper",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Administrative Assistant, Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Worker Who Enters Cold Room",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "IMMIGRATION DEPARTMENT",
+    "data": [
+        {
+            "occName": "Officer/Assistant Officer/Inspector",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Rank And File (Immigration Assistant)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "INSECTICIDE MANUFACTURE",
+    "data": [
+        {
+            "occName": "Chemist, Superintendent, Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Worker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "JANITOR",
+    "data": [
+        {
+            "occName": "No-Outside Window Cleaning",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervision Only Of Building",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "JEWELLERY: (INCLUDING GEM BUSINESS)",
+    "data": [
+        {
+            "occName": "Jewellery Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sales, Merchant, Administrative Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "KENNEL",
+    "data": [
+        {
+            "occName": "Dog Shooter",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Kennel Assistant, Dog Trainer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Kennel Owner (Supervisory)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "KNITTING",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LABORATORY",
+    "data": [
+        {
+            "occName": "Analyst, Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Attendant, Technician",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Chemist, Research Officer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LABOURER",
+    "data": [
+        {
+            "occName": "Non-Hazardous Industries",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LAUNDRY",
+    "data": [
+        {
+            "occName": "Clerk, Proprietor With Administrative & Office Duties",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LEATHER - PRODUCT MAKER",
+    "data": [
+        {
+            "occName": "Leather - Product Maker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LEGAL SERVICES",
+    "data": [
+        {
+            "occName": "Lawyer, Legal Clerk, Administrative Assistant, Advocates",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LIBRARIAN",
+    "data": [
+        {
+            "occName": "Librarian",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LIFE GUARD",
+    "data": [
+        {
+            "occName": "Life Guard In Beach And Swimming Pool",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LIFT",
+    "data": [
+        {
+            "occName": "Life Attendant/Operator",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Technician, Mechanics, Supervisor, Repairer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LOCKSMITH",
+    "data": [
+        {
+            "occName": "Locksmith",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "LUMBER INDUSTRY",
+    "data": [
+        {
+            "occName": "Cook, Dishwasher, Grader, Houseboy, Inspector",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lorry Driver Carrying Timber, Lorry Attendant",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lumberjack",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor, Official & Contractor With Administrative duties",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Rigger, Topman",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Saw doctor",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor, Waiter",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tong-Hooker, Trucker, Dragsawman",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tree-Cutter: Estates",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tree-Cutter: Sawmiler Using Electric Saw",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tree-Cutter: Tractor Driver/Bulldozer Operator",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MACHINE SHOP",
+    "data": [
+        {
+            "occName": "Die marker, Handsawer, Machinist With Little Or No Grinding",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MARINE-OTHERS",
+    "data": [
+        {
+            "occName": "Barge, Ferry-Boat, Junk, Motorboat, Sailing Vessel",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Harbour Pilot",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MARINE (PASSENGER SERVICE & FREIGHTER)",
+    "data": [
+        {
+            "occName": "Ships 1,000 To 2,999 Tons: Boatswain, Carpenter",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 1,000 To 2,999 Tons: Captain, Chief Officer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 1,000 To 2,999 Tons: Coal-Passer, Deckhand",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 3,000 Tons & Over: Bartender",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 3,000 Tons & Over: Boatswain, Carpenter, Cook",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 3,000 Tons & Over: Captain, Chief Officer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships 3,000 Tons & Over: Coal-Passer, Deckhand",
+            "occClass": "4",
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships Below 1,000 Tons: Boatswain, Carpenter, Cook",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships Below 1,000 Tons: Captain, Chief Officer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ships Below 1,000 Tons: Coal-Passer, Deckhand",
+            "occClass": "4",
+            "occLife": 4,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MARINE (WRECKING & SALVAGE SERVICE - ALL TONAGE)",
+    "data": [
+        {
+            "occName": "Boatswain, Carpenter, Cook, Etc",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Captain, Chief Officer, Chief Steward, Engineer",
+            "occClass": "D",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Coal-Passer, Deckhand, Fireman, Etc",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MASSEUR",
+    "data": [
+        {
+            "occName": "Females: In International Hotels",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Females: Other Than In International Hotels",
+            "occClass": 2,
+            "occLife": 3,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Male",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MATCH FACTORIES",
+    "data": [
+        {
+            "occName": "Block-Feeder, Composite-Man, Dipper, Gauger, Glass",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager (Administrative & Office Duties Only), Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MATTRESS & PILLOW FACTORIES",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Blower, Felter, Filler, Garneting-Machine, Operator",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cutter, Roll-Edger, Sawer, Upholsterer & Other Skilled workers",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer, Other Worker Exposed To Dust",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MECHANICS",
+    "data": [
+        {
+            "occName": "Mechanic: Motorwork Shop",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MEDICAL SHOP",
+    "data": [
+        {
+            "occName": "Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sinseh (Consulting Only)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MESSENGER (SEE POSTMAN)",
+    "data": [
+        {
+            "occName": "Bank, Office And Other Messenger Mainly On Foot: Car",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Bank, Office And Other Messenger Mainly On Foot: Not using car",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Store, Telegraph & Other Outside Messenger: Using Motorcycle",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Store, Telegraph & Outside Messenger: Using Bicycle",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "METAL INDUSTRY",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Blacksmith",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Boiler-Maker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fitter (No Welding Or Handling Of Machinery)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Forgeman (Heavy Work), Hammer man, Hydraulic-Press Operator",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Lead-Burner",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Machinery - Mover",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pattern-Maker, Toolmaker, Millwright",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sandblaster",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sheet-Metal Worker, Tinsmith: Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sheet-Metal Worker, Tinsmith: Shop Work Only",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Solderer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Welder",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MIDWIFE",
+    "data": [
+        {
+            "occName": "Midwife",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MINING INDUSTRY",
+    "data": [
+        {
+            "occName": "Blaster: Open Mine & Quarry",
+            "occClass": "D",
+            "occLife": 6,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Blaster: Underground",
+            "occClass": "D",
+            "occLife": 10,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Bulldozer/Tractor Driver",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Construction Worker, Monitor Engine Driver",
+            "occClass": "3",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dredge Washer",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dulang Washer",
+            "occClass": "4",
+            "occLife": 3,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Superintendent: Going Underground",
+            "occClass": "3",
+            "occLife": 3,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Superintendent: Not Going Underground",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Mine Workers",
+            "occClass": "D",
+            "occLife": 5,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Palong Construction Worker",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Quarry Labourer",
+            "occClass": "4",
+            "occLife": 5,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MODEL",
+    "data": [
+        {
+            "occName": "Fashion Model",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MONEY LENDER - CHETTIAR",
+    "data": [
+        {
+            "occName": "Money Lender - Chettiar",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MOTION PICTURE & TV PRODUCTION",
+    "data": [
+        {
+            "occName": "Actor & Actress",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Cameraman & Technician (No Stunt Work)",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Director (Production), Script Writer, Producer",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Extras, Technician",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Kung-Fu Fighter, Pugilist",
+            "occClass": "4",
+            "occLife": "2.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Popular Star",
+            "occClass": "3",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Stuntman",
+            "occClass": "D",
+            "occLife": "IC",
+            "occTpd": "IC"
+        }
+    ]
+},
+    {
+    "categoryName": "MOTORCYCLE, SCOOTER SHOP",
+    "data": [
+        {
+            "occName": "Mechanic",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor (Supervision Only)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MOULDER - FOUNDRIES",
+    "data": [
+        {
+            "occName": "Moulder - Foundries",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "MUSICIAN",
+    "data": [
+        {
+            "occName": "In Dance Hall/Discotheque, Instrument Maker, Repair",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "In Hotel, Restaurant, Piano/Organ Tuner",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Tutor (Other Than Scholl/College)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Teacher (In School Or College)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Teacher, Concert & Symphony Performer, Radio & Theater",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "NEON LIGHT SIGNS",
+    "data": [
+        {
+            "occName": "Glass-Bender Or Blower & Layout Man",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pumpman (Bombardier), Electrician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sign-Erector & Outside Maintenance Man",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "NEWSPAPER",
+    "data": [
+        {
+            "occName": "Assistant Editor, Sub-Editor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Editor, Office Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Newspaper Deliveryman: On Bicycle Or In Van",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Newspaper Deliveryman: On Foot",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Newspaper Deliveryman: On Motorcycle",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Reporter & Photographer (No Flying)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "OIL & NATURAL GAS INDUSTRY",
+    "data": [
+        {
+            "occName": "Acid Recovery: Oil Trap Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Casinghead Gasoline-Carbon Black Plants:Labourer",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Casinghead Gasoline-Carbon Black Plants: Skilled Worker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Casinghead Gasoline-Carbon Black Plants:Superintendant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Casinghead Gasoline-Carbon Black Plants: Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Fire Protection Department: Fireman, Inspector",
+            "occClass": 3,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Laboratory: Chemist",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Laboratory: Lab Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Maintenance Department: Boilermaker",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Maintenance Department: Machinist",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Maintenance Department: Painter With  Brush",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Maintenance Department: Painter With Spray",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Maintenance Department: Rigger",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Off-Shore Drilling & Exploration: Administrative",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Off-Shore Drilling & Exploration:Labourer",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Off-Shore Drilling & Exploration: Skilled Operator",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil Refineries: Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil Refineries: Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil (Vegetable) Mills & Refineries: Chemist, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil (Vegetable) Mills & Refineries: Foreman",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil (Vegetable) Mills & Refineries: Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Oil (Vegetable) Mills & Refineries: Skilled Worker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Blender (Ethyl)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Blender (Others)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Car & Drum Cleaner, Still Cleaner",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Engineer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Oil Department: Solution-Maker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "OPTICIAN/ OPTOMETRIST",
+    "data": [
+        {
+            "occName": "Optician/ Optometrist",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PACKER",
+    "data": [
+        {
+            "occName": "Small Articles In Non-Hazardous Industries",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PAINTER, LACQUERER & VARNISHER",
+    "data": [
+        {
+            "occName": "Bridge",
+            "occClass": "D",
+            "occLife": 2,
+            "occTpd": "D"
+        },
+        {
+            "occName": "House Painter (Including Outdoors)",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manufactured Articles (Furniture, Artificial Flower)",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Painter In Repaint Shop",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ship Painter",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sign Painter: Indoors",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sign Painter: Outdoors",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PAINT, LACQUER & VARNISH MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administrative Duties - Owner, Manager, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Chemist, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Colour-Maker (Dry Process)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PAPER & PULP INDUSTRY",
+    "data": [
+        {
+            "occName": "Foreman",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manager, Office Worker, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paper-Making Opeartion: Box-Maker, Paper-Bag Maker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paper-Making Operation: Finisher & Machine-Tender",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paper-Making Operation: Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Paper-Making Operation: Shipping Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Woodworking Opeartion: Barker, Clipper & Grinder",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Woodworking Opeartion: Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PAWNBROKER",
+    "data": [
+        {
+            "occName": "Pawnbroker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PEST INSECTICIDE SPRAYER",
+    "data": [
+        {
+            "occName": "Disinfecting Officer, Disinfector, Pest Control Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PHOTO-STUDIO",
+    "data": [
+        {
+            "occName": "Photographer, Shop Assistant",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PILE - DRIVE OPERATOR",
+    "data": [
+        {
+            "occName": "Pile - Drive Operator",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PLUMBER",
+    "data": [
+        {
+            "occName": "Outside Building",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Plumber - Household",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "POLICE (ROYAL MALAYSIAN POLICE FORCE)",
+    "data": [
+        {
+            "occName": "Federal Reserve Unit (Including Riot Squad):Non Officer",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Federal Reserve Unit (Including Riot Squad):Officer",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Motorcycle Police (Dispatch Duties Only)",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Non-Officer",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Officer (Station Inspector Up)",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Motorcycle Police",
+            "occClass": "D",
+            "occLife": 2.5,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "POSTMAN",
+    "data": [
+        {
+            "occName": "Manager, Postmaster, Sorter, Counter Staff",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "On Foot & Counter Service",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Using Bicycle Or Van",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Using Motorcycle",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "POTTERIES (CHINA, EARTHENWARE, GLAZED BRICK, PORCELAIN, TILE)",
+    "data": [
+        {
+            "occName": "Feldspar Grinder & Screener, Flint, Stock-Bin Work",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Glade Grinder & Mixer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Kilnman",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Packer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Sandblaster (Fully Automatic)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Sandblaster (Others)",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop: Skilled Worker Decorating Potteries",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shpo: Brusher, Dipper, Fettler, Glazer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PRINTING & PUBLISHING",
+    "data": [
+        {
+            "occName": "Design Copyist, Sketcher, Chemist, Copyholder, Tracer",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Silk Screen Skilled Worker : Compositor, Design Cutter",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker : Design Transferrer, Foreman, Layout",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PROPRIETOR",
+    "data": [
+        {
+            "occName": "Commercial Firm (Administrative Or Office Duties Only)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shops Dealing With Light Products Eg: Sundry Shops",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Workshop With Mechanical Work (Non-Hazardous Nature)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "PUBLIC SANITATION",
+    "data": [
+        {
+            "occName": "Garbage Collection & Scavenging: Garbageman & Scavenger",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Garbage Collection & Scavenging: Driver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Garbage Collection & Scavenging: Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Garbage Disposal Plant & Incinerator: Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Garbage Disposal Plant & Incinerator: Mechanic & Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Garbage Disposal Plant & Incinerator: Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sewer, Sewage Disposal & Cesspool: Cleaner, Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sewer, Sewage Disposal & Cesspool: Inspector",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Sewer, Sewage Disposal & Cesspool: Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Street Cleaning: Cleaner, Loader, Sweeper",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Street Cleaning: Driver",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Street Cleaning: Inspector, Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "RADIO & TELEVISION INDUSTRY",
+    "data": [
+        {
+            "occName": "Broadcasting Studio: Announcer, Clerk, Production Crew",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Control Room: Chief Engineer, Control, Switchboard",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manufacturing, Sales & Service: Antenna Erector",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manufacturing, Sales & Service: Assembler, Cabunet",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Manufacturing, Sales & Service: Radio & TV Set Dealer",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Transmitter: Antenna-Erector & Maintenance Man",
+            "occClass": "D",
+            "occLife": 2,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Transmitter: Supervisor (Office Duties Only)",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "RAILROAD",
+    "data": [
+        {
+            "occName": "Engine-Driver, Fireman & Helper",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Stationmaster & Ticket Agent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "RUBBER - STAMP MAKER",
+    "data": [
+        {
+            "occName": "Rubber - Stamp Maker",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "RUBBER INDUSTRY",
+    "data": [
+        {
+            "occName": "Estate: Conductor & Foreman",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Estate: Latex Collector, Rubber Tapper, Weeder, Etc",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Estate: Manager & Proprietor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Processing: Compounder, Labourer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Processing: Foreman",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Processing: Other Skilled Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Small Estate Holder",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "RUG & CARPET",
+    "data": [
+        {
+            "occName": "Cleaning & Repairing: Beater, Dryer, Tumbler, Washer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Foreman",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mender, Retoucher, Weaver",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SALESPERSON",
+    "data": [
+        {
+            "occName": "Door To Door Sales",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Indoors (Across Counters Services-Not Heavy Or Hazardous)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Outdoors (Sales Representative-Not Handling Heavy Objects)",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SANDBLASTER",
+    "data": [
+        {
+            "occName": "Building Maintenance",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Metal Industries",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pottery: Fully Automatic",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Pottery: Others",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SCRAP METAL DEALER",
+    "data": [
+        {
+            "occName": "Scrap Metal Dealer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SECRETARY",
+    "data": [
+        {
+            "occName": "Secretary",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SECURITY GUARD, NIGHT WATCHMAN",
+    "data": [
+        {
+            "occName": "Armed :In Van",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Armed :On Location",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Unarmed",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SERVANT - DOMESTIC HELP ONLY",
+    "data": [
+        {
+            "occName": "Amah, Maid",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Butler, Cook, Gardener",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Chauffer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SEWER, SEWAGE DISPOSAL & CESSPOOL WORKER",
+    "data": [
+        {
+            "occName": "Cleaner, Labourer",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Inspector",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SHIP & BOAT BUILDING, DRY DOCK",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Officer, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Boat Builder: Small Boat, Motorboat, Etc.",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Finished Hull Work: Labourer",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Finished Hull Work: Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Finished Hull Work: Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hull Construction: Bucker, Chipper, Carpenter, Paint",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hull Construction: Crane Hooker, Erector, Follower",
+            "occClass": 4,
+            "occLife": 4,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Hull Construction: Foreman, Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SOAP & DETERGENT MANUFACTURE",
+    "data": [
+        {
+            "occName": "Administrative Duties - Manager, Officer, Clerk",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker: Abrasive Work",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker:Non-Abrasive Work",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SOLDER MAKER",
+    "data": [
+        {
+            "occName": "Solder Maker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SOLDERER",
+    "data": [
+        {
+            "occName": "Solderer: Non-Hazardous Industry",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SPORTS (AVOCATION RATING)",
+    "data": [
+        {
+            "occName": "Base Jumpers, Static Line Jumps From Low Attitude",
+            "occClass": "D",
+            "occLife": "D",
+            "occTpd": "D"
+        },
+        {
+            "occName": "Hang Gliders: Not Associated With A Club",
+            "occClass": "D",
+            "occLife": "4.00",
+            "occTpd": "D"
+        },
+        {
+            "occName": "Hang Glinders: Associated With A Club",
+            "occClass": "D",
+            "occLife": "3.00",
+            "occTpd": "D"
+        },
+        {
+            "occName": "Others/Amateurs/Professionals Not Affiliated",
+            "occClass": "IC",
+            "occLife": "IC",
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Skydiving/Parachuting: Amateurs Affiliated With Parachuting clubs",
+            "occClass": "D",
+            "occLife": "2.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skydiving/Parachuting: Professionals",
+            "occClass": "D",
+            "occLife": "4.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ultralights: Associated With A Club",
+            "occClass": "4",
+            "occLife": "5.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Ultralights: Not Affiliated With A Club",
+            "occClass": "4",
+            "occLife": "7.00",
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SPORTS (PROFESSIONAL & SEMI PROFESSIONAL)",
+    "data": [
+        {
+            "occName": "Sports (Professional & semi professional)",
+            "occClass": 4,
+            "occLife": "IC",
+            "occTpd": "IC"
+        }
+    ]
+},
+    {
+    "categoryName": "STEAM FITTER",
+    "data": [
+        {
+            "occName": "Non-Hazardous Industry",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "STEEPLEJACK",
+    "data": [
+        {
+            "occName": "Steeplejack",
+            "occClass": "D",
+            "occLife": 10,
+            "occTpd": "D"
+        }
+    ]
+},
+    {
+    "categoryName": "STOCKYARD, SLAUGHTER HOUSE, ABATTOIR, PACKING HOUSE",
+    "data": [
+        {
+            "occName": "Butcher, Trimmer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Inspector, Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Worker-Around Live Animal",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "STONE INDUSTRY",
+    "data": [
+        {
+            "occName": "Grinder, Polisher, Stone-Carver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "STOREKEEPER",
+    "data": [
+        {
+            "occName": "Storekeeper: Not Handling Heavy Or Hazardous Material",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "STUDENT",
+    "data": [
+        {
+            "occName": "Student",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SUGAR REFINERIES",
+    "data": [
+        {
+            "occName": "Barrel & Can Filler, Bag Repairer & Sewer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Chemist, Clerical Worker, Superintendent",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Dumper, Kiln-Cleaner, Labourer, Piler, Washer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Separator-Man, Starch & Sugar Grinder, Weigher, Packer",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "SURVEYOR (NON-HAZARDOUS INDUSTRY)",
+    "data": [
+        {
+            "occName": "Surveyor (Non-Hazardous Industry)",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TAILOR",
+    "data": [
+        {
+            "occName": "Tailor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TALC INDUSTRY",
+    "data": [
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Skilled Worker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TEACHER, LECTURER, TUTOR",
+    "data": [
+        {
+            "occName": "Academic Subjects",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Boxing, Fencing, Etc",
+            "occClass": "IC",
+            "occLife": "IC",
+            "occTpd": "IC"
+        },
+        {
+            "occName": "Military College Trainer",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Non-Hazardous Sports",
+            "occClass": "2",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Principal, Clerk",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Private Tutor (Part Time)",
+            "occClass": "1",
+            "occLife": "0.00",
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TECHNICIAN",
+    "data": [
+        {
+            "occName": "Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TELEPHONE & TELEGRAM",
+    "data": [
+        {
+            "occName": "Field Worker: Cable Splicer, Lineman, Trouble man",
+            "occClass": "4",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Field Worker: Groundman",
+            "occClass": "3",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Field Worker: Inspector & Supervisor (Climbing Poles)",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Field Worker: Inspector & Supervisor (Not Climbing Poles)",
+            "occClass": "2",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Field Worker: Labourer, Pole-Setter",
+            "occClass": "4",
+            "occLife": 2,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Field Worker: Tower Erector",
+            "occClass": "D",
+            "occLife": 4,
+            "occTpd": "D"
+        },
+        {
+            "occName": "Inside Worker: Housewireman, Installer, Repairman",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Inside Worker: Telephone & Telegraph Operator",
+            "occClass": "1",
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TEXTILE INDUSTRY",
+    "data": [
+        {
+            "occName": "Bleacher, Dye-Mixer",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Carding & Spinning Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Clerk, Manager, Supervisor",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Examiner, Inspector, Design Cutter, Pattern Maker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Folder",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Mechanic, Technician",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Weaver",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TINSMITH",
+    "data": [
+        {
+            "occName": "Others",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Shop",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TOBACCO, GIGAR & CIGARETTE MANUFACTURE",
+    "data": [
+        {
+            "occName": "Bale Opener, Mixer, Cigarette/Cigar Machine Operator",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Clerk, Manager, Supervisor, Chemist, Quality Controller",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TRACTOR DRIVER",
+    "data": [
+        {
+            "occName": "Logging, Tin-Mines Areas",
+            "occClass": 4,
+            "occLife": 3,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Road Construction",
+            "occClass": 4,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TRAVEL AGENCY",
+    "data": [
+        {
+            "occName": "Supervisor (No Travelling), Ticketing & Hotel Reservation",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tour Escort: Local",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Tour Escort: Oversea",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TYPIST",
+    "data": [
+        {
+            "occName": "Typist",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "TYRE MANUFACTURER",
+    "data": [
+        {
+            "occName": "Labourer",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Machine Operator, Retreader, Shaper, Type Moulder",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Supervisor",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "UNDERTAKER",
+    "data": [
+        {
+            "occName": "Coffin-Maker",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Crematorium Worker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Embalmer, Undertaker",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Other Than Embalming",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "VETERINARY",
+    "data": [
+        {
+            "occName": "Assistant",
+            "occClass": 2,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Veterinarian, Veterinary Officer, Practitioner",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "WAREHOUSEMAN (NO UNUSUAL HAZARDS)",
+    "data": [
+        {
+            "occName": "General Duties (Not Just Recording)",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "WELDER & CUTTER",
+    "data": [
+        {
+            "occName": "No Unusual Hazards",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "WINDOW CLEANER",
+    "data": [
+        {
+            "occName": "2 Floors",
+            "occClass": 4,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Over  2 Floors",
+            "occClass": 4,
+            "occLife": 5,
+            "occTpd": "Yes"
+        }
+    ]
+},
+    {
+    "categoryName": "X-RAY",
+    "data": [
+        {
+            "occName": "Demonstrator, Salesman",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Inspector Using X-Ray Metal, Rubber Etc",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Nurse, Radiographer, Technician",
+            "occClass": 1,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Repairman & Tester",
+            "occClass": 3,
+            "occLife": 0,
+            "occTpd": "Yes"
+        },
+        {
+            "occName": "Therapeutic Treatment",
+            "occClass": 2,
+            "occLife": 2,
+            "occTpd": "Yes"
+        }
+    ]
+}
+]
+    
+    

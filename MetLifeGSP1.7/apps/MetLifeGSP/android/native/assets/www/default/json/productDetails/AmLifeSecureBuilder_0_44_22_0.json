@@ -1,0 +1,1814 @@
+{
+    "header": {
+        "tenantCode": "DC.HKG.SALES.VNM",
+        "locale": "en_US",
+        "guid": "HEX0000000001111",
+        "userId": "mosusr3",
+        "sourceType": "mobile",
+        "responseStatus": "OK"
+    },
+    "transaction": {
+        "type": "getProductDetails",
+        "products": [
+            {
+                "productName": "Endowment Product",
+                "productCode": "EN",
+                "productCategory": "Wealth",
+                "subProducts": [
+                    {
+                        "subProductName": "AmLife SecureBuilder",
+                        "subProductCode": "ALSB",
+                        "plans": [
+                            {
+                                "planCode": "ALSB1",
+                                "planName": "AmLife SecureBuilder",
+                                "marketingName": "Plan1",
+                                "rules": {
+                                    "SetElement": [
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "15"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "6"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PayorAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "InsuredAmount",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20000"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "15"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "6"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "60"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        }
+                                    ]
+                                },
+                                "riders": {
+                                    "SetElement": [
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PBRX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PDWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "Dependency",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "PBRX"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "dependency"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "MCIPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "1"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "20000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "200000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "DWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "planCode": "ALSB2",
+                                "planName": " AmLife SecureBuilder ",
+                                "marketingName": "Plan2",
+                                "rules": {
+                                    "SetElement": [
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "6"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PayorAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "InsuredAmount",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20000"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "6"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "60"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        }
+                                    ]
+                                },
+                                "riders": {
+                                    "SetElement": [
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PBRX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PDWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "Dependency",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "PBRX"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "dependency"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "MCIPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "1"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "20000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "200000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "DWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "planCode": "ALSB3",
+                                "planName": " AmLife SecureBuilder ",
+                                "marketingName": "Plan3",
+                                "rules": {
+                                    "SetElement": [
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PayorAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "InsuredAmount",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20000"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "60"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        }
+                                    ]
+                                },
+                                "riders": {
+                                    "SetElement": [
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PBRX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PDWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "Dependency",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "PBRX"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "dependency"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "MCIPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "1"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "20000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "200000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "DWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "planCode": "ALSB4",
+                                "planName": " AmLife SecureBuilder ",
+                                "marketingName": "Plan4",
+                                "rules": {
+                                    "SetElement": [
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "25"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "PayorAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "InsuredAmount",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "20000"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "min"
+                                        },
+                                        {
+                                            "applicableAttribute": "CoverageTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "25"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "PaymentTerm",
+                                            "unit": null,
+                                            "values": {
+                                                "SetElement": [
+                                                    "10"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        },
+                                        {
+                                            "applicableAttribute": "LifeAssuredAge",
+                                            "unit": "Year",
+                                            "values": {
+                                                "SetElement": [
+                                                    "55"
+                                                ]
+                                            },
+                                            "ruleExpression": null,
+                                            "bound": "max"
+                                        }
+                                    ]
+                                },
+                                "riders": {
+                                    "SetElement": [
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Benefit Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PBRX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "5"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Payor Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Payor"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "PDWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min(25,25-$scope.illustration.anb,65-$scope.illustration.policyOwnerAnb,$scope.riders[$scope.superRiderIndexList['PBRX']].coverageTerm))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PayorAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "Dependency",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "PBRX"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "dependency"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Multi Critical Illness Shield Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "MCIPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "1"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "20000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.coverageTerm,80-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "InsuredAmount",
+                                                        "unit": null,
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "200000"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "features": {
+                                                "SetElement": [
+                                                    {
+                                                        "name": "MarketingName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "RiderName",
+                                                        "value": "Dread Disease Waiver of Premium Rider"
+                                                    },
+                                                    {
+                                                        "name": "Insured",
+                                                        "value": "Life Assured"
+                                                    },
+                                                    {
+                                                        "name": "RiderCode",
+                                                        "value": "DWPX"
+                                                    }
+                                                ]
+                                            },
+                                            "rules": {
+                                                "SetElement": [
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "16"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "min"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "CoverageTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "PaymentTerm",
+                                                        "unit": null,
+                                                        "values": null,
+                                                        "ruleExpression": "(Math.min($scope.illustration.paymentTerm,65-$scope.illustration.anb))",
+                                                        "bound": "max"
+                                                    },
+                                                    {
+                                                        "applicableAttribute": "LifeAssuredAge",
+                                                        "unit": "Year",
+                                                        "values": {
+                                                            "SetElement": [
+                                                                "60"
+                                                            ]
+                                                        },
+                                                        "ruleExpression": null,
+                                                        "bound": "max"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "riders": null,
+                        "rules": null
+                    }
+                ]
+            }
+        ]
+    }
+}

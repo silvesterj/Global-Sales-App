@@ -1,0 +1,181 @@
+
+<form name="userForm" novalidate>
+				<ul class="create_new_left comm_create_height">
+					<li class="clkNum_algn">
+                        
+                        <span>
+                            <div class="styled-select">
+                            <select
+                            ng-model="customer.salutation" 
+                            required ng-options="salutationoption for salutationoption in $Language.commonData.salutation">
+                            </select>
+                            </div>
+                            </span>
+                        <div class="form-group" show-errors >
+						<input type="text" placeholder="{{$Language.commonData.customerName}}" ng-model="customer.customerName" class="form-control" ng-class="error" name="name" minlength="1" maxLength="100" ng-pattern="/^[a-zA-Z ]*$/" ng-required="true" value="{{customer.customerName}}"></input>
+                                                       </div>
+					</li>
+                    <li class="gendAign_main_right">
+                        <label>{{$Language.commonData.gender.gender}}*</label>
+                        <span class="gender_main">
+                        <input ng-model="customer.gender" ng-value="1" id="radio_male" class="css-checkbox"  type="radio" name="gender">
+                        <label class="css_gender" for="radio_male">{{$Language.commonData.gender.male}}</label>
+                        <input ng-model="customer.gender" ng-value="2" id="radio_female" class="css-checkbox" type="radio" name="gender">
+                        <label class="css_gender" for="radio_female">{{$Language.commonData.gender.female}}</label>
+                        <input ng-model="customer.gender" ng-value="3" id="radio_na" class="css-checkbox" type="radio" name="gender">
+                        <label class="css_gender right" for="radio_na">{{$Language.commonData.gender.na}}</label>
+                        </span>
+                        </li>
+                    
+                    
+					<li class="clkNum_algn">
+						
+                        
+                         <span>
+                            <div class="styled-select">
+                            <select  ng-model="customer.idtype" required ng-options="idtypeoption for idtypeoption in $Language.commonData.idtype">
+                            </select>
+                            </div>
+                            </span>
+                        
+                         <div class="form-group" show-errors>
+                           <input type="text" placeholder="{{$Language.commonData.idNumber}}" ng-model="customer.id" class="form-control" name="idnumber" ng-pattern="/^[a-zA-Z0-9]*$/"  ng-required="true" minlength="1" maxlength="100" value="{{customer.id}}"/>
+                            </div>
+						
+					</li>
+                    
+                    
+					<li class="marital_algn">
+						<label>{{$Language.commonData.maritalStatusLabel}}*</label>
+                        <span>
+                            <div class="styled-select">
+                            <select  ng-model="customer.maritalStatus" required ng-options="maritalStatusoption for maritalStatusoption in $Language.commonData.maritalStatus">
+                            </select>
+                            </div>
+                            </span>
+                      
+                        
+					</li>
+					<li Class="dobAlgn_mrg">
+						<label>{{$Language.commonData.dateOfBirth}}*</label>
+                        <input  type="date" ng-click="dateData()" ng-model="dateValue" id="dateCh"></input><div class="form-group dob_box" show-errors id="dateChange">
+
+</div>
+					
+                       
+					</li>
+					<li class="anbAlgn_mrg">
+						<label>{{$Language.commonData.anb}}</label>
+						<input type="number" ng-model="customer.anb"  disabled/>
+					</li>
+					<li class="position_rel">
+						<label>{{$Language.commonData.occupation}}*</label> 
+                        <div class="form-group" show-errors>
+						<input id="occupaton_text" ng-click="search_popup_open()" name="occupation" type="text" class="search_img_create form-control" ng-model="customer.occupation" ng-required="true" value="{{customer.occupation}}"/>
+                        </div>
+						
+					</li>
+					
+					<li class="contAlgn_mrg">
+						<label>{{$Language.commonData.contactNo}}*</label>
+						<span>
+                            <span>
+                            <div class="styled-select">
+                            <select  ng-model="customer.contactType" required ng-options="contactnotypeoption for contactnotypeoption in $Language.commonData.contactnotype" >
+                            </select>
+                            </div>
+                            </span>
+                            <div class="form-group small" show-errors>
+                             <input type="text" class="secCont_algn form-control" ng-model="customer.contactCode" value="{{customer.contactCode}}" name="contactCode" ng-pattern="/^[+0-9]*$/" ng-required="true" maxlength="5" minlength="2" >
+                            </div>
+                            <div class="form-group medium" show-errors>
+    <input name="contactNum" ng-required="true" type="tel"class="trdCont_algn form-control" ng-model="customer.contact" value="{{customer.contact}}" ng-pattern="/^[-0-9]*$/" maxlength="15" minlength="7"/>
+</div>
+						</span>
+					</li>
+					<li>
+						<label>{{$Language.commonData.occupationCategory}}</label>
+						<input type="text"  ng-model="customer.occupationCategory" disabled/>
+					</li>
+					
+					<li class="contAlgn_mrg">
+						<label>{{$Language.commonData.alternativeContactNo}}</label>
+						<span>
+							<span>
+                            <div class="styled-select"> 
+                            <select ng-model="customer.alternateContactType"  ng-options="contactnotypeoption for contactnotypeoption in $Language.commonData.contactnotype">
+                            </select>
+                            </div>
+                            </span>
+                            
+                            
+                            <div class="form-group small" show-errors>
+                             <input type="text" class="secCont_algn form-control" placeholder="{{$Language.commonData.alternatecontactCode}}" ng-model="customer.alternateContactCode" value="{{customer.alternateContactCode}}" name="alternatecontactCode" ng-pattern="/^[+0-9]*$/" maxlength="5" minlength="2">
+                            </div>
+							
+                            <div class="form-group medium" show-errors>
+                            <input name="altrnateContact" type="text" class="trdCont_algn form-control"  ng-model="customer.alternateContact" value="{{customer.alternateContact}}" ng-pattern="/^[-0-9]*$/" maxlength="15" minlength="7" />
+                            </div>
+						</span>
+					</li>
+					<li>
+						<label>{{$Language.commonData.occupationClass}}</label>
+						<input type="text" ng-model="customer.occupationClass" disabled/>
+					</li>
+					
+					<li class="estAnnIncome_algn">
+					
+						<label>{{$Language.commonData.estimatedAnnualIncome}}</label>
+						<span class="dolAlgn">{{$Language.commonData.currency}}</span>
+						<div class="form-group medium enlarge_inpt" show-errors>
+						<input type="number" ng-model="customer.estAnnualIncome" name="income" class="trdCont_algn form-control" value="{{customer.estAnnualIncome}}" min="0" max="9999999999"/>
+					    </div>
+					</li>
+                    
+                    <span ng-switch="$Footer.showFooter">
+                    <span ng-switch-when="createCustomer">
+					<li>
+						<label>{{$Language.commonData.email}}*</label>
+                        <div class="form-group" show-errors>
+              <input type="email" ng-model="customer.email" value="{{customer.email}}" class="form-control" name="email" ng-required="true" ng-pattern="/^[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+.[a-z0-9-]/"/>
+</div>
+					</li>
+					<li>
+						<div class="camera_main">
+							<span class="cam_img" ng-click="camera_pic()">Click Picture</span>
+							<img ng-click="camera_pic()" id="cam_img"></img>
+						</div>
+					</li>
+					<li class="smkHabit_algn">
+						<label>{{$Language.commonData.smokingHabit}}</label>
+						<div class="onoffswitch">
+							<input type="checkbox" ng-model="customer.smokingHabit" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+							<label class="onoffswitch-label" for="myonoffswitch">
+								<span class="onoffswitch-active">{{$Language.commonData.yes}}</span>
+								<span class="onoffswitch-inactive">{{$Language.commonData.no}}</span>
+							</label>
+						</div> 
+					
+					</li>
+                    </span>
+                </span>
+				</ul>
+				
+				<div class="delete_button" ng-click="deleteCustomer();"></div>
+			</form>
+			
+	<div class="popup_main" id="save_popup">
+	<div class="popup_header">
+		<h3>Alert</h3>
+		<button class="popup_close" ng-click="delete_save_close()"></button>
+	</div>
+	<div class="popup_body">
+		<p>{{popupMessage}}</p>
+	</div>
+	<div class="popup_footer">
+		<button class="popup_footer_btn" ng-click="delete_save_close()">OK</button>
+	</div>
+</div>
+
+
+			

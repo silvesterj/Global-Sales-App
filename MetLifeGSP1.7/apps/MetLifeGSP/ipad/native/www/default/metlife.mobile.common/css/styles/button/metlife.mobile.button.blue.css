@@ -1,0 +1,6 @@
+
+/* Stylesheet content from metlife.mobile.common/css/styles/button/metlife.mobile.button.blue.css in folder common */
+.button.blue {background:#007CC2;}
+
+/*Removed :hover to remove its persisting effect*/
+.button.blue.active{background:#006CA9;}

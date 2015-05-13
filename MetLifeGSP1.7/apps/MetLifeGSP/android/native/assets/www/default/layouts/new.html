@@ -1,0 +1,287 @@
+
+<div class="main_body" ng-controller="MainCtrl">
+	<div class="main_body_inner sales_plan_main">
+		<h2>Mr.J.Smith</h2>
+		<div class="sales_plan_top_right"><span>Plan</span><p>Wealth-AmMetlife Lifestyle</p></div>
+		<div class="sales_plan_inner">
+			<div class="sales_plan_head" name="login">
+				<span ng-login-field ng-repeat="loginfield in jsonData.screen4.fields"></span>
+			<!--	<span>Total Premium</span>
+				<label>Yearly<input type="text" /></label>
+				<label>Half Yearly<input type="text" /></label>
+				<label>Quarterly<input type="text" /></label>
+				<label>Monthy<input type="text" /></label>
+				<button>Calculate</button> -->
+			</div>
+			<div class="sales_plan_body" name="login">
+				<ul>
+					<li>
+						<div class="sales_plan_bar">
+							<span ng-login-field ng-repeat="loginfield in jsonData.screen5.fields"></span>
+						</div>
+						<div class="sales_plan_description display_none">
+							<ul>
+								<li ng-login-field ng-repeat="loginfield in jsonData.screen6.fields"></li>
+								<!--<li>
+									<label>Plan Code</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Policy Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Plan Name</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Premium Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Sum Assured(RM)</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Payment Frequency</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Insurance Portion</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Yearly Premium</label>
+									<input type="text" />
+								</li>-->
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="sales_plan_bar">
+							<label>Riders</label>
+								<label>Basic Premium</label><input type="text" />
+						</div>
+						<div class="sales_plan_description">
+							<table>
+							<thead>
+								<tr>
+									<th>Code</th>
+									<th>Rider Name</th>
+									<th>Term</th>
+									<th>Sum Assured</th>
+									<th>Premium</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-table-rider-field ng-repeat="rider_values in rider_td"></tr>
+								<!-- <tr>
+									<td>CITX</td>
+									<td>Critical Illness Term Rider<button class="info_btn"></button></td>
+									<td><input type="text" />(5-15)</td>
+									<td><input type="text" value="RM 0.00"/>(300000-500000)</td>
+									<td>RM 00.00</td>
+									<td><span class="active"></span></td>
+								</tr>
+								<tr>
+									<td>CITX</td>
+									<td>Critical Illness Term Rider<button class="info_btn"></button></td>
+									<td><input type="text" />(5-15)</td>
+									<td><input type="text" value="RM 0.00"/>(300000-500000)</td>
+									<td>RM 00.00</td>
+									<td><span class="active"></span></td>
+								</tr>
+								<tr>
+									<td>CITX</td>
+									<td>Critical Illness Term Rider<button class="info_btn"></button></td>
+									<td><input type="text" />(5-15)</td>
+									<td><input type="text" value="RM 0.00"/>(300000-500000)</td>
+									<td>RM 00.00</td>
+									<td><span></span></td>
+								</tr>
+								<tr>
+									<td>CITX</td>
+									<td>Critical Illness Term Rider<button class="info_btn"></button></td>
+									<td><input type="text" />(5-15)</td>
+									<td><input type="text" value="RM 0.00"/>(300000-500000)</td>
+									<td>RM 00.00</td>
+									<td><span></span></td>
+								</tr>
+								<tr>
+									<td>CITX</td>
+									<td>Critical Illness Term Rider<button class="info_btn"></button></td>
+									<td><input type="text" />(5-15)</td>
+									<td><input type="text" value="RM 0.00"/>(300000-500000)</td>
+									<td>RM 00.00</td>
+									<td><span></span></td>
+								</tr> -->
+								</tbody>
+							</table>
+						</div>
+					</li>
+					<li>
+						<div class="sales_plan_bar">
+							<label>Fund Type</label>
+						</div>
+						<div class="sales_plan_description display_none">
+							<ul>
+								<li>
+									<label>Plan Code</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Policy Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Plan Name</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Premium Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Sum Assured(RM)</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Payment Frequency</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Insurance Portion</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Yearly Premium</label>
+									<input type="text" />
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="sales_plan_bar">
+							<label>Top Ups</label>
+						</div>
+						<div class="sales_plan_description display_none">
+							<ul>
+								<li>
+									<label>Plan Code</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Policy Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Plan Name</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Premium Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Sum Assured(RM)</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Payment Frequency</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Insurance Portion</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Yearly Premium</label>
+									<input type="text" />
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="sales_plan_bar">
+							<label>Preferences</label>
+						</div>
+						<div class="sales_plan_description display_none">
+							<ul>
+								<li>
+									<label>Plan Code</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Policy Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Plan Name</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Premium Term</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Sum Assured(RM)</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Payment Frequency</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Insurance Portion</label>
+									<input type="text" />
+								</li>
+								<li>
+									<label>Yearly Premium</label>
+									<input type="text" />
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div class="navigation_bar">
+		<div class="create_new_arrow">
+			<span class="left_arrow_img"></span>
+			<span class="create_new_arrow_txt">Select Product</span>		
+		</div>
+		<div class="save_btn"></div>
+		<div class="create_new_arrow right">
+			<span class="create_new_arrow_txt">Illustration</span>
+			<span class="right_arrow_img"></span>
+		</div>
+	</div>
+<div class="clear"></div>
+<footer class="fact_foot">
+	<div class="foot_icon customer_white"></div>
+    <div class="foot_inner fact_foot_left">
+		<div class="fact_foot_left_icon">
+			<span class="search_black"></span>
+			<span class="fact_foot_left_txt">Customer Fact Find</span>
+		</div>
+		
+        <div name="footer" >
+			<ul class="fact_indicator">
+				<li class="active ind_first"></li>
+				<li class="ind_second"></li>
+				<li class="ind_third"></li>
+				<li class="ind_fourth"></li>
+				<li class="ind_fifth"></li>
+				<li class="ind_sixth"></li>
+				<li class="ind_seventh"></li>
+			</ul>
+        </div>
+	</div>
+	<div class="foot_icon search_white"></div>
+	<div class="foot_icon dollar_white"></div>
+	<div class="foot_icon folder_person_white"></div>
+	<div class="foot_icon folder_white"></div>
+	<div class="foot_icon home_white"></div>
+</footer>
+</div>

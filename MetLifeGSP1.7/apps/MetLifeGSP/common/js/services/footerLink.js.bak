@@ -1,0 +1,53 @@
+
+
+app.service('$Footer', function($rootScope, $location) {
+    
+    this.init = function()
+    {
+				$rootScope.$Footer = {};
+        $rootScope.$Footer.showFooter = "home";
+        $rootScope.$Footer.createCustomer = function() {
+           // alert("sssssss");
+		    $location.path("/createCustomer");
+             $rootScope.$Footer.showFooter = "createCustomer";
+        };
+        
+        $rootScope.$Footer.customerAdvice = function() {
+             alert("Services");
+            $location.path("/customerAdvice");
+             $rootScope.$Footer.showFooter = "customerAdvice";
+             $rootScope.$Footer.subFooter = "customerFactFind";
+            alert($rootScope.$Footer.showFooter);
+        };
+        
+        $rootScope.$Footer.financialNeed = function() {
+            $location.path("/financialNeed");
+             $rootScope.$Footer.showFooter = "financialNeedAnalysis";
+        };
+        
+        $rootScope.$Footer.myContent = function() {
+            $location.path("/myContent");
+             $rootScope.$Footer.showFooter = "myContent";
+        };
+        
+        $rootScope.$Footer.home = function() {
+            $location.path("/home");
+             $rootScope.$Footer.showFooter = "home";
+        };
+        
+        $rootScope.$Footer.salesIllustration = function() {
+            $location.path("/salesIllustration");
+            $rootScope.$Footer.showFooter = "salesIllustration";
+        };
+        
+        $rootScope.$Footer.selectCustomer = function() {
+            alert("selectCustomer");
+            $location.path("/selectCustomer");
+            $rootScope.$Footer.showFooter = "customerAdvice";
+            $rootScope.$Footer.subFooter = "selectCustomer";
+            alert($rootScope.$Footer.showFooter);
+        };
+        
+        
+    }
+});

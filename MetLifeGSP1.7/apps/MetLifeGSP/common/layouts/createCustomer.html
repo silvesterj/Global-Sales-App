@@ -1,0 +1,66 @@
+<div id="popup_overlay"></div>
+<div class="main_body">
+	<ng-include src="'layouts/subHeader.html'"></ng-include>
+	<div class="main_body_inner">
+        
+       
+		 <div class="fact_body_inner"  id="cdm_tab1_body">
+			<div class="top_head">
+			<h3>{{$Language.createCustomer.customerDetails.customerDetails}}</h3>
+			</div>
+                 <ng-include src="'layouts/commonCreateCustomer.html'"></ng-include>
+			<div class="clear"></div>
+			<div class="navigation_bar" ng-switch="$Footer.profileStatusFooter">
+			
+				<div class="navi_inner navi_right" ng-click="gotoFactfind()"  ng-switch-when="createCustomer">
+					<span class="navi_txt">{{$Language.commonData.customerFactFind}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				
+				  <div class="navi_inner navi_right" ng-click="$Footer.profileStatus('commonProfile')"  ng-switch-when="profileStatus">
+					<span class="navi_txt">{{$Language.commonData.profileStatus}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div> 
+				
+				<div class="navi_inner navi_center" ng-click="createCustomer()">
+					<span class="navi_save_btn"></span>
+					<span class="navi_txt">{{$Language.commonData.save}}</span>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div> 
+
+        
+	</div>
+</div> 
+<ng-include src="'layouts/footer.html'"></ng-include>
+<div class="popup_main" id="search_oocu">
+							<div class="search_oocu_top">
+								<h3>Search Occupation</h3>
+								<button id="search_occu_close" class="popup_close" ng-click="search_occu_close()"></button>
+								<div class="search_oocu_inner">
+									<ul>
+										<li>
+											<label>Occupation</label>
+											<input type="text" class="search_img" ng-model="search.searchText" ng-change="search(search.searchText)"/> 
+										</li>
+										<li class="anbAlgn_mrg">
+											<label>Category</label>
+											<span>
+												 <div class="styled-select">
+												<select ng-model="search.category" ng-options="option for option in categoryArray" ng-change="searchByCategory(search.category)">
+														<option selected>--Select--</option>
+					                            </select>
+												</div> 
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="search_oocu_bottom">
+								<h3 ng-module="numberOfJobs">{{numberOfJobs}} occupations found</h3>
+								<ul>
+									<li ng-repeat="optionName in occuaptionArray track by $index" ng-module="optionName" ng-click="setData(optionName)">{{optionName}}</li>
+								</ul>
+							</div>
+						</div>

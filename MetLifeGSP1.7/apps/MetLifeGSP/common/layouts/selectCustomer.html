@@ -1,0 +1,177 @@
+
+<div class="main_body" id="singnaturediv">
+<ng-include src="'layouts/subHeader.html'"></ng-include>		
+<div class="fact_body_inner" id="cff_first_part">
+					<div class="selectCustomer_head">
+			<h2 >{{$Language.commonData.selectCustomer}}</h2>
+			<div class="selectCust_head_right">
+				<span class="sort_left">
+					<label>{{$Language.cff.sortBy.sortBy}}</label>
+				</span>
+				<span class="gender_main sort_input">
+                    <input id="radio_first_name" class="css-checkbox" type="radio" name="sort" checked>
+                    <label class="css_gender" for="radio_first_name" ng-click="firstname()">{{$Language.cff.sortBy.firstName}}</label>
+                    <input id="radio_last_name" class="css-checkbox" type="radio" name="sort">
+                    <label class="css_gender" for="radio_last_name" ng-click="lastname()">{{$Language.cff.sortBy.lastName}}</label>
+                    <input id="radio_id" class="css-checkbox" type="radio" name="sort">
+                    <label class="css_gender" for="radio_id" ng-click="id()">{{$Language.cff.sortBy.id}}</label>
+                    <input id="radio_dob" class="css-checkbox" type="radio" name="sort">
+                    <label class="css_gender right" for="radio_dob" ng-click="dob()">{{$Language.cff.sortBy.dob}}</label>
+                </span>
+			</div>
+		</div>
+		<div class="selctCust_main">
+			<div class="selctCust_left">
+				<label>{{$Language.commonData.customerSearch}}</label>
+				<input type="text" ng-model="search.json.customerName" class="search_img"/>
+				<label class="adv_serch" ng-click="advance_srch()">{{$Language.commonData.advancedSearch}}</label>
+				<div class="advSearch_mrg">
+					<p>{{$Language.cff.customerSearch.criteria}}</p>
+					<div class="advSearch_div_mrg">
+						<span class="enter_left">
+							<label>{{$Language.commonData.gender.gender}}</label>
+						</span>
+						<span class="enter_right">
+							<span class="gender_main">
+                        <input id="radio_male" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="1">
+                        <label class="css_gender" for="radio_male">{{$Language.commonData.gender.male}}</label>
+                        <input id="radio_female" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="2">
+                        <label class="css_gender" for="radio_female">{{$Language.commonData.gender.female}}</label>
+                        <input id="radio_na" class="css-checkbox" type="radio" name="gender" ng-model="search.json.gender" value="3">
+                        <label class="css_gender right" for="radio_na">{{$Language.commonData.gender.na}}</label>
+                        </span>
+						</span>
+					</div>
+                    
+                    
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.commonData.dateOfBirth}}</label>
+						</span>
+						<span><input type="text" ng-model="search.json.dob" /></span>
+					</div>
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.cff.customerSearch.mobile}}</label>
+						</span>
+						<span><input type="text" ng-model="search.json.contact"/></span>
+					</div>
+					<div class="info_algn">
+						<span class="ent_left">
+							<label>{{$Language.commonData.email}}</label>
+						</span>
+					<span><input type="text" ng-model="search.json.email"/></span>
+					</div>
+				</div>
+				<label>{{$Language.commonData.recentCustomers}}</label>
+				<div class="selctCust_left_inner">
+				
+			
+					<ul>
+<!--						<li ng-repeat="customer in customers | orderBy:'json.updatedDate':true|myFilter:1:6" ng-click="selectedRecentCustomerDislayedRight(customer,$index)" id="{{$index}}right" class="dummy">-->
+                        <li ng-repeat="customer in customers | orderBy:'json.updatedDate':true|myFilter:0:5" ng-click="selectedRecentCustomerDislayedRight(customer,$index)" id="{{$index}}right" class="dummy">
+							<img src="{{customer.json.customerImageSmallPath}}" title="Customer">
+							<div class="selctCust_left_txt" >
+								<h4>{{customer.json.customerName}}</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="selctCust_right">
+				<ul class="selctCust_right_bottom" id="toprow">
+				<li class="selctCust_right_bottom_inner"   ng-repeat="toprowdata in toprowdata">
+						<div class="selctCust_btm_lft" >
+							<img src="{{toprowdata.json.customerImageSmallPath}}" title="Customer">
+						</div>
+						<div class="selctCust_btm_right">
+							<div class="whl_mrg">
+								<h4>{{toprowdata.json.customerName}}</h4>
+							</div>
+							<div class="whl_mrg">
+								<label>ID:<span>{{toprowdata.json.id}}</span></label>
+								<label>{{toprowdata.json.email}}</label>
+							</div>
+							<div class="whl_mrg">
+								<label>Phone:<span>{{toprowdata.json.contact}}</span></label>
+								<label>Date of Birth:<span> {{toprowdata.json.dob | date:'mediumDate'}}</span></label>
+							</div>
+						</div>
+					</li>
+					</ul>
+					<ul class="selctCust_right_bottom" id="belowrow">
+					<li class="selctCust_right_bottom_inner " ng-click="selectCustomer(profiledata,$index)" id="{{$index}}left" ng-repeat="profiledata in customerProfileData | filter:search  | orderBy:[orderProp,randomSort]">
+						<div class="selctCust_btm_lft" >
+							<img src="{{profiledata.json.customerImageSmallPath}}" title="Customer">
+						</div>
+						<div class="selctCust_btm_right">
+							<div class="whl_mrg">
+								<h4>{{profiledata.json.customerName}}</h4>
+							</div>
+							<div class="whl_mrg">
+								<label>ID:<span>{{profiledata.json.id}}</span></label>
+								<label>{{profiledata.json.email}}</label>
+							</div>
+							<div class="whl_mrg">
+								<label>Phone:<span> {{profiledata.json.contact}}</span></label>
+								<label>Date of Birth:<span> {{profiledata.json.dob | date:'mediumDate'}}</span></label>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+    
+    <div class="clear"></div>
+<div ng-switch="$Footer.subFooter">
+    <div ng-switch-when="customerAdvice">
+			<div class="navigation_bar">
+				<div class="navi_inner navi_right" ng-click="$Footer.customerAdvice('customerAdvice')">
+					<span class="navi_txt">{{$Language.commonData.customerAdviceChoice}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+			</div>
+			</div>
+			 <div ng-switch-when="fna_tab1">
+            <div class="navigation_bar">
+				<div class="navi_inner navi_right" ng-click="$Footer.financialNeed('fna_tab1_body', 'fna_tab1')">
+					<span class="navi_txt">{{$Language.commonData.incomeReplacement}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+			</div>
+			</div>
+			 <div ng-switch-when="fna_tab2">
+			<div class="navigation_bar">
+				<div class="navi_inner navi_right" ng-click="$Footer.financialNeed('fna_tab2_body', 'fna_tab2')">
+					<span class="navi_txt">{{$Language.commonData.childEducationFund}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+			</div>
+			</div>
+			
+			<div ng-switch-when="salesIllustration">
+			<div class="navigation_bar">
+				
+				<div class="navi_inner navi_right" ng-click="$Footer.salesIllustration('salesIllustration')">
+					<span class="navi_txt">Basic Information</span>
+					<span class="navi_rgt_arrow"></span>
+				</div>
+				
+			</div>
+			</div>
+			
+			<div ng-switch-when="profileStatus">
+			<div class="navigation_bar">
+			<div class="navi_inner navi_right" ng-click="$Footer.profileStatus('commonProfile')" >
+					<span class="navi_txt">{{$Language.commonData.profileStatus}}</span>
+					<span class="navi_rgt_arrow"></span>
+				</div> 
+				</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+</div>
+    <ng-include src="'layouts/footer.html'"></ng-include>

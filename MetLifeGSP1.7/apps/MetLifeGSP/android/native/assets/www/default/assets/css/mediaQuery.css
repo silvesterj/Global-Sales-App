@@ -1,0 +1,179 @@
+
+/* Stylesheet content from assets/css/mediaQuery.css in folder common */
+
+/**************** Acer Tablet **********************/
+@media (min-device-width: 2047px){
+	.home_left_inner ul {
+    height: 430px;
+	}
+	.home_right {
+	    height: 505px;
+	}
+	.cff_main_height {
+	    height: 400px;
+	}
+	.cff_submain_height {
+	    height: 350px;
+	}
+	.sales_plan_body {
+	    height: 320px;
+	}
+	.create_new_main.policy_height {
+	    height: 300px;
+	}
+	.firstProduct_right {
+		height: 410px;
+		}
+	.mainCommon_left_body .secPercent_mrg input {
+	    margin-left: 10px;
+	}
+	.head_main_lbl.si_graph_hd .left_wdth {
+    width: 43%;
+}
+.head_main_lbl.si_graph_hd input {
+    width: 39%;
+}
+	.comm_create_height{
+		height:340px;
+	}
+	.sales_plan_bar_right {
+	    width: 45%;
+	}
+	.gender_main label{
+	    width: 32.9%;
+	}
+	.advSearch_div_mrg .gender_main label{
+	    width: 32.6%;
+	}
+	.fna_foot span.foot_lft_txt {
+    width: 160px;
+	}
+	.create_new_left.createFamily_left .contAlgn_mrg > span {
+	    width: 62%;
+	}
+	div.form-group.small {
+	    width: 14%;
+	}
+	div.form-group.medium {
+	    width: 49%;
+	}
+	.head_main_lbl.si_graph_hd .left_wdth {
+	    width: 42%;
+	}
+	.head_main_lbl.si_graph_hd input {
+	    width: 37%;
+	}
+	.home_right_top ul li {
+	    width: 28%;
+	}
+	.cea_li_label_wdth_fna > span {
+	    width: 44% !important;
+	}
+	.child_fund_first li span input.inpt_small {
+	    width: 20%;
+	}
+}
+@media (max-device-width: 1024px) and (orientation: landscape) {
+	.login_right{
+		float: right;
+	    width: 34%;
+	    left: 80%;
+	    position: absolute;
+	    top: 275px;
+		}
+	.login_left img{
+	    border: 1px solid #d1dbd2;
+	    left: 50%;
+	    position: absolute;
+	    top: 215px;
+	}
+	.nav {
+	    bottom: -4px;
+	    display: block;
+	    left: 0;
+	    margin: 0 auto;
+	    padding: 1em 0 0.8em;
+	    position: relative;
+	    right: 0;
+	    text-align: center;
+	    width: 100%;
+	    z-index: 5;
+	}
+	div.form-group.small {
+	    width: 14%;
+	}
+	div.form-group.medium {
+	    width: 49%;
+	}
+	.home_left_inner ul {
+	    height: 430px;
+	}
+	.home_right {
+	    height: 505px;
+	}
+	.cff_main_height {
+	    height: 400px;
+	}
+	.cff_submain_height {
+	    height: 340px;
+	}
+	.sales_plan_body {
+	    height: 320px;
+	}
+	.create_new_main.policy_height {
+	    height: 300px;
+	}
+	.firstProduct_right {
+		height: 410px;
+		}
+	.mainCommon_left_body .secPercent_mrg input {
+	    margin-left: 10px;
+	}
+	.cea_li_label_wdth_fna > span {
+	    width: 45.5% !important;
+	}
+	.head_main_lbl.si_graph_hd .left_wdth {
+	    width: 42%;
+	}
+	.head_main_lbl.si_graph_hd input {
+	    width: 35%;
+	}
+	.comm_create_height{
+		height:340px;
+	}
+	.sales_plan_bar_right {
+	    width: 45%;
+	}
+	.create_new_left .enlarge_inpt{
+		width: 58% !important;
+	}
+	.create_new_left.createFamily_left > li.fami_contct input.secCont_algn {
+	    width:9.5% !important;
+	}
+	.create_new_left.createFamily_left > li.fami_contct input.trdCont_algn {
+	    width: 52% !important;
+	}
+	input[type=checkbox].header_show_checkbox:checked ~ header {
+		height:5px;
+		transition:none;
+	}
+	input[type=checkbox].header_show_checkbox ~ header {
+		height:55px;
+		transition:none;
+	}
+	.child_fund_first li span input.inpt_small {
+	    width: 29%;
+	}
+	.child_fund_first li {
+	    width: 58%;
+	}
+	.child_fund_first li label {
+	    width: 45%;
+	}
+	.child_fund_first li > span {
+	    width: 50%;
+	}
+	footer > .foot_icon {
+	    margin: 5px 0.5%;
+	}
+} 

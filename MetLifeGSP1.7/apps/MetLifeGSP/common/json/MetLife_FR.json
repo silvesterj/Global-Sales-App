@@ -1,0 +1,143 @@
+{
+    "screen1": {
+        "title": "Login",
+        "fields": [
+            [
+                {
+                    "label": "Email-FR",
+                    "type": "email",
+                    "placeholder": "email-FR",
+                    "model": "loginEmail",
+                    "required": "required"
+                }
+            ],
+            [
+                {
+                    "label": "Password-FR",
+                    "type": "password",
+                    "placeholder": "password-FR",
+                    "model": "loginPwd",
+                    "required": "required"
+                }
+            ],
+            [
+                {
+                    "label": "Login-FR",
+                    "type": "submit",
+                    "model": "loginBtn"
+                }
+            ]
+        ]
+    },
+    "screen3": {
+        "title": "Create new client-FR",
+        "fields": [
+            [
+                {
+                    "label": "CLK-FR",
+					"counter": "0",
+                    "type": "text",
+                    "placeholder": "customer name",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Gender-FR",
+                    "type": "text",
+                    "placeholder": "Gender-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Militry ID-FR",
+					"counter": "0",
+                    "type": "text",
+                    "placeholder": "Militry ID",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Marital Status-FR",
+                    "type": "text",
+                    "placeholder": "Marital Status-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Date Of Birth-FR",
+                    "type": "date",
+                    "placeholder": "Date Of Birth-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "ANB-FR",
+                    "type": "number",
+                    "placeholder": "ANB-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation-FR",
+                    "type": "text",
+                    "placeholder": "Occupation-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Contact-FR",
+                    "type": "number",
+                    "placeholder": "Contact-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Category-FR",
+                    "type": "text",
+                    "placeholder": "Occupation Category-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Alternate Contact-FR",
+                    "type": "number",
+                    "placeholder": "Alternate Contact-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Occupation Class-FR",
+                    "type": "text",
+                    "placeholder": "Occupation Class-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Annual Income-FR",
+                    "type": "number",
+                    "placeholder": "Annual Income-FR",
+                    "model": "customername"
+                }
+            ],
+            [
+                {
+                    "label": "Email-FR",
+                    "type": "email",
+                    "placeholder": "Email-FR",
+                    "model": "customername"
+                }
+            ]
+        ]
+    }
+}

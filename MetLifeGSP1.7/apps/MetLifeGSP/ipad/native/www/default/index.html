@@ -1,0 +1,111 @@
+<!DOCTYPE html><!-- /**
+* Copyright ©  2015 Wipro Ltd. All Rights Reserved.
+*/
+/**
+*
+ * file name : < index.html >
+* This is the html file where the application begins *
+*
+* @author <Sanjana G Shet>
+* @version <1.0> *
+*/  --><html ng-app="MetLife">
+    <head>
+        <title>MetLife</title>
+        <meta content="text/html; charset=UTF8" http-equiv="content-type">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta charset="utf-8">
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/mediaQuery.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/nv.d3.css" rel="stylesheet" type="text/css">
+<!-- - All  included  lib  files -->
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "MetLifeGSP",
+   "APP_ID": "MetLifeGSP",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.7",
+   "ENVIRONMENT": "ipad",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "3155718599",
+   "WORKLIGHT_PLATFORM_VERSION": "6.1.0.02.20150128-1747",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/MetLifeGSP\/ipad\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="worklight/jsonstore.js"></script>
+		<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/angular-route.min.js"></script>
+<script src="js/lib/angular-resource.js"></script>
+<script src="js/lib/forSwipe.js"></script>
+<script src="js/lib/pdfmake.min.js"></script>
+<script src="js/lib/vfs_fonts.js"></script>
+<script src="js/lib/uiConfigurator.js"></script>
+<script src="js/lib/initOptions.js"></script>
+<script src="js/lib/main.js"></script>
+<script src="js/lib/messages.js"></script>
+<script src="js/lib/adapterUtil.js"></script>
+<script src="js/lib/jsonStoreUtil.js"></script>
+<script src="js/lib/commonUtil.js"></script>
+<script src="js/lib/d3.min.js"></script>
+<script src="js/lib/nv.d3.js"></script>
+<script src="js/lib/stream_layers.js "></script>
+<script src="js/lib/signature.js"></script>
+<script src="js/lib/logger.js"></script>
+<script src="js/lib/fileUtils.js"></script>
+<script src="js/lib/pxCalculator.js"></script>
+<script src="js/lib/pxTable.js"></script>
+<script src="js/lib/xml2json.min.js"></script>
+<script src="js/lib/angular-sanitize.js"></script>
+<script src="js/lib/d3.js"></script>
+<script src="js/lib/nv.d3.js"></script>
+<script src="js/lib/angularjs-nvd3-directives.js"></script>
+<script src="js/lib/rgbcolor.js"></script> 
+<script src="js/lib/StackBlur.js"></script>
+<script src="js/lib/canvg.js"></script>   
+<script src="js/lib/customSwipe.js"></script>    
+<!-- - End-->
+<!-- - main files -->
+<script src="js/app.js"></script>
+<!-- - End-->
+<!-- - All  included  Services   files -->
+<script src="js/services/language.js"></script>
+<script src="js/services/initCollections.js"></script>
+<script src="js/services/validation.js"></script>
+<script src="js/services/footerLink.js"></script>
+<script src="js/services/validation1.js"></script>
+<script src="js/services/occupation.js"></script>
+<!-- - End-->
+<!-- - All  included  controllers   files -->
+<script src="js/controllers/loginCtrl.js"></script>
+<script src="js/controllers/headerCtrl.js"></script>
+<script src="js/controllers/productsCtrl.js"></script>
+<script src="js/controllers/homeCtrl.js"></script>
+<script src="js/controllers/createCustomerCtrl.js"></script>
+<script src="js/controllers/customerFactFindCtrl.js"></script>
+<script src="js/controllers/fnaCtrl.js"></script>
+<script src="js/controllers/salesIllustrationCtrl.js"></script>
+<script src="js/controllers/myContentCtrl.js"></script>
+<script src="js/controllers/settingCtrl.js"></script>
+<script src="js/controllers/selectCustomerCtrl.js"></script>  
+<script src="js/controllers/profileStatusCtrl.js"></script>  
+<!-- - All  included  directives   files -->
+<script src="js/directives/ngValidation.js"></script>
+    </head>
+    <body>
+<!-- Includes  Common header for all pages except login  page -->
+        <ng-include src="'layouts/header.html'"></ng-include>
+	<!-- End  -->
+        <div ng-view=""></div>
+    </body>
+</html>

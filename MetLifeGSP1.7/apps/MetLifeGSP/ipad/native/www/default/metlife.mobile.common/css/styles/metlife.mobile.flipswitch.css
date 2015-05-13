@@ -1,0 +1,78 @@
+
+/* Stylesheet content from metlife.mobile.common/css/styles/metlife.mobile.flipswitch.css in folder common */
+/*Added for flipswitch button getting cut form the top when scrolled*/
+.flipswitch {-webkit-overflow-scrolling: touch;}
+
+.flipswitch .label{
+   	float:left;
+    padding-top:8px;
+    width:68%; /* to adjust text in different language */
+}
+
+.flipswitch .slider {
+    position: relative;
+    width: 90px;
+    -webkit-user-select: none;
+   /* float: right;*/
+}
+
+.flipswitch input {display: none!important;} /* To override default behaviour of input element*/
+
+.flipswitch label {
+    display: block;
+    overflow: hidden; 
+}
+
+.flipswitch .options {
+    width: 200%;
+    margin-left: -100%;
+    -webkit-transition: margin 0.2s ease-in 0s;
+    transition: margin 0.2s ease-in 0s;
+}
+.flipswitch .options > div {
+    float: left;
+    width: 50%;
+    height: 25px;
+    padding: 0;
+    font: 12px/25px FrutigerLTStdBold;
+    color: #595959;	
+   -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	border:1px solid #c0c0c0;		
+}
+.flipswitch .options .active {
+    padding-left: 15px;
+   	background:#007CC2;
+	color:#fff;
+}
+.flipswitch .options .inactive {
+    padding-right: 15px;
+    text-align: right;	
+	background:#ebebeb;
+	color:#595959;
+}
+.flipswitch .sliderBar {
+    width: 35px;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 53px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    border:solid 1px #c0c0c0;
+    background:#ccc;
+
+}
+.flipswitch input[type=checkbox]:checked + label .options{margin-left: 0;}
+
+.flipswitch input[type=checkbox]:checked + label .sliderBar{right: 0;}
+
+.flipswitch .slider{margin-top:3px;}
+
+.flipswitch .large .inactive{padding-right: 10px;}
+
+.flipswitch .large div{
+    height: 30px;
+    line-height: 28px;
+}

@@ -1,0 +1,29 @@
+.segmentControl{width:100%;
+	display:table;}
+	
+.segmentControl ul{
+
+	display:table-row;
+	list-style: none; 
+	overflow: hidden;}
+
+.segmentControl  li.options{
+	display:table-cell; 
+	text-align: center;	
+	color: #595959;
+	border: 1px solid #b1b1b1;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b1b1b1), color-stop(100%,#ebebeb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b1b1b1 0%,#ebebeb 100%); /* Chrome10+,Safari5.1+ */
+	padding:15px;  
+	line-height:12px;
+}
+
+.segmentControl li.active {
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0067a3), color-stop(100%,#007cc2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0067a3 0%,#007cc2 100%); /* Chrome10+,Safari5.1+ */
+	border: 1px solid #00588c;
+
+
+}
+.paddingTop10{padding-top:10px;}

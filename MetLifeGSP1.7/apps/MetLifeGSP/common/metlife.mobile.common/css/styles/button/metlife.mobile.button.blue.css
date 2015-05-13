@@ -1,0 +1,4 @@
+.button.blue {background:#007CC2;}
+
+/*Removed :hover to remove its persisting effect*/
+.button.blue.active{background:#006CA9;}
