@@ -27,10 +27,12 @@ public final class PxCalculatorUtil {
 			timer.start();
 			PxDeployment deployment = null;
 			if(deploymentPackageFile.endsWith("encrypted.pxdo")) {
+                
 				deployment = calculatorHome.loadEncryptedDeploymentObject(deploymentPackageFile, "MetLife", null, null, null);
 			} else if(deploymentPackageFile.endsWith(".pxdo")) {
 				deployment = calculatorHome.loadDeploymentObject(deploymentPackageFile, null, null, null);
 			} else {
+                calculatorHome.importkey("../");
 				deployment = calculatorHome.loadDeploymentPackage(deploymentPackageFile, null, null, null);
 			}
 			
