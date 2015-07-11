@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<Calculator>
-	<HandleIndependentResources value="true" />
-	<Trace value="ALL" / -->
-	<TraceFile value="/storage/emulated/0/productxpress/utesttrace.txt" / -->
-	<Mode value="test"/>
-</Calculator>
