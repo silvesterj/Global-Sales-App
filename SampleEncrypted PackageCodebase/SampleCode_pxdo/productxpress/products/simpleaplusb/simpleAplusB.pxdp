@@ -1,0 +1,440 @@
+<?xml version='1.0'?>
+  <DeploymentPackage deploy='FPM:7d9230e3-6ccd-4343-860a-f19492d0bd3f.StaticDeployment' lid='ID:d9da1e56-36cd-4dcf-b47c-bbc23382b499' type='EntryPoint' mode='production'><Documentation>User: PlaatsG
+Company: Insurance Software Solutions Corporation
+Date: 9/1/2004 3:09:23 PM</Documentation><Name>statisDeployment1</Name><Date>2004-09-01</Date>
+    <VersionNumber>1.0</VersionNumber>
+    <DeploymentItem id='FPM:34678684-1627-493b-a7ff-f21388b20917.DeploymentDeliverable' v='1'><Name>Copy from PX2: Deployment1</Name>
+      <VersionNumber>1.0</VersionNumber>
+    <CreationTime>2010-07-15 10:42:26</CreationTime><DeployedPXML>
+  <FPMExport version='3.5' export-type='deliverable'>
+    <Deliverable id='ID:34678684-1627-493b-a7ff-f21388b20917' lid='ID:10f16625-9fd8-45a3-af0d-e1570563d08c' deliverable-type='Deployment' owned='false' mode='export' check-passed='true'>
+      <Name>Copy from PX2: Deployment1</Name>
+    <VersionNumber>1.0</VersionNumber>
+      <VersionComment>Added dependency to version 0.1 of 'FinProd1'
+Added dependency to version 0.1 of 'DeplEnvDeliverable1'
+
+PlaatsG
+- Added folder '/'
+- Added static deployment 'statisDeployment1'
+</VersionComment>
+    <CreationTime>2010-07-15 10:42:26</CreationTime>
+      <RootFolder lid-ref='ID:97b808dd-b3d4-41b5-af81-745b5e50285f' type='Folder'/>
+      <UsedDeliverable id-ref='ID:cd91dd61-dc71-4635-9974-0c8fb81018a5' type='DeploymentEnvDelivera'/>
+      <UsedDeliverable id-ref='ID:a4a200a0-47a5-4ad1-8dad-7177e750fdac' type='FinProductDeliverable'/>
+    </Deliverable>
+    <Folder id='ID:88dfce1c-6b3f-4cc6-9589-b0b6b741034e' vid='ID:da9f59b7-c081-40ff-821f-a80ff1a506f7' lid='ID:97b808dd-b3d4-41b5-af81-745b5e50285f'>
+      <Name>/</Name>
+    <CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Item lid-ref='ID:d9da1e56-36cd-4dcf-b47c-bbc23382b499' type='StaticDeployment'/>
+    </Folder>
+    <StaticDeployment id='ID:7d9230e3-6ccd-4343-860a-f19492d0bd3f' vid='ID:74eaa821-cbc0-46c6-8774-a3cfb48df3c6' lid='ID:d9da1e56-36cd-4dcf-b47c-bbc23382b499'>
+      <Name>statisDeployment1</Name>
+    <CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+      <FinProdEntryPoint lid-ref='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048' type='StructureElement' def='external'/>
+      <StaticDeploymentEnvironmentRef lid-ref='ID:af68a85b-e5c2-44df-8f30-55631d93f363' type='StaticDeploymentEnvir' def='external'/>
+      <ResourceMapping id='ID:0458ca38-9cfe-4340-98ee-84518417c419' vid='ID:d7676e19-3594-4e39-818d-0aff9d63cfdb' lid='ID:acc40301-5307-4645-a849-c75d04914b06'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+        <StaticType lid-ref='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048' type='StructureElement' def='external'/>
+        <DynamicTypeSelector id='ID:e416001e-b80e-4313-95de-0887f6df0ff0' vid='ID:91f6f35d-6651-4b99-9e1e-a38c4af184d5' lid='ID:99d3f99b-7c54-4a22-8273-be8c35d740b4'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+          <LocalElementMapping id='ID:d90a38c7-9c3f-4715-af1c-512d66d536db' vid='ID:f5d16dc1-1c75-40ab-ab40-194af0e0248f' lid='ID:7c2482e7-b7ff-4285-8ab8-abfd5afc968e'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+            <FinProdSE lid-ref='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048' type='StructureElement' def='external'/>
+            <LinkMapping id='ID:b5565662-e21a-4dc9-97ff-e33a1098a8e1' vid='ID:1f3004c9-f5aa-4d4e-846f-d6f4a6721daf' lid='ID:78497c7a-e581-47ef-a7b8-3b6604299869'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber><DeplEnvLinkPath>link::id:2bedefa1-081c-4614-b04d-b0a6aebd75a8/*</DeplEnvLinkPath>
+              <MappedLink lid-ref='ID:6a3e9b05-3793-4af5-aa01-4db8d8203f45' type='StructureLink' def='external'/>
+              <LocalTypeMapping id='ID:cfc8ae3d-b696-4c03-9b79-c6b21c33d226' vid='ID:06facc2d-bfa9-46b6-8acb-d2182f5a3516' lid='ID:6a63daa6-57d5-483f-a848-caa9289f2bee'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+                <StaticType lid-ref='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b' type='StructureElement' def='external'/>
+                <DynamicTypeSelector id='ID:b69f40d6-e0d9-41b2-bd97-eca8b6e4dd31' vid='ID:26c6d689-005b-49dc-9dbd-91ed0a62df7f' lid='ID:6d02e38b-857f-4e7a-a1d8-2eaab7213efa'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+                  <LocalElementMapping id='ID:4cae016a-2c2e-43ed-a48f-6a8be0ef9e64' vid='ID:df985843-39ec-4393-91df-a42584282e25' lid='ID:675bf479-b7d7-4400-af8d-64dcf83b7ff3'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber>
+                    <FinProdSE lid-ref='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b' type='StructureElement' def='external'/>
+                    <InputFeatureMapping id='ID:d3a6d79d-5c9c-4cb9-93ab-396d5c20be08' vid='ID:b560ecd4-859f-4064-a1bf-cffc831aabcc' lid='ID:c19a2e79-f507-4af3-8ed8-5bfccbbf7bdc'><CreationTime>2010-07-15 10:42:28</CreationTime><VersionNumber>1.0</VersionNumber><FeatureId>e158cc38-a968-4843-8023-fe5923a6b844</FeatureId><MappingPath>@id:bed560d6-c37f-4c35-98d6-65e31dac4063</MappingPath></InputFeatureMapping>
+                    <InputFeatureMapping id='ID:629c6a0d-eab8-46de-94ce-17182acd845c' vid='ID:86b6fb96-3988-4e92-9f72-3e2ea3f2fab4' lid='ID:d3059598-06e3-4eba-9cf2-37ac77d69e82'><CreationTime>2010-07-15 10:42:27</CreationTime><VersionNumber>1.0</VersionNumber><FeatureId>6bc1a071-05cf-45ef-9e1d-66b1b95c85f0</FeatureId><MappingPath>@id:8aac3700-74a4-45c1-9e68-fca6338fec85</MappingPath></InputFeatureMapping>
+                    <OutputFeatureMapping id='ID:5ff7333b-bf4d-4d2b-8939-dab18f609f87' vid='ID:c90c0a19-b7bd-499a-bd0e-c4da1cce34ec' lid='ID:7f241b30-caa3-4b98-a07d-435b0b63f16f'><CreationTime>2010-07-15 10:42:28</CreationTime><VersionNumber>1.0</VersionNumber><FeatureId>2b637695-5621-4648-9de1-3f17ef608b95</FeatureId><MappingPath>@id:fe78f77d-592d-4cb3-896b-7d112b1b7080</MappingPath></OutputFeatureMapping>
+                    <ValueSourceMapping id='ID:64fc38bb-4251-4a3f-9384-d34b7c34ac63' vid='ID:f10ebf88-56d2-4407-ada8-8874061db978' lid='ID:30240621-5214-4179-bde3-6f9c00f26825'><CreationTime>2010-07-15 10:42:28</CreationTime><VersionNumber>1.0</VersionNumber><FinProdVSId>6584e612-d66a-4455-9ab0-fb6705948416</FinProdVSId><DeplEnvVSPath>@id:2b637695-5621-4648-9de1-3f17ef608b95/valueSource(id:b89fdd05-56d4-469c-9d29-bf21d45a57aa)</DeplEnvVSPath></ValueSourceMapping>
+                    <ValueSourceMapping id='ID:05ff55aa-2b83-47d3-8bad-45b757254c10' vid='ID:edf09505-9467-410f-bd29-f80d5b280f3c' lid='ID:5d5fc176-0a40-481e-8773-b01a80ecf8e0'><CreationTime>2010-07-15 10:42:28</CreationTime><VersionNumber>1.0</VersionNumber><FinProdVSId>9f3e2f0e-6bb9-4011-8c29-d0b412b793c9</FinProdVSId><DeplEnvVSPath>@id:bed560d6-c37f-4c35-98d6-65e31dac4063/valueSource(id:0e259f11-396f-4cb8-8871-c55b440b4b13)</DeplEnvVSPath></ValueSourceMapping>
+                    <ValueSourceMapping id='ID:769160e1-acce-415b-9212-ed23de2ec52f' vid='ID:e5e45393-df85-4103-a9a4-1ac3333f53a6' lid='ID:05e93792-2bec-4eec-97b8-ed49fcc6db7b'><CreationTime>2010-07-15 10:42:28</CreationTime><VersionNumber>1.0</VersionNumber><FinProdVSId>24313ae2-d58a-4ae0-970f-d82edd4f12c4</FinProdVSId><DeplEnvVSPath>@id:8aac3700-74a4-45c1-9e68-fca6338fec85/valueSource(id:fd1048c0-0c5d-45f8-a6be-f9a3b80e79d1)</DeplEnvVSPath></ValueSourceMapping>
+                  </LocalElementMapping>
+                </DynamicTypeSelector>
+              </LocalTypeMapping>
+            </LinkMapping>
+          </LocalElementMapping>
+        </DynamicTypeSelector>
+        <ExplicitDESource lid-ref='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2' type='StructureElement' def='external'/>
+      </ResourceMapping>
+    </StaticDeployment>
+  </FPMExport>
+</DeployedPXML><SignatureValue>JEK++sgjDg40mbd3KsGIvqgyl4g</SignatureValue></DeploymentItem>
+    <DeploymentItem id='FPM:cd91dd61-dc71-4635-9974-0c8fb81018a5.DeploymentEnvDelivera' v='1'><Name>Copy from PX2: DeplEnvDeliverable1</Name>
+      <VersionNumber>1.0</VersionNumber>
+    <CreationTime>2010-07-15 10:42:24</CreationTime><DeployedPXML>
+  <FPMExport version='3.5' export-type='deliverable'>
+    <Deliverable id='ID:cd91dd61-dc71-4635-9974-0c8fb81018a5' lid='ID:eb2dcde0-980c-4fd5-983a-62a84efcdfba' deliverable-type='DeploymentEnvironment' owned='false' mode='export' check-passed='true'>
+      <Name>Copy from PX2: DeplEnvDeliverable1</Name>
+    <VersionNumber>1.0</VersionNumber>
+      <VersionComment>Added dependency to version 1.0 of 'Standard Value Definitions'
+
+PlaatsG
+- Added folder '/'
+- Added diagram 'deplenvdiagram1'
+- Added deployment product 'deplProduct1'
+- Added deployment module 'deplModule1'
+- Added static deployment environment 'deplenvironment1'
+</VersionComment>
+    <CreationTime>2010-07-15 10:42:24</CreationTime>
+      <RootFolder lid-ref='ID:8c980429-c612-42cb-b724-c65b3fa2c4f3' type='Folder'/>
+      <UsedDeliverable id-ref='ID:e6f0208e-0c78-4527-98af-1c794a8c1213' type='FinProductDeliverable'/>
+    </Deliverable>
+    <Folder id='ID:d187f6ac-7895-4967-94ee-e4a2316ec9a8' vid='ID:e3e0a0c8-91e5-4cdc-bf4d-33bfefa92a34' lid='ID:8c980429-c612-42cb-b724-c65b3fa2c4f3'>
+      <Name>/</Name>
+    <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Item lid-ref='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2' type='StructureElement'/>
+      <Item lid-ref='ID:fb148e36-32b6-45c0-bb0d-2e069dabdf64' type='StructureElement'/>
+      <Item lid-ref='ID:af68a85b-e5c2-44df-8f30-55631d93f363' type='StaticDeploymentEnvir'/>
+      <Item lid-ref='ID:b6ee0a86-1b76-494f-b05e-c296c0ad83aa' type='Diagram'/>
+    </Folder>
+    <StructureElement id='ID:548ce286-1e7c-4159-bdce-95740734ed1c' vid='ID:15f54519-3fbb-488a-a594-be03b8dcbb9b' lid='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2'>
+      <Name>deplProduct1</Name>
+    <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+      <StructureLink id='ID:e2aef418-8804-402b-ba27-c5cd24ebb69f' vid='ID:520565f8-2b42-4366-9610-116951056b27' lid='ID:2bedefa1-081c-4614-b04d-b0a6aebd75a8'><CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber><LinkId>2bedefa1-081c-4614-b04d-b0a6aebd75a8</LinkId>
+        <Multiplicity type='multiple' mandatory='true'/>
+        <Target lid-ref='ID:fb148e36-32b6-45c0-bb0d-2e069dabdf64' type='StructureElement'/>
+      <AllowSubtypes/></StructureLink>
+    </StructureElement>
+    <StructureElement id='ID:d9560517-0914-49ee-b0c0-f3f23bc6a687' vid='ID:a36ccbe3-10c6-4021-a85a-2b16815af125' lid='ID:fb148e36-32b6-45c0-bb0d-2e069dabdf64'>
+      <Name>deplModule1</Name>
+    <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Attribute id='ID:c71dccb4-5021-4fda-bdd1-9042b6ac98a1' vid='ID:5414e30d-0920-4132-9506-871dd69c39ea' lid='ID:8aac3700-74a4-45c1-9e68-fca6338fec85'>
+        <Name>deplA</Name>
+      <CreationTime>2010-07-15 10:42:25</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:9fa05f21-5ce8-4139-9057-f3400f5aa1a3' vid='ID:099bddc1-69d0-486b-ad12-953a3f559ec0' lid='ID:fd1048c0-0c5d-45f8-a6be-f9a3b80e79d1'><CreationTime>2010-07-15 10:42:25</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>entered</Kind>
+        </ValueSource>
+      </Attribute>
+      <Attribute id='ID:4aedf4d2-45aa-4ab5-b7b5-a1128e0c3999' vid='ID:e0cf6aa6-f0e5-42ba-922f-4039412b5b72' lid='ID:2b637695-5621-4648-9de1-3f17ef608b95'>
+        <Name>deplC</Name>
+      <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:a26f1e1c-2e19-4da4-82d6-893e8cb3757a' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:1cc53889-ab45-4baa-a870-5cd4eb27523f' vid='ID:40f6c41a-6c2b-4ec5-9d96-3b9dba66a00b' lid='ID:b89fdd05-56d4-469c-9d29-bf21d45a57aa'><CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>calculated</Kind>
+        </ValueSource>
+      </Attribute>
+      <Attribute id='ID:17827b30-d950-4194-a132-52d19599a8aa' vid='ID:f5a534fb-262b-41ff-8d78-50c7349f572c' lid='ID:bed560d6-c37f-4c35-98d6-65e31dac4063'>
+        <Name>deplB</Name>
+      <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:a145b65e-0650-4474-86b4-8732e53e9bc7' vid='ID:ce4f4948-70a9-4b2c-b746-a7ff05415e88' lid='ID:0e259f11-396f-4cb8-8871-c55b440b4b13'><CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>entered</Kind>
+        </ValueSource>
+      </Attribute>
+    </StructureElement>
+    <StaticDeploymentEnvironment id='ID:567c4f94-d72d-45bc-9d2a-78bab0698b52' vid='ID:34637ec2-3e8b-46c1-be21-82d50955f8be' lid='ID:af68a85b-e5c2-44df-8f30-55631d93f363'>
+      <Name>deplenvironment1</Name>
+    <CreationTime>2010-07-15 10:42:25</CreationTime><VersionNumber>1.0</VersionNumber>
+      <ResourceRootElement lid-ref='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2' type='StructureElement'/>
+    </StaticDeploymentEnvironment>
+    <Diagram id='ID:2c8bcd5b-1c5d-4525-97d1-42872396d7a8' vid='ID:f5d70b51-2c60-43ad-862a-0e4e6b04cfac' lid='ID:b6ee0a86-1b76-494f-b05e-c296c0ad83aa'>
+      <Name>deplenvdiagram1</Name>
+    <CreationTime>2010-07-15 10:42:24</CreationTime><VersionNumber>1.0</VersionNumber><Content><Content hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' hidelinknames='0' hidelinkmultiplicity='0' visibilityscope='2'><StructureElement top='220' left='235' width='250' height='125' identity='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2' hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' attributesratio='34.000000' validationsratio='33.000000' operationsratio='33.000000' fillred='-1' fillgreen='-1' fillblue='-1' textred='-1' textgreen='-1' bluered='-1' visibilityscope='2'/><StructureElement top='665' left='237' width='250' height='125' identity='ID:fb148e36-32b6-45c0-bb0d-2e069dabdf64' hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' attributesratio='34.000000' validationsratio='33.000000' operationsratio='33.000000' fillred='-1' fillgreen='-1' fillblue='-1' textred='-1' textgreen='-1' bluered='-1' visibilityscope='2'/><StructureLink type='owning' linkid='ID:00000000-0000-0000-0000-000000000000' hidelinknames='0' hidelinkmultiplicity='0' style='straight' keepautolayout='1'><Source port='0' ref='ID:070bdd22-f72a-4d89-935e-0c4fed877ba2'/><Target port='0' ref='ID:fb148e36-32b6-45c0-bb0d-2e069dabdf64'/></StructureLink></Content></Content></Diagram>
+  </FPMExport>
+</DeployedPXML><SignatureValue>8vdxV/6sUNXyS9NPZORpOERkSUI</SignatureValue></DeploymentItem>
+    <DeploymentItem id='FPM:e6f0208e-0c78-4527-98af-1c794a8c1213.FinProductDeliverable' v='1'><Name>Standard Value Definitions</Name>
+      <VersionNumber>1.0</VersionNumber>
+    <CreationTime>2002-11-12 15:54:25</CreationTime><DeployedPXML>
+  <FPMExport version='3.5' export-type='deliverable'>
+    <Deliverable id='ID:e6f0208e-0c78-4527-98af-1c794a8c1213' lid='ID:0684e29e-c053-4309-a79d-e2ab144366c8' deliverable-type='FinancialProduct' owned='false' mode='export' check-passed='true'>
+      <Name>Standard Value Definitions</Name>
+    <VersionNumber>1.0</VersionNumber><CreationTime>2002-11-12 15:54:25</CreationTime>
+      <Documentation>This deliverable contains standard valuedefinitions that come in useful for nearly all Financial Product Deliverables</Documentation>
+      <RootFolder lid-ref='ID:2a2bc22a-960b-4790-a819-a51412b7fd34' type='Folder'/>
+    </Deliverable>
+    <Folder id='ID:65242eb4-3ad3-413a-abdf-42b84d61fc73' vid='ID:564fb6d8-31f4-4562-8b53-49559e69965c' lid='ID:2a2bc22a-960b-4790-a819-a51412b7fd34'>
+      <Name>/</Name>
+    <CreationTime>2002-11-12 15:57:03</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Documentation>This folder contains the most basic value definitions.</Documentation>
+      <Item lid-ref='ID:85911219-e4c1-4919-b951-e720df7e1266' type='ValueDefinition'/>
+      <Item lid-ref='ID:a26f1e1c-2e19-4da4-82d6-893e8cb3757a' type='ValueDefinition'/>
+      <Item lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition'/>
+      <Item lid-ref='ID:e5d0e982-8434-4a46-b436-d34e45a0c94c' type='ValueDefinition'/>
+      <Item lid-ref='ID:26caed8e-bbcb-495a-a662-9cad5e76e4aa' type='ValueDefinition'/>
+      <Item lid-ref='ID:e5ec8aba-ffe0-4f2a-a654-5759082209b0' type='ValueDefinition'/>
+      <Item lid-ref='ID:62a3ffc8-9da3-4abc-be03-9e5cef027a43' type='Folder'/>
+      <Item lid-ref='ID:a43f60ca-a1e4-4673-9b98-74042d421cc5' type='Folder'/>
+      <Item lid-ref='ID:69559bd9-0cf2-487a-ac75-56150487b758' type='ValueDefinition'/>
+    </Folder>
+    <ValueDefinition id='ID:0aa9f50b-3702-40df-8890-1e1ad4f2fe66' vid='ID:5bfed46c-fa16-4ea8-a0bc-3516aac1f0a5' lid='ID:85911219-e4c1-4919-b951-e720df7e1266'>
+      <Name>Boolean</Name>
+    <CreationTime>2002-11-12 16:12:03</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent boolean values - i.e. true or false.</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>boolean</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:89a55333-5ae2-4d11-a8b2-58ab8cf93982' vid='ID:5bb04fd9-4f4f-48a0-a9d9-79a777d12e66' lid='ID:a26f1e1c-2e19-4da4-82d6-893e8cb3757a'>
+      <Name>Real</Name>
+    <CreationTime>2002-11-12 16:05:19</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent a real number.</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>real</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:c42dcaa6-7112-4d08-887f-5002c4886e32' vid='ID:b85daaab-0b94-477d-b049-5edf8be092f8' lid='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4'>
+      <Name>Integer</Name>
+    <CreationTime>2002-11-12 16:05:48</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent an integer number - a whole number that lies in the range -2147483648 and +2147483648</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>integer</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:3f51dae6-5f8c-4637-8003-4878cca1166c' vid='ID:245ee5e2-9f14-4f6c-b8cc-e9addedc3c74' lid='ID:e5d0e982-8434-4a46-b436-d34e45a0c94c'>
+      <Name>TableID</Name>
+    <CreationTime>2002-11-12 16:02:31</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent a ProductXPress table.</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>tableId</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:9d9a06ae-e41f-4ad2-9533-12ed677fe98f' vid='ID:e6e8763c-7efe-4f3c-83cb-adfecfaf6eaa' lid='ID:26caed8e-bbcb-495a-a662-9cad5e76e4aa'>
+      <Name>Identity</Name>
+    <CreationTime>2002-11-12 16:10:48</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent the identity of a structure element within calculations. (Refer to the ProductXPress help for more information).</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>identity</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:4fc48354-764a-42b9-9c67-1562655b75e9' vid='ID:a3c6846e-1b19-4b12-85b8-4b49553c6da8' lid='ID:e5ec8aba-ffe0-4f2a-a654-5759082209b0'>
+      <Name>Date</Name>
+    <CreationTime>2002-11-12 16:11:43</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to represent a date.</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>date</DataType>
+    </ValueDefinition>
+    <Folder id='ID:8c6a01bd-078b-470c-be8f-a41d67d0abb9' vid='ID:51965aae-ef45-464c-b855-95f2164abb06' lid='ID:62a3ffc8-9da3-4abc-be03-9e5cef027a43'>
+      <Name>Time-dependent Value Definitions</Name>
+    <CreationTime>2002-11-12 16:00:27</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>This folder contains time-dependent valuedefinitions for all simple value definitions.</Documentation>
+      <Item lid-ref='ID:af4b5f31-551e-464f-9efa-327ffc6b5366' type='ValueDefinition'/>
+      <Item lid-ref='ID:a6ff7131-07bd-4f80-b7bc-c8492407622a' type='ValueDefinition'/>
+      <Item lid-ref='ID:c1f3405d-104b-46a7-8d26-7a88807e1b19' type='ValueDefinition'/>
+      <Item lid-ref='ID:5ffd8399-f60a-40ce-ab92-8ea1dd5b94a7' type='ValueDefinition'/>
+      <Item lid-ref='ID:c8fbb99c-f1b3-4836-8090-83a8bed07641' type='ValueDefinition'/>
+      <Item lid-ref='ID:ed7104c0-2dab-4650-9778-c78439cddf65' type='ValueDefinition'/>
+    </Folder>
+    <Folder id='ID:ec47bc51-5096-4409-bfce-6e0c394a299c' vid='ID:12e40693-4e09-4b33-8b5d-21828e224c25' lid='ID:a43f60ca-a1e4-4673-9b98-74042d421cc5'>
+      <Name>Set Value Definitions</Name>
+    <CreationTime>2002-11-12 15:59:21</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>This folder contains set value definitions for all simple value definitions.</Documentation>
+      <Item lid-ref='ID:47fd2d19-4066-4915-a44e-a61ea6a59834' type='ValueDefinition'/>
+      <Item lid-ref='ID:d3930b40-8b69-4ce6-bcbd-355fa055f59e' type='ValueDefinition'/>
+      <Item lid-ref='ID:91436f5c-b1bf-4a7a-ba28-c667d88901ac' type='ValueDefinition'/>
+      <Item lid-ref='ID:5daca273-9a0d-491b-b1ec-a0263e9fe793' type='ValueDefinition'/>
+      <Item lid-ref='ID:fcc8c9e4-ea56-4152-8bba-caf9f5f5da74' type='ValueDefinition'/>
+      <Item lid-ref='ID:4c5255f1-aa61-4d61-8cac-86bd15809c60' type='ValueDefinition'/>
+      <Item lid-ref='ID:7e4244f4-7d5b-4a1c-abf2-9cb79d21e36c' type='ValueDefinition'/>
+    </Folder>
+    <ValueDefinition id='ID:6d3188da-4416-439a-ac65-a790f84fa38c' vid='ID:a00874c0-24da-4c87-8a94-4d42d0875a91' lid='ID:69559bd9-0cf2-487a-ac75-56150487b758'>
+      <Name>String</Name>
+    <CreationTime>2002-11-12 16:03:10</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Documentation>Value definition used to  represent a string of characters.</Documentation>
+      <Structure>scalar</Structure>
+      <DataType>string</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:3b293764-3570-4930-8dd4-108a5fe96db1' vid='ID:b0a6ec2d-80fe-439b-8e62-9667abfe67ff' lid='ID:af4b5f31-551e-464f-9efa-327ffc6b5366'>
+      <Name>Time-dependent Real</Name>
+    <CreationTime>2002-11-12 15:56:02</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>real</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:05f70816-f072-4aa7-a121-58b9a0647fbb' vid='ID:21b0ae2d-af35-42c9-9907-51ce9cc23363' lid='ID:a6ff7131-07bd-4f80-b7bc-c8492407622a'>
+      <Name>Time-dependent String</Name>
+    <CreationTime>2002-11-12 15:55:57</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>string</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:dca30eee-36d3-4470-a89f-78127a2aaa63' vid='ID:bee386b5-a478-46e0-9de2-cb7bb473954e' lid='ID:c1f3405d-104b-46a7-8d26-7a88807e1b19'>
+      <Name>Time-dependent Integer</Name>
+    <CreationTime>2002-11-12 15:56:07</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>integer</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:89f964f6-2937-433a-9504-b1a618fb22e3' vid='ID:3c932171-93ad-4f0c-9b0c-1c976a36b12d' lid='ID:5ffd8399-f60a-40ce-ab92-8ea1dd5b94a7'>
+      <Name>Time-dependent Boolean</Name>
+    <CreationTime>2002-11-12 15:55:32</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>boolean</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:ee2b9124-3034-462e-9bda-1d14e3607cfc' vid='ID:9667bf0d-eba4-4655-98f9-e94ba454bc27' lid='ID:c8fbb99c-f1b3-4836-8090-83a8bed07641'>
+      <Name>Time-dependent Tableid</Name>
+    <CreationTime>2002-11-12 15:55:51</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>tableId</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:2894208a-a3a2-4c09-a21e-3dd3317d2f2a' vid='ID:f2e58e78-852c-4af0-a838-5682c76dbfd1' lid='ID:ed7104c0-2dab-4650-9778-c78439cddf65'>
+      <Name>Time-dependent Date</Name>
+    <CreationTime>2002-11-12 15:55:37</CreationTime><VersionNumber>3.0</VersionNumber>
+      <Structure>scalar</Structure>
+    <TimeDependent/>
+      <DataType>date</DataType>
+    </ValueDefinition>
+    <ValueDefinition id='ID:fb30cd45-00a2-4267-9111-d4374b913e49' vid='ID:1063bc2f-ded1-4911-be10-6ed8fc997f29' lid='ID:47fd2d19-4066-4915-a44e-a61ea6a59834'>
+      <Name>Set of Identities</Name>
+    <CreationTime>2002-11-12 16:01:13</CreationTime><VersionNumber>2.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:26caed8e-bbcb-495a-a662-9cad5e76e4aa' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:1611bc7e-162a-4ca6-a8e9-91eb0747e074' vid='ID:856eb9ac-7ef4-44b3-9f89-a02e91b85003' lid='ID:d3930b40-8b69-4ce6-bcbd-355fa055f59e'>
+      <Name>Set of Strings</Name>
+    <CreationTime>2002-09-16 16:35:25</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:69559bd9-0cf2-487a-ac75-56150487b758' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:59b307cb-e58c-4016-85bc-5782a1b484df' vid='ID:6fd6ab94-26bf-4979-8c24-478b288a0b14' lid='ID:91436f5c-b1bf-4a7a-ba28-c667d88901ac'>
+      <Name>Set of Reals</Name>
+    <CreationTime>2002-09-16 16:35:25</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:a26f1e1c-2e19-4da4-82d6-893e8cb3757a' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:79e7a5aa-0ade-4c10-9d4b-87ea52e29369' vid='ID:0c16c089-0b6d-4036-ad02-b2b834b3a1a7' lid='ID:5daca273-9a0d-491b-b1ec-a0263e9fe793'>
+      <Name>Set of Dates</Name>
+    <CreationTime>2002-09-16 16:35:27</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:e5ec8aba-ffe0-4f2a-a654-5759082209b0' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:a0217300-456c-419a-8754-898ccdbe5531' vid='ID:0e10642d-40e3-446d-a74a-ace2d53ddd75' lid='ID:fcc8c9e4-ea56-4152-8bba-caf9f5f5da74'>
+      <Name>Set of TableIDs</Name>
+    <CreationTime>2002-09-16 16:35:26</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:e5d0e982-8434-4a46-b436-d34e45a0c94c' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:80011b2a-3388-4bde-a5fa-efc9f79e9e68' vid='ID:482f66f3-4327-4e56-b020-0eaa7aad1101' lid='ID:4c5255f1-aa61-4d61-8cac-86bd15809c60'>
+      <Name>Set of Booleans</Name>
+    <CreationTime>2002-09-16 16:35:25</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:85911219-e4c1-4919-b951-e720df7e1266' type='ValueDefinition'/>
+    </ValueDefinition>
+    <ValueDefinition id='ID:d99f289a-8af1-4e01-8ae0-5eb3801fb6b9' vid='ID:8c239c3e-e71e-4c44-a957-461f3f5d8caf' lid='ID:7e4244f4-7d5b-4a1c-abf2-9cb79d21e36c'>
+      <Name>Set of Integers</Name>
+    <CreationTime>2002-09-16 16:35:25</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Structure>set</Structure>
+      <ContainedDataType lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition'/>
+    </ValueDefinition>
+  </FPMExport>
+</DeployedPXML><SignatureValue>K+1m+hH6qKwhukidOSWMPioA/XY</SignatureValue></DeploymentItem>
+    <DeploymentItem id='FPM:a4a200a0-47a5-4ad1-8dad-7177e750fdac.FinProductDeliverable' v='1'><Name>Copy from PX2: FinProd1</Name>
+      <VersionNumber>1.0</VersionNumber>
+    <CreationTime>2010-07-15 10:42:17</CreationTime><DeployedPXML>
+  <FPMExport version='3.5' export-type='deliverable'>
+    <Deliverable id='ID:a4a200a0-47a5-4ad1-8dad-7177e750fdac' lid='ID:be73a0c6-4b6f-40ee-9b87-ee14512e3848' deliverable-type='FinancialProduct' owned='false' mode='export' check-passed='true'>
+      <Name>Copy from PX2: FinProd1</Name>
+    <VersionNumber>1.0</VersionNumber>
+      <VersionComment>Added dependency to version 1.0 of 'Standard Value Definitions'
+
+PlaatsG
+- Added product 'Product1'
+- Added diagram 'diagram1'
+- Added variable 'va'
+- Added function 'fc'
+- Added variable 'vb'
+- Added folder '/'
+- Added module 'module1'
+</VersionComment>
+    <CreationTime>2010-07-15 10:42:17</CreationTime>
+      <RootFolder lid-ref='ID:16a2428f-f0b2-454b-99d4-2f4734deeec8' type='Folder'/>
+      <UsedDeliverable id-ref='ID:e6f0208e-0c78-4527-98af-1c794a8c1213' type='FinProductDeliverable'/>
+    </Deliverable>
+    <Folder id='ID:8a2428bd-a6d0-42b3-8733-e9a3e5632491' vid='ID:2efea3c2-9890-447e-bf45-221176c5bba8' lid='ID:16a2428f-f0b2-454b-99d4-2f4734deeec8'>
+      <Name>/</Name>
+    <CreationTime>2010-07-15 10:42:17</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Item lid-ref='ID:5b335428-3708-4139-bc7a-285ef07d606e' type='SimpleVariable'/>
+      <Item lid-ref='ID:8bd73372-092c-4925-be56-4bf0538c62c7' type='Function'/>
+      <Item lid-ref='ID:8804ec74-6cae-4b4f-818c-9c054a915d47' type='SimpleVariable'/>
+      <Item lid-ref='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048' type='StructureElement'/>
+      <Item lid-ref='ID:7b5ccfd5-ed0d-46b4-ace4-8c7d907084b1' type='Diagram'/>
+      <Item lid-ref='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b' type='StructureElement'/>
+    </Folder>
+    <Variable id='ID:0c6222af-5a0d-4d97-b373-8d3496632426' vid='ID:83b52814-a7d5-4a1a-aad0-ee606b454500' lid='ID:5b335428-3708-4139-bc7a-285ef07d606e'>
+      <Name>vb</Name>
+    <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+      <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+    </Variable>
+    <Function id='ID:0c5df265-0741-436b-8bf5-9554d001a8b2' vid='ID:03a16d36-6c4b-4b86-a413-9eb76699658a' lid='ID:8bd73372-092c-4925-be56-4bf0538c62c7'>
+      <Name>fc</Name>
+    <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+      <ReturnType lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+    <Expression><expr>
+  <apply>
+    <plus/>
+    <csymbol definitionURL='variable:8804ec74-6cae-4b4f-818c-9c054a915d47'/>
+    <csymbol definitionURL='variable:5b335428-3708-4139-bc7a-285ef07d606e'/>
+  </apply>
+</expr>
+</Expression></Function>
+    <Variable id='ID:fbe1983b-5bd6-4e48-a7bb-1fc3d3950506' vid='ID:a83b4e45-d09a-49de-b626-a892ba0c5abc' lid='ID:8804ec74-6cae-4b4f-818c-9c054a915d47'>
+      <Name>va</Name>
+    <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+      <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+    </Variable>
+    <StructureElement id='ID:cad7b3a8-f32c-4cea-8f9d-25c3fd810eba' vid='ID:d47fb1e2-0787-4af3-9c53-799055b17862' lid='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048'>
+      <Name>Product1</Name>
+    <CreationTime>2010-07-15 10:42:18</CreationTime><VersionNumber>1.0</VersionNumber>
+      <MappingSlice id='ID:27194bf2-6584-452e-a9a7-670cec03bf44' vid='ID:82dff6df-6b0a-4bc7-ab37-02cab14cf4ed' lid='ID:09986201-7166-41de-9515-25fc6480343b'><CreationTime>2010-07-15 10:42:18</CreationTime><VersionNumber>1.0</VersionNumber><DestinationPath>.</DestinationPath></MappingSlice>
+      <StructureLink id='ID:410feb88-21be-42a6-b163-e82e021a87bb' vid='ID:1a80288e-6b63-444d-ba88-4ed100882415' lid='ID:6a3e9b05-3793-4af5-aa01-4db8d8203f45'><CreationTime>2010-07-15 10:42:18</CreationTime><VersionNumber>1.0</VersionNumber><LinkId>6a3e9b05-3793-4af5-aa01-4db8d8203f45</LinkId>
+        <Multiplicity type='multiple' mandatory='true'/>
+        <Target lid-ref='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b' type='StructureElement'/>
+      <AllowSubtypes/></StructureLink>
+    <EntryPoint/></StructureElement>
+    <Diagram id='ID:5f319619-7e22-4aa4-a7f8-01fda5bf264f' vid='ID:f10bf1ad-9792-46dd-a3fe-d010458eaff8' lid='ID:7b5ccfd5-ed0d-46b4-ace4-8c7d907084b1'>
+      <Name>diagram1</Name>
+    <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber><Content><Content hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' hidelinknames='0' hidelinkmultiplicity='0' visibilityscope='2'><StructureElement top='100' left='150' width='250' height='125' identity='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048' hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' attributesratio='34.000000' validationsratio='33.000000' operationsratio='33.000000' fillred='-1' fillgreen='-1' fillblue='-1' textred='-1' textgreen='-1' bluered='-1' visibilityscope='2'/><StructureElement top='560' left='157' width='250' height='125' identity='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b' hidesupertype='0' hidestereotypes='1' hideattributes='0' hidevalidations='0' hideoperations='0' hideattrvaldefs='0' hideoperationparams='0' hidecontext='0' hideparent='0' hideinheritedfeatures='0' attributesratio='34.000000' validationsratio='33.000000' operationsratio='33.000000' fillred='-1' fillgreen='-1' fillblue='-1' textred='-1' textgreen='-1' bluered='-1' visibilityscope='2'/><StructureLink type='owning' linkid='ID:00000000-0000-0000-0000-000000000000' hidelinknames='0' hidelinkmultiplicity='0' style='straight' keepautolayout='1'><Source port='0' ref='ID:3f17bd8f-cc27-44aa-bd05-913175f5c048'/><Target port='0' ref='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b'/></StructureLink></Content></Content></Diagram>
+    <StructureElement id='ID:48f53d3c-973b-4f37-9085-583af3d1f334' vid='ID:23ff37aa-6074-421d-817d-dcabf35a61fb' lid='ID:340b3aec-bbb5-40bc-ba51-792a18d2310b'>
+      <Name>module1</Name>
+    <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+      <Attribute id='ID:61800d3a-27df-4c87-91eb-c49726c569c5' vid='ID:57708306-6c17-483c-958a-770d323c08ad' lid='ID:e158cc38-a968-4843-8023-fe5923a6b844'>
+        <Name>b</Name>
+      <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:f3c46b27-13a5-4247-999d-4b5fbc2a68e0' vid='ID:e4ac139f-18f8-4095-9b2f-cc8ed9347d5f' lid='ID:9f3e2f0e-6bb9-4011-8c29-d0b412b793c9'><CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>entered</Kind>
+        </ValueSource>
+      </Attribute>
+      <Attribute id='ID:c2e05860-f193-47bf-b5ef-01b622de69cc' vid='ID:377b334c-ec1e-40ae-8ecb-e851ef6740f3' lid='ID:6bc1a071-05cf-45ef-9e1d-66b1b95c85f0'>
+        <Name>a</Name>
+      <CreationTime>2010-07-15 10:42:19</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:151ea245-6afb-4650-bba0-31d0f33cc9d4' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:c3486270-829a-46da-b917-5f504e9c3864' vid='ID:d5a92aac-aff2-44b1-ab01-27438ecd5f21' lid='ID:24313ae2-d58a-4ae0-970f-d82edd4f12c4'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>entered</Kind>
+        </ValueSource>
+      </Attribute>
+      <Attribute id='ID:10b1fdf5-92cb-4a1c-b92f-44d2822e3dd7' vid='ID:012abcf4-f2c7-4b1d-968c-428d7caa1737' lid='ID:fe78f77d-592d-4cb3-896b-7d112b1b7080'>
+        <Name>c</Name>
+      <CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+        <TypeRef lid-ref='ID:a26f1e1c-2e19-4da4-82d6-893e8cb3757a' type='ValueDefinition' def='external'/>
+        <ValueSource id='ID:007fb8b0-f917-4c5c-9432-9fc991b97e42' vid='ID:d254d976-a68e-424c-a93b-0169690399df' lid='ID:6584e612-d66a-4455-9ab0-fb6705948416'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+          <Kind>calculated</Kind>
+        <Expression><expr>
+  <apply>
+    <ci definitionURL='ID:8bd73372-092c-4925-be56-4bf0538c62c7'/>
+  </apply>
+</expr>
+</Expression></ValueSource>
+      </Attribute>
+      <MappingSlice id='ID:52c9320f-1d22-44db-bb44-f951b031a337' vid='ID:3b9ae3fd-4778-4ca2-ba03-883a54569470' lid='ID:64d6ae83-4cf8-41e0-b7b5-11969567037d'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber><DestinationPath>.</DestinationPath>
+        <AvailableFunction lid-ref='ID:8bd73372-092c-4925-be56-4bf0538c62c7' type='Function'/>
+        <ScalarVariableMapping id='ID:dbf9c85b-6397-4225-af7b-3a626c254fa0' vid='ID:8a6e96e4-043a-4a67-be77-c2404506cec2' lid='ID:d00df84f-95ef-4df4-87f1-a6ebdd2d58b9'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+          <VariableRef lid-ref='ID:5b335428-3708-4139-bc7a-285ef07d606e' type='SimpleVariable'/>
+          <ScalarMapping id='ID:bbf42c7e-4eff-48d6-91e3-feb894f7bd43' vid='ID:48bb8f91-214f-449a-ae58-35cfd44b0c86' lid='ID:57048ab4-c7bb-44e7-bea2-a45858c669b0'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+            <TargetType>onFeature</TargetType>
+          <MappingPath>@id:e158cc38-a968-4843-8023-fe5923a6b844</MappingPath>
+            <AttributeRef lid-ref='ID:e158cc38-a968-4843-8023-fe5923a6b844' type='Attr'/>
+          </ScalarMapping>
+        </ScalarVariableMapping>
+        <ScalarVariableMapping id='ID:81e578ad-cb30-4114-acb8-398db4fa5e2b' vid='ID:746fe574-0efc-4e66-bbdc-4855a966834c' lid='ID:d33d9627-d6b5-48fb-82e9-a7637b60752a'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+          <VariableRef lid-ref='ID:8804ec74-6cae-4b4f-818c-9c054a915d47' type='SimpleVariable'/>
+          <ScalarMapping id='ID:1576c0b2-fdcf-4f72-a08c-75bd249dec51' vid='ID:2f4a3105-c4de-4543-ae63-dad1f62f55b1' lid='ID:ce153892-a0e9-4c5f-920f-0e8b335d76ed'><CreationTime>2010-07-15 10:42:20</CreationTime><VersionNumber>1.0</VersionNumber>
+            <TargetType>onFeature</TargetType>
+          <MappingPath>@id:6bc1a071-05cf-45ef-9e1d-66b1b95c85f0</MappingPath>
+            <AttributeRef lid-ref='ID:6bc1a071-05cf-45ef-9e1d-66b1b95c85f0' type='Attr'/>
+          </ScalarMapping>
+        </ScalarVariableMapping>
+      </MappingSlice>
+    </StructureElement>
+  </FPMExport>
+</DeployedPXML><SignatureValue>ww65UU8l9Q/hQuu2D4kYRX8LsnY</SignatureValue></DeploymentItem>
+  </DeploymentPackage>

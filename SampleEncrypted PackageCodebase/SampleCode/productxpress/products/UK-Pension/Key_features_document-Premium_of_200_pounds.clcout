@@ -1,0 +1,868 @@
+<?xml version='1.0'?>
+  <clc:CalculationOutput xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.example.org/SOLCORP_UK_Pension_Product_Auto_Deployment'>
+    <clc:RuntimeConfiguration name='SOLCORP UK Pension Product Auto Deployment' version='1.0' id='ID:8ef86ead-f6a5-4133-806a-18c67d4bed54'/>
+    <clc:Scenario name='main'>
+      <clc:Calculation name='main test'>
+        <Pension_Product ref='ID1' ext-id='3d5cba93-408f-4909-81fa-b4b1af5025ef:1'>
+          <Features>
+            <Cash_Value>
+              <Value date='2000-12-01T00:00:00'>2366.41</Value>
+              <Value date='2001-12-01T00:00:00'>4852.34</Value>
+              <Value date='2002-12-01T00:00:00'>7477.9</Value>
+              <Value date='2003-12-01T00:00:00'>10250.2</Value>
+              <Value date='2004-12-01T00:00:00'>13176.73</Value>
+              <Value date='2005-12-01T00:00:00'>16266.06</Value>
+              <Value date='2006-12-01T00:00:00'>19527.25</Value>
+              <Value date='2007-12-01T00:00:00'>22969.86</Value>
+              <Value date='2008-12-01T00:00:00'>26604.01</Value>
+              <Value date='2009-12-01T00:00:00'>30440.33</Value>
+              <Value date='2010-12-01T00:00:00'>34490.09</Value>
+              <Value date='2011-12-01T00:00:00'>38905.26</Value>
+              <Value date='2012-12-01T00:00:00'>43566.08</Value>
+              <Value date='2013-12-01T00:00:00'>48486.22</Value>
+              <Value date='2014-12-01T00:00:00'>53680.11</Value>
+              <Value date='2015-12-01T00:00:00'>59163</Value>
+              <Value date='2016-12-01T00:00:00'>64950.97</Value>
+              <Value date='2017-12-01T00:00:00'>71061</Value>
+              <Value date='2018-12-01T00:00:00'>77511.01</Value>
+              <Value date='2019-12-01T00:00:00'>84319.94</Value>
+              <Value date='2020-12-01T00:00:00'>91507.76</Value>
+              <Value date='2021-12-01T00:00:00'>99095.57</Value>
+              <Value date='2022-12-01T00:00:00'>107105.62</Value>
+              <Value date='2023-12-01T00:00:00'>115561.44</Value>
+              <Value date='2024-12-01T00:00:00'>124487.83</Value>
+            </Cash_Value>
+            <Cash_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2360</Value>
+              <Value date='2001-12-01T00:00:00'>4850</Value>
+              <Value date='2002-12-01T00:00:00'>7470</Value>
+              <Value date='2003-12-01T00:00:00'>10200</Value>
+              <Value date='2004-12-01T00:00:00'>13100</Value>
+              <Value date='2005-12-01T00:00:00'>16200</Value>
+              <Value date='2006-12-01T00:00:00'>19500</Value>
+              <Value date='2007-12-01T00:00:00'>22900</Value>
+              <Value date='2008-12-01T00:00:00'>26600</Value>
+              <Value date='2009-12-01T00:00:00'>30400</Value>
+              <Value date='2010-12-01T00:00:00'>34400</Value>
+              <Value date='2011-12-01T00:00:00'>38900</Value>
+              <Value date='2012-12-01T00:00:00'>43500</Value>
+              <Value date='2013-12-01T00:00:00'>48400</Value>
+              <Value date='2014-12-01T00:00:00'>53600</Value>
+              <Value date='2015-12-01T00:00:00'>59100</Value>
+              <Value date='2016-12-01T00:00:00'>64900</Value>
+              <Value date='2017-12-01T00:00:00'>71000</Value>
+              <Value date='2018-12-01T00:00:00'>77500</Value>
+              <Value date='2019-12-01T00:00:00'>84300</Value>
+              <Value date='2020-12-01T00:00:00'>91500</Value>
+              <Value date='2021-12-01T00:00:00'>99000</Value>
+              <Value date='2022-12-01T00:00:00'>107000</Value>
+              <Value date='2023-12-01T00:00:00'>115000</Value>
+              <Value date='2024-12-01T00:00:00'>124000</Value>
+            </Cash_Value_3_sig_figs>
+            <Effect_of_deductions>
+              <Value date='2000-12-01T00:00:00'>360</Value>
+              <Value date='2001-12-01T00:00:00'>787</Value>
+              <Value date='2002-12-01T00:00:00'>1270</Value>
+              <Value date='2003-12-01T00:00:00'>1830</Value>
+              <Value date='2004-12-01T00:00:00'>2460</Value>
+              <Value date='2005-12-01T00:00:00'>1540</Value>
+              <Value date='2006-12-01T00:00:00'>2020</Value>
+              <Value date='2007-12-01T00:00:00'>2570</Value>
+              <Value date='2008-12-01T00:00:00'>3220</Value>
+              <Value date='2009-12-01T00:00:00'>3960</Value>
+              <Value date='2010-12-01T00:00:00'>4810</Value>
+              <Value date='2011-12-01T00:00:00'>5630</Value>
+              <Value date='2012-12-01T00:00:00'>6580</Value>
+              <Value date='2013-12-01T00:00:00'>7660</Value>
+              <Value date='2014-12-01T00:00:00'>8890</Value>
+              <Value date='2015-12-01T00:00:00'>10200</Value>
+              <Value date='2016-12-01T00:00:00'>11800</Value>
+              <Value date='2017-12-01T00:00:00'>13500</Value>
+              <Value date='2018-12-01T00:00:00'>15500</Value>
+              <Value date='2019-12-01T00:00:00'>17700</Value>
+              <Value date='2020-12-01T00:00:00'>20200</Value>
+              <Value date='2021-12-01T00:00:00'>22900</Value>
+              <Value date='2022-12-01T00:00:00'>25900</Value>
+              <Value date='2023-12-01T00:00:00'>29300</Value>
+              <Value date='2024-12-01T00:00:00'>33000</Value>
+            </Effect_of_deductions>
+            <End_of_Plan_Date>2025-01-01</End_of_Plan_Date>
+            <Surrender_Value>
+              <Value date='2000-12-01T00:00:00'>2120</Value>
+              <Value date='2001-12-01T00:00:00'>4360</Value>
+              <Value date='2002-12-01T00:00:00'>6730</Value>
+              <Value date='2003-12-01T00:00:00'>9220</Value>
+              <Value date='2004-12-01T00:00:00'>11800</Value>
+              <Value date='2005-12-01T00:00:00'>16200</Value>
+              <Value date='2006-12-01T00:00:00'>19500</Value>
+              <Value date='2007-12-01T00:00:00'>22900</Value>
+              <Value date='2008-12-01T00:00:00'>26600</Value>
+              <Value date='2009-12-01T00:00:00'>30400</Value>
+              <Value date='2010-12-01T00:00:00'>34400</Value>
+              <Value date='2011-12-01T00:00:00'>38900</Value>
+              <Value date='2012-12-01T00:00:00'>43500</Value>
+              <Value date='2013-12-01T00:00:00'>48400</Value>
+              <Value date='2014-12-01T00:00:00'>53600</Value>
+              <Value date='2015-12-01T00:00:00'>59100</Value>
+              <Value date='2016-12-01T00:00:00'>64900</Value>
+              <Value date='2017-12-01T00:00:00'>71000</Value>
+              <Value date='2018-12-01T00:00:00'>77500</Value>
+              <Value date='2019-12-01T00:00:00'>84300</Value>
+              <Value date='2020-12-01T00:00:00'>91500</Value>
+              <Value date='2021-12-01T00:00:00'>99000</Value>
+              <Value date='2022-12-01T00:00:00'>107000</Value>
+              <Value date='2023-12-01T00:00:00'>115000</Value>
+              <Value date='2024-12-01T00:00:00'>124000</Value>
+            </Surrender_Value>
+            <Surrender_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2120</Value>
+              <Value date='2001-12-01T00:00:00'>4360</Value>
+              <Value date='2002-12-01T00:00:00'>6730</Value>
+              <Value date='2003-12-01T00:00:00'>9220</Value>
+              <Value date='2004-12-01T00:00:00'>11800</Value>
+              <Value date='2005-12-01T00:00:00'>16200</Value>
+              <Value date='2006-12-01T00:00:00'>19500</Value>
+              <Value date='2007-12-01T00:00:00'>22900</Value>
+              <Value date='2008-12-01T00:00:00'>26600</Value>
+              <Value date='2009-12-01T00:00:00'>30400</Value>
+              <Value date='2010-12-01T00:00:00'>34400</Value>
+              <Value date='2011-12-01T00:00:00'>38900</Value>
+              <Value date='2012-12-01T00:00:00'>43500</Value>
+              <Value date='2013-12-01T00:00:00'>48400</Value>
+              <Value date='2014-12-01T00:00:00'>53600</Value>
+              <Value date='2015-12-01T00:00:00'>59100</Value>
+              <Value date='2016-12-01T00:00:00'>64900</Value>
+              <Value date='2017-12-01T00:00:00'>71000</Value>
+              <Value date='2018-12-01T00:00:00'>77500</Value>
+              <Value date='2019-12-01T00:00:00'>84300</Value>
+              <Value date='2020-12-01T00:00:00'>91500</Value>
+              <Value date='2021-12-01T00:00:00'>99000</Value>
+              <Value date='2022-12-01T00:00:00'>107000</Value>
+              <Value date='2023-12-01T00:00:00'>115000</Value>
+              <Value date='2024-12-01T00:00:00'>124000</Value>
+            </Surrender_Value_3_sig_figs>
+            <Surrender_Value_at_RD_3_sig_figs>125000</Surrender_Value_at_RD_3_sig_figs>
+          </Features>
+          <Links>
+            <Death_Benefit_-_Partition>
+              <Death_Benefit ref='ID13' ext-id='5cd48237-e231-482d-b83e-d074beaa505d:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>0.17619313892667</Value>
+                    <Value date='2001-12-01T00:00:00'>0.1285643919178</Value>
+                    <Value date='2002-12-01T00:00:00'>0</Value>
+                    <Value date='2003-12-01T00:00:00'>0</Value>
+                    <Value date='2004-12-01T00:00:00'>0</Value>
+                    <Value date='2005-12-01T00:00:00'>0</Value>
+                    <Value date='2006-12-01T00:00:00'>0</Value>
+                    <Value date='2007-12-01T00:00:00'>0</Value>
+                    <Value date='2008-12-01T00:00:00'>0</Value>
+                    <Value date='2009-12-01T00:00:00'>0</Value>
+                    <Value date='2010-12-01T00:00:00'>0</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                </Features>
+                <Links>
+                  <Person>
+                    <clc:Reference ref='ID65'/>
+                  </Person>
+                </Links>
+              </Death_Benefit>
+            </Death_Benefit_-_Partition>
+            <Disability_Benefit_-_Partition>
+              <Disability_Benefit ref='ID20' ext-id='526c84f3-d552-48fb-bc51-76adfbb40d37:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>11.336</Value>
+                    <Value date='2001-12-01T00:00:00'>11.336</Value>
+                    <Value date='2002-12-01T00:00:00'>11.336</Value>
+                    <Value date='2003-12-01T00:00:00'>11.336</Value>
+                    <Value date='2004-12-01T00:00:00'>11.336</Value>
+                    <Value date='2005-12-01T00:00:00'>11.336</Value>
+                    <Value date='2006-12-01T00:00:00'>11.336</Value>
+                    <Value date='2007-12-01T00:00:00'>11.336</Value>
+                    <Value date='2008-12-01T00:00:00'>11.336</Value>
+                    <Value date='2009-12-01T00:00:00'>11.336</Value>
+                    <Value date='2010-12-01T00:00:00'>11.336</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                </Features>
+                <Links>
+                  <Person>
+                    <clc:Reference ref='ID65'/>
+                  </Person>
+                </Links>
+              </Disability_Benefit>
+            </Disability_Benefit_-_Partition>
+            <Insured_-_Partition>
+              <Insured ref='ID39' ext-id='88a6b7c0-50fe-4734-8742-03ff400b80d4:1'>
+                <Links>
+                  <Person>
+                    <clc:Reference ref='ID65'/>
+                  </Person>
+                </Links>
+              </Insured>
+            </Insured_-_Partition>
+            <Pension_Annuity_Partition>
+              <Annuity ref='ID42' ext-id='861c8fb1-9196-49f8-86d6-b771d9cf994b:1'>
+                <Features>
+                  <Annuity_after_tax_free_cash_3_sig_figs>4570</Annuity_after_tax_free_cash_3_sig_figs>
+                  <Annuity_before_tax_free_cash_3_sig_figs>6090</Annuity_before_tax_free_cash_3_sig_figs>
+                  <Tax_free_lump_sum_3_sig_figs>31300</Tax_free_lump_sum_3_sig_figs>
+                </Features>
+              </Annuity>
+            </Pension_Annuity_Partition>
+            <Pension_premium_manager>
+              <Pension_premium_manager ref='ID52' ext-id='cff2f58e-3d05-4f41-a081-d3d6fc926eb2:1'>
+                <Features>
+                  <Total_Premiums_Paid>
+                    <Value date='2000-12-01T00:00:00'>2400</Value>
+                    <Value date='2001-12-01T00:00:00'>4800</Value>
+                    <Value date='2002-12-01T00:00:00'>7200</Value>
+                    <Value date='2003-12-01T00:00:00'>9600</Value>
+                    <Value date='2004-12-01T00:00:00'>12000</Value>
+                    <Value date='2005-12-01T00:00:00'>14400</Value>
+                    <Value date='2006-12-01T00:00:00'>16800</Value>
+                    <Value date='2007-12-01T00:00:00'>19200</Value>
+                    <Value date='2008-12-01T00:00:00'>21600</Value>
+                    <Value date='2009-12-01T00:00:00'>24000</Value>
+                    <Value date='2010-12-01T00:00:00'>26400</Value>
+                    <Value date='2011-12-01T00:00:00'>28800</Value>
+                    <Value date='2012-12-01T00:00:00'>31200</Value>
+                    <Value date='2013-12-01T00:00:00'>33600</Value>
+                    <Value date='2014-12-01T00:00:00'>36000</Value>
+                    <Value date='2015-12-01T00:00:00'>38400</Value>
+                    <Value date='2016-12-01T00:00:00'>40800</Value>
+                    <Value date='2017-12-01T00:00:00'>43200</Value>
+                    <Value date='2018-12-01T00:00:00'>45600</Value>
+                    <Value date='2019-12-01T00:00:00'>48000</Value>
+                    <Value date='2020-12-01T00:00:00'>50400</Value>
+                    <Value date='2021-12-01T00:00:00'>52800</Value>
+                    <Value date='2022-12-01T00:00:00'>55200</Value>
+                    <Value date='2023-12-01T00:00:00'>57600</Value>
+                    <Value date='2024-12-01T00:00:00'>60000</Value>
+                  </Total_Premiums_Paid>
+                </Features>
+                <Links>
+                  <Pension_regular_premium>
+                    <Pension_regular_premium ref='ID57' ext-id='43e75eb7-5f64-420f-a08d-004c6e654e73:1'>
+                      <Features>
+                        <Amount>200</Amount>
+                        <Net_contributed_premium>156</Net_contributed_premium>
+                      </Features>
+                    </Pension_regular_premium>
+                  </Pension_regular_premium>
+                </Links>
+              </Pension_premium_manager>
+            </Pension_premium_manager>
+          </Links>
+        </Pension_Product>
+      </clc:Calculation>
+    </clc:Scenario>
+    <clc:Scenario name='Low rate'>
+      <clc:Calculation name='Low rate test'>
+        <Pension_Product ref='ID1' ext-id='3d5cba93-408f-4909-81fa-b4b1af5025ef:1'>
+          <Features>
+            <Cash_Value>
+              <Value date='2000-12-01T00:00:00'>2341.68</Value>
+              <Value date='2001-12-01T00:00:00'>4754.44</Value>
+              <Value date='2002-12-01T00:00:00'>7253.5</Value>
+              <Value date='2003-12-01T00:00:00'>9842.96</Value>
+              <Value date='2004-12-01T00:00:00'>12525.52</Value>
+              <Value date='2005-12-01T00:00:00'>15303.66</Value>
+              <Value date='2006-12-01T00:00:00'>18180.79</Value>
+              <Value date='2007-12-01T00:00:00'>21160.44</Value>
+              <Value date='2008-12-01T00:00:00'>24246.26</Value>
+              <Value date='2009-12-01T00:00:00'>27442.04</Value>
+              <Value date='2010-12-01T00:00:00'>30751.71</Value>
+              <Value date='2011-12-01T00:00:00'>34317.96</Value>
+              <Value date='2012-12-01T00:00:00'>38011.31</Value>
+              <Value date='2013-12-01T00:00:00'>41836.28</Value>
+              <Value date='2014-12-01T00:00:00'>45797.58</Value>
+              <Value date='2015-12-01T00:00:00'>49900.06</Value>
+              <Value date='2016-12-01T00:00:00'>54148.76</Value>
+              <Value date='2017-12-01T00:00:00'>58548.9</Value>
+              <Value date='2018-12-01T00:00:00'>63105.88</Value>
+              <Value date='2019-12-01T00:00:00'>67825.3</Value>
+              <Value date='2020-12-01T00:00:00'>72712.95</Value>
+              <Value date='2021-12-01T00:00:00'>77774.84</Value>
+              <Value date='2022-12-01T00:00:00'>83017.17</Value>
+              <Value date='2023-12-01T00:00:00'>88446.4</Value>
+              <Value date='2024-12-01T00:00:00'>94069.19</Value>
+            </Cash_Value>
+            <Cash_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2340</Value>
+              <Value date='2001-12-01T00:00:00'>4750</Value>
+              <Value date='2002-12-01T00:00:00'>7250</Value>
+              <Value date='2003-12-01T00:00:00'>9840</Value>
+              <Value date='2004-12-01T00:00:00'>12500</Value>
+              <Value date='2005-12-01T00:00:00'>15300</Value>
+              <Value date='2006-12-01T00:00:00'>18100</Value>
+              <Value date='2007-12-01T00:00:00'>21100</Value>
+              <Value date='2008-12-01T00:00:00'>24200</Value>
+              <Value date='2009-12-01T00:00:00'>27400</Value>
+              <Value date='2010-12-01T00:00:00'>30700</Value>
+              <Value date='2011-12-01T00:00:00'>34300</Value>
+              <Value date='2012-12-01T00:00:00'>38000</Value>
+              <Value date='2013-12-01T00:00:00'>41800</Value>
+              <Value date='2014-12-01T00:00:00'>45700</Value>
+              <Value date='2015-12-01T00:00:00'>49900</Value>
+              <Value date='2016-12-01T00:00:00'>54100</Value>
+              <Value date='2017-12-01T00:00:00'>58500</Value>
+              <Value date='2018-12-01T00:00:00'>63100</Value>
+              <Value date='2019-12-01T00:00:00'>67800</Value>
+              <Value date='2020-12-01T00:00:00'>72700</Value>
+              <Value date='2021-12-01T00:00:00'>77700</Value>
+              <Value date='2022-12-01T00:00:00'>83000</Value>
+              <Value date='2023-12-01T00:00:00'>88400</Value>
+              <Value date='2024-12-01T00:00:00'>94000</Value>
+            </Cash_Value_3_sig_figs>
+            <Effect_of_deductions>
+              <Value date='2000-12-01T00:00:00'>356</Value>
+              <Value date='2001-12-01T00:00:00'>773</Value>
+              <Value date='2002-12-01T00:00:00'>1240</Value>
+              <Value date='2003-12-01T00:00:00'>1760</Value>
+              <Value date='2004-12-01T00:00:00'>2340</Value>
+              <Value date='2005-12-01T00:00:00'>1450</Value>
+              <Value date='2006-12-01T00:00:00'>1880</Value>
+              <Value date='2007-12-01T00:00:00'>2370</Value>
+              <Value date='2008-12-01T00:00:00'>2920</Value>
+              <Value date='2009-12-01T00:00:00'>3550</Value>
+              <Value date='2010-12-01T00:00:00'>4260</Value>
+              <Value date='2011-12-01T00:00:00'>4910</Value>
+              <Value date='2012-12-01T00:00:00'>5640</Value>
+              <Value date='2013-12-01T00:00:00'>6460</Value>
+              <Value date='2014-12-01T00:00:00'>7380</Value>
+              <Value date='2015-12-01T00:00:00'>8400</Value>
+              <Value date='2016-12-01T00:00:00'>9530</Value>
+              <Value date='2017-12-01T00:00:00'>10700</Value>
+              <Value date='2018-12-01T00:00:00'>12100</Value>
+              <Value date='2019-12-01T00:00:00'>13600</Value>
+              <Value date='2020-12-01T00:00:00'>15300</Value>
+              <Value date='2021-12-01T00:00:00'>17100</Value>
+              <Value date='2022-12-01T00:00:00'>19000</Value>
+              <Value date='2023-12-01T00:00:00'>21200</Value>
+              <Value date='2024-12-01T00:00:00'>23500</Value>
+            </Effect_of_deductions>
+            <End_of_Plan_Date>2025-01-01</End_of_Plan_Date>
+            <Surrender_Value>
+              <Value date='2000-12-01T00:00:00'>2100</Value>
+              <Value date='2001-12-01T00:00:00'>4270</Value>
+              <Value date='2002-12-01T00:00:00'>6520</Value>
+              <Value date='2003-12-01T00:00:00'>8850</Value>
+              <Value date='2004-12-01T00:00:00'>11200</Value>
+              <Value date='2005-12-01T00:00:00'>15300</Value>
+              <Value date='2006-12-01T00:00:00'>18100</Value>
+              <Value date='2007-12-01T00:00:00'>21100</Value>
+              <Value date='2008-12-01T00:00:00'>24200</Value>
+              <Value date='2009-12-01T00:00:00'>27400</Value>
+              <Value date='2010-12-01T00:00:00'>30700</Value>
+              <Value date='2011-12-01T00:00:00'>34300</Value>
+              <Value date='2012-12-01T00:00:00'>38000</Value>
+              <Value date='2013-12-01T00:00:00'>41800</Value>
+              <Value date='2014-12-01T00:00:00'>45700</Value>
+              <Value date='2015-12-01T00:00:00'>49900</Value>
+              <Value date='2016-12-01T00:00:00'>54100</Value>
+              <Value date='2017-12-01T00:00:00'>58500</Value>
+              <Value date='2018-12-01T00:00:00'>63100</Value>
+              <Value date='2019-12-01T00:00:00'>67800</Value>
+              <Value date='2020-12-01T00:00:00'>72700</Value>
+              <Value date='2021-12-01T00:00:00'>77700</Value>
+              <Value date='2022-12-01T00:00:00'>83000</Value>
+              <Value date='2023-12-01T00:00:00'>88400</Value>
+              <Value date='2024-12-01T00:00:00'>94000</Value>
+            </Surrender_Value>
+            <Surrender_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2100</Value>
+              <Value date='2001-12-01T00:00:00'>4270</Value>
+              <Value date='2002-12-01T00:00:00'>6520</Value>
+              <Value date='2003-12-01T00:00:00'>8850</Value>
+              <Value date='2004-12-01T00:00:00'>11200</Value>
+              <Value date='2005-12-01T00:00:00'>15300</Value>
+              <Value date='2006-12-01T00:00:00'>18100</Value>
+              <Value date='2007-12-01T00:00:00'>21100</Value>
+              <Value date='2008-12-01T00:00:00'>24200</Value>
+              <Value date='2009-12-01T00:00:00'>27400</Value>
+              <Value date='2010-12-01T00:00:00'>30700</Value>
+              <Value date='2011-12-01T00:00:00'>34300</Value>
+              <Value date='2012-12-01T00:00:00'>38000</Value>
+              <Value date='2013-12-01T00:00:00'>41800</Value>
+              <Value date='2014-12-01T00:00:00'>45700</Value>
+              <Value date='2015-12-01T00:00:00'>49900</Value>
+              <Value date='2016-12-01T00:00:00'>54100</Value>
+              <Value date='2017-12-01T00:00:00'>58500</Value>
+              <Value date='2018-12-01T00:00:00'>63100</Value>
+              <Value date='2019-12-01T00:00:00'>67800</Value>
+              <Value date='2020-12-01T00:00:00'>72700</Value>
+              <Value date='2021-12-01T00:00:00'>77700</Value>
+              <Value date='2022-12-01T00:00:00'>83000</Value>
+              <Value date='2023-12-01T00:00:00'>88400</Value>
+              <Value date='2024-12-01T00:00:00'>94000</Value>
+            </Surrender_Value_3_sig_figs>
+            <Surrender_Value_at_RD_3_sig_figs>94500</Surrender_Value_at_RD_3_sig_figs>
+          </Features>
+          <Links>
+            <Death_Benefit_-_Partition>
+              <Death_Benefit ref='ID13' ext-id='5cd48237-e231-482d-b83e-d074beaa505d:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>0.19186959393372</Value>
+                    <Value date='2001-12-01T00:00:00'>0.20073304105962</Value>
+                    <Value date='2002-12-01T00:00:00'>0.13705661762006</Value>
+                    <Value date='2003-12-01T00:00:00'>0</Value>
+                    <Value date='2004-12-01T00:00:00'>0</Value>
+                    <Value date='2005-12-01T00:00:00'>0</Value>
+                    <Value date='2006-12-01T00:00:00'>0</Value>
+                    <Value date='2007-12-01T00:00:00'>0</Value>
+                    <Value date='2008-12-01T00:00:00'>0</Value>
+                    <Value date='2009-12-01T00:00:00'>0</Value>
+                    <Value date='2010-12-01T00:00:00'>0</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                  <Total_Rider_Cost_in_Year>
+                    <Value date='2000-12-01T00:00:00'>2.0552139465178</Value>
+                    <Value date='2001-12-01T00:00:00'>2.5012856190157</Value>
+                    <Value date='2002-12-01T00:00:00'>2.1576269506003</Value>
+                    <Value date='2003-12-01T00:00:00'>0.82171612358693</Value>
+                    <Value date='2004-12-01T00:00:00'>0</Value>
+                    <Value date='2005-12-01T00:00:00'>0</Value>
+                    <Value date='2006-12-01T00:00:00'>0</Value>
+                    <Value date='2007-12-01T00:00:00'>0</Value>
+                    <Value date='2008-12-01T00:00:00'>0</Value>
+                    <Value date='2009-12-01T00:00:00'>0</Value>
+                    <Value date='2010-12-01T00:00:00'>0</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Total_Rider_Cost_in_Year>
+                </Features>
+              </Death_Benefit>
+            </Death_Benefit_-_Partition>
+            <Disability_Benefit_-_Partition>
+              <Disability_Benefit ref='ID20' ext-id='526c84f3-d552-48fb-bc51-76adfbb40d37:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>11.336</Value>
+                    <Value date='2001-12-01T00:00:00'>11.336</Value>
+                    <Value date='2002-12-01T00:00:00'>11.336</Value>
+                    <Value date='2003-12-01T00:00:00'>11.336</Value>
+                    <Value date='2004-12-01T00:00:00'>11.336</Value>
+                    <Value date='2005-12-01T00:00:00'>11.336</Value>
+                    <Value date='2006-12-01T00:00:00'>11.336</Value>
+                    <Value date='2007-12-01T00:00:00'>11.336</Value>
+                    <Value date='2008-12-01T00:00:00'>11.336</Value>
+                    <Value date='2009-12-01T00:00:00'>11.336</Value>
+                    <Value date='2010-12-01T00:00:00'>11.336</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                  <Total_Rider_Cost_in_Year>
+                    <Value date='2000-12-01T00:00:00'>136.032</Value>
+                    <Value date='2001-12-01T00:00:00'>136.032</Value>
+                    <Value date='2002-12-01T00:00:00'>136.032</Value>
+                    <Value date='2003-12-01T00:00:00'>136.032</Value>
+                    <Value date='2004-12-01T00:00:00'>136.032</Value>
+                    <Value date='2005-12-01T00:00:00'>136.032</Value>
+                    <Value date='2006-12-01T00:00:00'>136.032</Value>
+                    <Value date='2007-12-01T00:00:00'>136.032</Value>
+                    <Value date='2008-12-01T00:00:00'>136.032</Value>
+                    <Value date='2009-12-01T00:00:00'>136.032</Value>
+                    <Value date='2010-12-01T00:00:00'>136.032</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Total_Rider_Cost_in_Year>
+                </Features>
+              </Disability_Benefit>
+            </Disability_Benefit_-_Partition>
+            <Fund>
+              <Fund ref='ID28' ext-id='e9bf5c53-97f7-4473-a77b-f7b79dcd03be:1'>
+                <Features>
+                  <Annual_Administration_Cost>0.0125</Annual_Administration_Cost>
+                </Features>
+              </Fund>
+              <Fund ref='ID33' ext-id='e9bf5c53-97f7-4473-a77b-f7b79dcd03be:2'>
+                <Features>
+                  <Annual_Administration_Cost>0.015</Annual_Administration_Cost>
+                </Features>
+              </Fund>
+            </Fund>
+            <Pension_Annuity_Partition>
+              <Annuity ref='ID42' ext-id='861c8fb1-9196-49f8-86d6-b771d9cf994b:1'>
+                <Features>
+                  <Annuity_Administration_Charge>0.03</Annuity_Administration_Charge>
+                  <Annuity_after_tax_free_cash_3_sig_figs>3450</Annuity_after_tax_free_cash_3_sig_figs>
+                  <Annuity_before_tax_free_cash_3_sig_figs>4600</Annuity_before_tax_free_cash_3_sig_figs>
+                  <Tax_free_lump_sum_3_sig_figs>23600</Tax_free_lump_sum_3_sig_figs>
+                  <technical_interest_rate>0.02</technical_interest_rate>
+                </Features>
+              </Annuity>
+            </Pension_Annuity_Partition>
+          </Links>
+        </Pension_Product>
+      </clc:Calculation>
+    </clc:Scenario>
+    <clc:Scenario name='High rate'>
+      <clc:Calculation name='High rate test'>
+        <Pension_Product ref='ID1' ext-id='3d5cba93-408f-4909-81fa-b4b1af5025ef:1'>
+          <Features>
+            <Cash_Value>
+              <Value date='2000-12-01T00:00:00'>2391.01</Value>
+              <Value date='2001-12-01T00:00:00'>4950.95</Value>
+              <Value date='2002-12-01T00:00:00'>7705.94</Value>
+              <Value date='2003-12-01T00:00:00'>10669.36</Value>
+              <Value date='2004-12-01T00:00:00'>13856.91</Value>
+              <Value date='2005-12-01T00:00:00'>17285.52</Value>
+              <Value date='2006-12-01T00:00:00'>20973.44</Value>
+              <Value date='2007-12-01T00:00:00'>24940.29</Value>
+              <Value date='2008-12-01T00:00:00'>29207.17</Value>
+              <Value date='2009-12-01T00:00:00'>33796.76</Value>
+              <Value date='2010-12-01T00:00:00'>38733.49</Value>
+              <Value date='2011-12-01T00:00:00'>44185.16</Value>
+              <Value date='2012-12-01T00:00:00'>50049.18</Value>
+              <Value date='2013-12-01T00:00:00'>56356.75</Value>
+              <Value date='2014-12-01T00:00:00'>63141.41</Value>
+              <Value date='2015-12-01T00:00:00'>70439.27</Value>
+              <Value date='2016-12-01T00:00:00'>78289.15</Value>
+              <Value date='2017-12-01T00:00:00'>86732.82</Value>
+              <Value date='2018-12-01T00:00:00'>95815.2</Value>
+              <Value date='2019-12-01T00:00:00'>105584.62</Value>
+              <Value date='2020-12-01T00:00:00'>116093.06</Value>
+              <Value date='2021-12-01T00:00:00'>127396.43</Value>
+              <Value date='2022-12-01T00:00:00'>139554.88</Value>
+              <Value date='2023-12-01T00:00:00'>152633.12</Value>
+              <Value date='2024-12-01T00:00:00'>166700.73</Value>
+            </Cash_Value>
+            <Cash_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2390</Value>
+              <Value date='2001-12-01T00:00:00'>4950</Value>
+              <Value date='2002-12-01T00:00:00'>7700</Value>
+              <Value date='2003-12-01T00:00:00'>10600</Value>
+              <Value date='2004-12-01T00:00:00'>13800</Value>
+              <Value date='2005-12-01T00:00:00'>17200</Value>
+              <Value date='2006-12-01T00:00:00'>20900</Value>
+              <Value date='2007-12-01T00:00:00'>24900</Value>
+              <Value date='2008-12-01T00:00:00'>29200</Value>
+              <Value date='2009-12-01T00:00:00'>33700</Value>
+              <Value date='2010-12-01T00:00:00'>38700</Value>
+              <Value date='2011-12-01T00:00:00'>44100</Value>
+              <Value date='2012-12-01T00:00:00'>50000</Value>
+              <Value date='2013-12-01T00:00:00'>56300</Value>
+              <Value date='2014-12-01T00:00:00'>63100</Value>
+              <Value date='2015-12-01T00:00:00'>70400</Value>
+              <Value date='2016-12-01T00:00:00'>78200</Value>
+              <Value date='2017-12-01T00:00:00'>86700</Value>
+              <Value date='2018-12-01T00:00:00'>95800</Value>
+              <Value date='2019-12-01T00:00:00'>105000</Value>
+              <Value date='2020-12-01T00:00:00'>116000</Value>
+              <Value date='2021-12-01T00:00:00'>127000</Value>
+              <Value date='2022-12-01T00:00:00'>139000</Value>
+              <Value date='2023-12-01T00:00:00'>152000</Value>
+              <Value date='2024-12-01T00:00:00'>166000</Value>
+            </Cash_Value_3_sig_figs>
+            <Effect_of_deductions>
+              <Value date='2000-12-01T00:00:00'>363</Value>
+              <Value date='2001-12-01T00:00:00'>801</Value>
+              <Value date='2002-12-01T00:00:00'>1310</Value>
+              <Value date='2003-12-01T00:00:00'>1900</Value>
+              <Value date='2004-12-01T00:00:00'>2580</Value>
+              <Value date='2005-12-01T00:00:00'>1630</Value>
+              <Value date='2006-12-01T00:00:00'>2160</Value>
+              <Value date='2007-12-01T00:00:00'>2800</Value>
+              <Value date='2008-12-01T00:00:00'>3540</Value>
+              <Value date='2009-12-01T00:00:00'>4420</Value>
+              <Value date='2010-12-01T00:00:00'>5430</Value>
+              <Value date='2011-12-01T00:00:00'>6470</Value>
+              <Value date='2012-12-01T00:00:00'>7680</Value>
+              <Value date='2013-12-01T00:00:00'>9090</Value>
+              <Value date='2014-12-01T00:00:00'>10700</Value>
+              <Value date='2015-12-01T00:00:00'>12500</Value>
+              <Value date='2016-12-01T00:00:00'>14700</Value>
+              <Value date='2017-12-01T00:00:00'>17100</Value>
+              <Value date='2018-12-01T00:00:00'>19900</Value>
+              <Value date='2019-12-01T00:00:00'>23100</Value>
+              <Value date='2020-12-01T00:00:00'>26600</Value>
+              <Value date='2021-12-01T00:00:00'>30700</Value>
+              <Value date='2022-12-01T00:00:00'>35300</Value>
+              <Value date='2023-12-01T00:00:00'>40500</Value>
+              <Value date='2024-12-01T00:00:00'>46300</Value>
+            </Effect_of_deductions>
+            <End_of_Plan_Date>2025-01-01</End_of_Plan_Date>
+            <Surrender_Value>
+              <Value date='2000-12-01T00:00:00'>2150</Value>
+              <Value date='2001-12-01T00:00:00'>4450</Value>
+              <Value date='2002-12-01T00:00:00'>6930</Value>
+              <Value date='2003-12-01T00:00:00'>9600</Value>
+              <Value date='2004-12-01T00:00:00'>12400</Value>
+              <Value date='2005-12-01T00:00:00'>17200</Value>
+              <Value date='2006-12-01T00:00:00'>20900</Value>
+              <Value date='2007-12-01T00:00:00'>24900</Value>
+              <Value date='2008-12-01T00:00:00'>29200</Value>
+              <Value date='2009-12-01T00:00:00'>33700</Value>
+              <Value date='2010-12-01T00:00:00'>38700</Value>
+              <Value date='2011-12-01T00:00:00'>44100</Value>
+              <Value date='2012-12-01T00:00:00'>50000</Value>
+              <Value date='2013-12-01T00:00:00'>56300</Value>
+              <Value date='2014-12-01T00:00:00'>63100</Value>
+              <Value date='2015-12-01T00:00:00'>70400</Value>
+              <Value date='2016-12-01T00:00:00'>78200</Value>
+              <Value date='2017-12-01T00:00:00'>86700</Value>
+              <Value date='2018-12-01T00:00:00'>95800</Value>
+              <Value date='2019-12-01T00:00:00'>105000</Value>
+              <Value date='2020-12-01T00:00:00'>116000</Value>
+              <Value date='2021-12-01T00:00:00'>127000</Value>
+              <Value date='2022-12-01T00:00:00'>139000</Value>
+              <Value date='2023-12-01T00:00:00'>152000</Value>
+              <Value date='2024-12-01T00:00:00'>166000</Value>
+            </Surrender_Value>
+            <Surrender_Value_3_sig_figs>
+              <Value date='2000-12-01T00:00:00'>2150</Value>
+              <Value date='2001-12-01T00:00:00'>4450</Value>
+              <Value date='2002-12-01T00:00:00'>6930</Value>
+              <Value date='2003-12-01T00:00:00'>9600</Value>
+              <Value date='2004-12-01T00:00:00'>12400</Value>
+              <Value date='2005-12-01T00:00:00'>17200</Value>
+              <Value date='2006-12-01T00:00:00'>20900</Value>
+              <Value date='2007-12-01T00:00:00'>24900</Value>
+              <Value date='2008-12-01T00:00:00'>29200</Value>
+              <Value date='2009-12-01T00:00:00'>33700</Value>
+              <Value date='2010-12-01T00:00:00'>38700</Value>
+              <Value date='2011-12-01T00:00:00'>44100</Value>
+              <Value date='2012-12-01T00:00:00'>50000</Value>
+              <Value date='2013-12-01T00:00:00'>56300</Value>
+              <Value date='2014-12-01T00:00:00'>63100</Value>
+              <Value date='2015-12-01T00:00:00'>70400</Value>
+              <Value date='2016-12-01T00:00:00'>78200</Value>
+              <Value date='2017-12-01T00:00:00'>86700</Value>
+              <Value date='2018-12-01T00:00:00'>95800</Value>
+              <Value date='2019-12-01T00:00:00'>105000</Value>
+              <Value date='2020-12-01T00:00:00'>116000</Value>
+              <Value date='2021-12-01T00:00:00'>127000</Value>
+              <Value date='2022-12-01T00:00:00'>139000</Value>
+              <Value date='2023-12-01T00:00:00'>152000</Value>
+              <Value date='2024-12-01T00:00:00'>166000</Value>
+            </Surrender_Value_3_sig_figs>
+            <Surrender_Value_at_RD_3_sig_figs>167000</Surrender_Value_at_RD_3_sig_figs>
+          </Features>
+          <Links>
+            <Death_Benefit_-_Partition>
+              <Death_Benefit ref='ID13' ext-id='5cd48237-e231-482d-b83e-d074beaa505d:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>0.16062168965998</Value>
+                    <Value date='2001-12-01T00:00:00'>0.05595119786368</Value>
+                    <Value date='2002-12-01T00:00:00'>0</Value>
+                    <Value date='2003-12-01T00:00:00'>0</Value>
+                    <Value date='2004-12-01T00:00:00'>0</Value>
+                    <Value date='2005-12-01T00:00:00'>0</Value>
+                    <Value date='2006-12-01T00:00:00'>0</Value>
+                    <Value date='2007-12-01T00:00:00'>0</Value>
+                    <Value date='2008-12-01T00:00:00'>0</Value>
+                    <Value date='2009-12-01T00:00:00'>0</Value>
+                    <Value date='2010-12-01T00:00:00'>0</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                  <Total_Rider_Cost_in_Year>
+                    <Value date='2000-12-01T00:00:00'>1.9203938081576</Value>
+                    <Value date='2001-12-01T00:00:00'>1.4580960885518</Value>
+                    <Value date='2002-12-01T00:00:00'>0.069267423712059</Value>
+                    <Value date='2003-12-01T00:00:00'>0</Value>
+                    <Value date='2004-12-01T00:00:00'>0</Value>
+                    <Value date='2005-12-01T00:00:00'>0</Value>
+                    <Value date='2006-12-01T00:00:00'>0</Value>
+                    <Value date='2007-12-01T00:00:00'>0</Value>
+                    <Value date='2008-12-01T00:00:00'>0</Value>
+                    <Value date='2009-12-01T00:00:00'>0</Value>
+                    <Value date='2010-12-01T00:00:00'>0</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Total_Rider_Cost_in_Year>
+                </Features>
+              </Death_Benefit>
+            </Death_Benefit_-_Partition>
+            <Disability_Benefit_-_Partition>
+              <Disability_Benefit ref='ID20' ext-id='526c84f3-d552-48fb-bc51-76adfbb40d37:1'>
+                <Features>
+                  <Rider_Cost>
+                    <Value date='2000-12-01T00:00:00'>11.336</Value>
+                    <Value date='2001-12-01T00:00:00'>11.336</Value>
+                    <Value date='2002-12-01T00:00:00'>11.336</Value>
+                    <Value date='2003-12-01T00:00:00'>11.336</Value>
+                    <Value date='2004-12-01T00:00:00'>11.336</Value>
+                    <Value date='2005-12-01T00:00:00'>11.336</Value>
+                    <Value date='2006-12-01T00:00:00'>11.336</Value>
+                    <Value date='2007-12-01T00:00:00'>11.336</Value>
+                    <Value date='2008-12-01T00:00:00'>11.336</Value>
+                    <Value date='2009-12-01T00:00:00'>11.336</Value>
+                    <Value date='2010-12-01T00:00:00'>11.336</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Rider_Cost>
+                  <Total_Rider_Cost_in_Year>
+                    <Value date='2000-12-01T00:00:00'>136.032</Value>
+                    <Value date='2001-12-01T00:00:00'>136.032</Value>
+                    <Value date='2002-12-01T00:00:00'>136.032</Value>
+                    <Value date='2003-12-01T00:00:00'>136.032</Value>
+                    <Value date='2004-12-01T00:00:00'>136.032</Value>
+                    <Value date='2005-12-01T00:00:00'>136.032</Value>
+                    <Value date='2006-12-01T00:00:00'>136.032</Value>
+                    <Value date='2007-12-01T00:00:00'>136.032</Value>
+                    <Value date='2008-12-01T00:00:00'>136.032</Value>
+                    <Value date='2009-12-01T00:00:00'>136.032</Value>
+                    <Value date='2010-12-01T00:00:00'>136.032</Value>
+                    <Value date='2011-12-01T00:00:00'>0</Value>
+                    <Value date='2012-12-01T00:00:00'>0</Value>
+                    <Value date='2013-12-01T00:00:00'>0</Value>
+                    <Value date='2014-12-01T00:00:00'>0</Value>
+                    <Value date='2015-12-01T00:00:00'>0</Value>
+                    <Value date='2016-12-01T00:00:00'>0</Value>
+                    <Value date='2017-12-01T00:00:00'>0</Value>
+                    <Value date='2018-12-01T00:00:00'>0</Value>
+                    <Value date='2019-12-01T00:00:00'>0</Value>
+                    <Value date='2020-12-01T00:00:00'>0</Value>
+                    <Value date='2021-12-01T00:00:00'>0</Value>
+                    <Value date='2022-12-01T00:00:00'>0</Value>
+                    <Value date='2023-12-01T00:00:00'>0</Value>
+                    <Value date='2024-12-01T00:00:00'>0</Value>
+                  </Total_Rider_Cost_in_Year>
+                </Features>
+              </Disability_Benefit>
+            </Disability_Benefit_-_Partition>
+            <Fund>
+              <Fund ref='ID28' ext-id='e9bf5c53-97f7-4473-a77b-f7b79dcd03be:1'>
+                <Features>
+                  <Annual_Administration_Cost>0.0125</Annual_Administration_Cost>
+                </Features>
+              </Fund>
+              <Fund ref='ID33' ext-id='e9bf5c53-97f7-4473-a77b-f7b79dcd03be:2'>
+                <Features>
+                  <Annual_Administration_Cost>0.015</Annual_Administration_Cost>
+                </Features>
+              </Fund>
+            </Fund>
+            <Pension_Annuity_Partition>
+              <Annuity ref='ID42' ext-id='861c8fb1-9196-49f8-86d6-b771d9cf994b:1'>
+                <Features>
+                  <Annuity_Administration_Charge>0.03</Annuity_Administration_Charge>
+                  <Annuity_after_tax_free_cash_3_sig_figs>6120</Annuity_after_tax_free_cash_3_sig_figs>
+                  <Annuity_before_tax_free_cash_3_sig_figs>8170</Annuity_before_tax_free_cash_3_sig_figs>
+                  <Tax_free_lump_sum_3_sig_figs>41900</Tax_free_lump_sum_3_sig_figs>
+                  <technical_interest_rate>0.02</technical_interest_rate>
+                </Features>
+              </Annuity>
+            </Pension_Annuity_Partition>
+          </Links>
+        </Pension_Product>
+      </clc:Calculation>
+    </clc:Scenario>
+  </clc:CalculationOutput>
