@@ -1,0 +1,174 @@
+<?xml version='1.0'?>
+  <clc:CalculationInput xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' detailed-errors='true' request-id='1' xmlns='http://www.example.org/AmLife_Capital'>
+    <clc:DeplR dep-name='AmLife Capital' ver-sel='last'/>
+    <clc:CalculationData>
+      <Policy id='ID1'>
+        <Features>
+          <CoverageTerm><TermType>Duration</TermType><Term>55</Term></CoverageTerm>
+          <DeductibleLevel xsi:nil='true'/>
+          <ExtendedCoverageOption xsi:nil='true'/>
+          <InsurancePortion xsi:nil='true'/>
+          <PaymentFrequency>999</PaymentFrequency>
+          <PaymentTerm><TermType>Duration</TermType><Term>55</Term></PaymentTerm>
+          <PlanCode xsi:nil='true'/>
+          <ProductCode>ULSP5</ProductCode>
+          <SustainabilityOptionTerm xsi:nil='true'/>
+          <TargetAge xsi:nil='true'/>
+          <TargetValue xsi:nil='true'/>
+          <TotalPremium>50000</TotalPremium>
+          <WithdrawalOption>2</WithdrawalOption>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage id='ID26'>
+              <Features>
+                <CoverageCode>ULSP5</CoverageCode>
+                <CoverageTerm><TermType>Duration</TermType><Term>55</Term></CoverageTerm>
+                <InsuredAmount xsi:nil='true'/>
+                <PaymentTerm><TermType>Duration</TermType><Term>55</Term></PaymentTerm>
+                <PlanCode>ULSP5</PlanCode>
+              </Features>
+              <Links>
+                <Insured/>
+              </Links>
+            </Coverage>
+          </Coverage>
+          <FundInvestment>
+            <FundInvestment id='ID38'>
+              <Features>
+                <FundCode>AMBF</FundCode>
+                <FundPercentage>50</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID41'>
+              <Features>
+                <FundCode>AMTBF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID44'>
+              <Features>
+                <FundCode>AMBAF</FundCode>
+                <FundPercentage>50</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID47'>
+              <Features>
+                <FundCode>AMDT</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID50'>
+              <Features>
+                <FundCode>AMDF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID53'>
+              <Features>
+                <FundCode>AMGEMF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID56'>
+              <Features>
+                <FundCode>AMEF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID59'>
+              <Features>
+                <FundCode>AMAIEF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID62'>
+              <Features>
+                <FundCode>AMAPRF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID65'>
+              <Features>
+                <FundCode>AMPMF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+            <FundInvestment id='ID68'>
+              <Features>
+                <FundCode>AMGAF</FundCode>
+                <FundPercentage>0</FundPercentage>
+              </Features>
+            </FundInvestment>
+          </FundInvestment>
+          <Insured>
+            <Insured id='ID72'>
+              <Features>
+                <RoleCode>Insured</RoleCode>
+              </Features>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID82'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+          <Owner>
+            <Owner id='ID76'>
+              <Features>
+                <RoleCode>Spouse</RoleCode>
+              </Features>
+              <Links>
+                <Person/>
+              </Links>
+            </Owner>
+          </Owner>
+          <TopUp/>
+        </Links>
+      </Policy>
+      <Person id='ID82'>
+        <Features>
+          <AgeNextBirthday>30</AgeNextBirthday>
+          <BirthDate xsi:nil='true'/>
+          <Gender>1</Gender>
+          <OccupationClass xsi:nil='true'/>
+          <SmokingHabit>N</SmokingHabit>
+        </Features>
+      </Person>
+    </clc:CalculationData>
+    <clc:Calculation name='main test'>
+      <Policy ref='ID1'>
+        <Validations>
+          <All_validations/>
+        </Validations>
+        <Features>
+          <CalculatedInsuredAmount/>
+          <PremiumPerMode/>
+          <RequiredAmount/>
+          <Tables/>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage ref='ID26'>
+              <Features>
+                <CoverageCode/>
+                <InsuredAmount/>
+                <PremiumPerMode/>
+              </Features>
+            </Coverage>
+          </Coverage>
+          <Insured>
+            <Insured ref='ID72'>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID82'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+        </Links>
+      </Policy>
+      <clc:CalculationDates><clc:At>2014-09-25</clc:At></clc:CalculationDates>
+      <clc:InputData scenario='main'/>
+    </clc:Calculation>
+  </clc:CalculationInput>

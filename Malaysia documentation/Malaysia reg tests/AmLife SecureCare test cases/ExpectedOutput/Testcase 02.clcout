@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+  <clc:CalculationOutput xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.example.org/AmLife_SecureCare'> <clc:RuntimeConfiguration name='AmLife SecureCare'/>  <clc:Calculation name="main test">   <Person ref='ID46'>
+    <Features>
+      <AgeNextBirthday>52</AgeNextBirthday>
+      <Gender>2</Gender>
+      <SmokingHabit>N</SmokingHabit>
+    </Features>
+  </Person>
+  <Policy ref='ID1'>
+    <Validations>
+      <All_validations/>
+    </Validations>
+    <Features>
+      <PaymentFrequency>4</PaymentFrequency>
+      <PremiumPerMode><SetElement><Frequency>1</Frequency><Premium>750.75</Premium></SetElement><SetElement><Frequency>2</Frequency><Premium>382.9</Premium></SetElement><SetElement><Frequency>4</Frequency><Premium>195.2</Premium></SetElement><SetElement><Frequency>12</Frequency><Premium>67.6</Premium></SetElement><SetElement><Frequency>16</Frequency><Premium>68.95</Premium></SetElement><SetElement><Frequency>13</Frequency><Premium>62.6</Premium></SetElement><SetElement><Frequency>14</Frequency><Premium>71</Premium></SetElement><SetElement><Frequency>15</Frequency><Premium>67.6</Premium></SetElement></PremiumPerMode>
+      <Tables></Tables>
+    </Features>
+    <Links>
+      <Coverage>
+        <Coverage ref='ID25'>
+          <Features>
+            <CoverageCode>ALSC</CoverageCode>
+            <InsuredAmount>32000</InsuredAmount>
+          </Features>
+        </Coverage>
+      </Coverage>
+      <Insured>
+        <Insured ref='ID36'>
+          <Features>
+            <RoleCode>Insured</RoleCode>
+          </Features>
+        </Insured>
+      </Insured>
+    </Links>
+  </Policy>
+ </clc:Calculation> </clc:CalculationOutput>

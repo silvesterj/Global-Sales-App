@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+  <clc:CalculationInput xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:clc='http://www.solcorp.com/ns/ProductXpress/CalculationInputOutput/CalculatorElement' detailed-errors='true' request-id='1' xmlns='http://www.example.org/AmLife_SecureGuard_Plus'>
+    <clc:DeplR dep-name='AmLife SecureGuard Plus' ver-sel='last'/>
+    <clc:CalculationData>
+      <Policy id='ID1'>
+        <Features>
+          <CoverageTerm xsi:nil='true'/>
+          <DeductibleLevel xsi:nil='true'/>
+          <ExtendedCoverageOption xsi:nil='true'/>
+          <InsurancePortion xsi:nil='true'/>
+          <PaymentFrequency>1</PaymentFrequency>
+          <PaymentTerm xsi:nil='true'/>
+          <PlanCode xsi:nil='true'/>
+          <ProductCode xsi:nil='true'/>
+          <SustainabilityOptionTerm xsi:nil='true'/>
+          <TargetAge xsi:nil='true'/>
+          <TargetValue xsi:nil='true'/>
+          <TotalPremium xsi:nil='true'/>
+          <WithdrawalOption>2</WithdrawalOption>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage id='ID23'>
+              <Features>
+                <CoverageCode>BTASGP1EPA</CoverageCode>
+                <CoverageTerm xsi:nil='true'/>
+                <InsuredAmount>15000</InsuredAmount>
+                <PaymentTerm xsi:nil='true'/>
+                <PlanCode xsi:nil='true'/>
+              </Features>
+              <Links>
+                <Insured/>
+              </Links>
+            </Coverage>
+            <Coverage id='ID34'>
+              <Features>
+                <CoverageCode>PCITX</CoverageCode>
+                <CoverageTerm><TermType>Duration</TermType><Term>5</Term></CoverageTerm>
+                <InsuredAmount>5000</InsuredAmount>
+                <PaymentTerm xsi:nil='true'/>
+                <PlanCode xsi:nil='true'/>
+              </Features>
+              <Links>
+                <Insured/>
+              </Links>
+            </Coverage>
+            <Coverage id='ID45'>
+              <Features>
+                <CoverageCode>PBRX</CoverageCode>
+                <CoverageTerm><TermType>Duration</TermType><Term>5</Term></CoverageTerm>
+                <InsuredAmount xsi:nil='true'/>
+                <PaymentTerm xsi:nil='true'/>
+                <PlanCode xsi:nil='true'/>
+              </Features>
+              <Links>
+                <Insured/>
+              </Links>
+            </Coverage>
+          </Coverage>
+          <FundInvestment/>
+          <Insured>
+            <Insured id='ID58'>
+              <Features>
+                <RoleCode>Insured</RoleCode>
+              </Features>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID68'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+          <Owner>
+            <Owner id='ID62'>
+              <Features>
+                <RoleCode>Spouse</RoleCode>
+              </Features>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID74'/>
+                </Person>
+              </Links>
+            </Owner>
+          </Owner>
+          <TopUp/>
+        </Links>
+      </Policy>
+      <Person id='ID68'>
+        <Features>
+          <AgeNextBirthday>25</AgeNextBirthday>
+          <BirthDate xsi:nil='true'/>
+          <Gender>1</Gender>
+          <OccupationClass xsi:nil='true'/>
+          <SmokingHabit>N</SmokingHabit>
+        </Features>
+      </Person>
+      <Person id='ID74'>
+        <Features>
+          <AgeNextBirthday>35</AgeNextBirthday>
+          <BirthDate xsi:nil='true'/>
+          <Gender>2</Gender>
+          <OccupationClass xsi:nil='true'/>
+          <SmokingHabit xsi:nil='true'/>
+        </Features>
+      </Person>
+    </clc:CalculationData>
+    <clc:Calculation name='main test'>
+      <Policy ref='ID1'>
+        <Validations>
+          <All_validations/>
+        </Validations>
+        <Features>
+          <WithdrawalOption/>
+          <PremiumPerMode/>
+          <Tables/>
+        </Features>
+        <Links>
+          <Coverage>
+            <Coverage ref='ID34'>
+              <Features>
+                <PremiumPerMode/>
+              </Features>
+            </Coverage>
+            <Coverage ref='ID45'>
+              <Features>
+                <PremiumPerMode/>
+              </Features>
+            </Coverage>
+          </Coverage>
+          <Insured>
+            <Insured ref='ID58'>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID68'/>
+                </Person>
+              </Links>
+            </Insured>
+          </Insured>
+          <Owner>
+            <Owner ref='ID62'>
+              <Links>
+                <Person>
+                  <clc:Reference ref='ID74'/>
+                </Person>
+              </Links>
+            </Owner>
+          </Owner>
+        </Links>
+      </Policy>
+      <clc:CalculationDates><clc:At>2014-08-25T00:00:00</clc:At></clc:CalculationDates>
+      <clc:InputData scenario='main'/>
+    </clc:Calculation>
+  </clc:CalculationInput>

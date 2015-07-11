@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<CalcServerTest>
+	<Connector>
+		<Request>.\Input\Testcase 01.clcin</Request>
+		<Result>.\Output\Testcase 01.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 01.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 02.clcin</Request>
+		<Result>.\Output\Testcase 02.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 02.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 03.clcin</Request>
+		<Result>.\Output\Testcase 03.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 03.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 04.clcin</Request>
+		<Result>.\Output\Testcase 04.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 04.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 05.clcin</Request>
+		<Result>.\Output\Testcase 05.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 05.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 06.clcin</Request>
+		<Result>.\Output\Testcase 06.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 06.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 07.clcin</Request>
+		<Result>.\Output\Testcase 07.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 07.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 08.clcin</Request>
+		<Result>.\Output\Testcase 08.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 08.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 09.clcin</Request>
+		<Result>.\Output\Testcase 09.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 09.clcout</Expected>
+	</Connector>
+	<Connector>
+		<Request>.\Input\Testcase 10.clcin</Request>
+		<Result>.\Output\Testcase 10.clcout</Result>
+	<Expected>.\ExpectedOutput\Testcase 10.clcout</Expected>
+	</Connector>
+</CalcServerTest>

@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp
+END
+FileUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/FileUtil.class
+END
+IProgress.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/IProgress.class
+END
+ProgressError.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/ProgressError.class
+END
+FileLogger.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/FileLogger.class
+END
+R$id.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$id.class
+END
+IProgress$Type.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/IProgress$Type.class
+END
+BuildConfig.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/BuildConfig.class
+END
+R$style.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$style.class
+END
+R$string.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$string.class
+END
+IPxHandler.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/IPxHandler.class
+END
+PxCalculatorUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxCalculatorUtil.class
+END
+StatisticData.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/StatisticData.class
+END
+R$array.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$array.class
+END
+PxActivity.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity.class
+END
+StatisticData$Type.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/StatisticData$Type.class
+END
+R$drawable.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$drawable.class
+END
+ProgressStatistics.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/ProgressStatistics.class
+END
+Timer.class
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/Timer.class
+END
+CalculateTask.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/CalculateTask.class
+END
+PxHandler.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxHandler.class
+END
+PxActivity$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity$1.class
+END
+PxActivity$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity$2.class
+END
+PxActivity$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity$3.class
+END
+PxActivity$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity$4.class
+END
+PxActivity$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/PxActivity$5.class
+END
+R$attr.class
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$attr.class
+END
+R.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R.class
+END
+R$layout.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$layout.class
+END
+R$color.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/pxdev/!svn/ver/16530/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$color.class
+END
+ProgressMessage.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/pxdev/!svn/ver/16536/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/ProgressMessage.class
+END
+R$styleable.class
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/pxdev/!svn/ver/16542/Kronos/branches/android-build/Tools/AndroidApp/PxTestApp/bin/classes/com/productxpress/pxtestapp/R$styleable.class
+END

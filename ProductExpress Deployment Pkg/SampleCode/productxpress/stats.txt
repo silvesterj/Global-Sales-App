@@ -1,0 +1,132 @@
+******Stats for the Product****** simpleaplusb*******
+Package load time: 0.178 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3055 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 0.06 seconds
+Minimum calculation time: 0.06 seconds
+Maximum calculation time: 0.06 seconds
+Request count: 1
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3127 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3131 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
+******Stats for the Product****** N1*******
+Package load time: 2.526 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3221 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 7.412 seconds
+Minimum calculation time: 0.02 seconds
+Maximum calculation time: 7.392 seconds
+Request count: 2
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3774 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3778 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
+******Stats for the Product****** M1*******
+Package load time: 3.909 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3456 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 9.190994 seconds
+Minimum calculation time: 0.008 seconds
+Maximum calculation time: 0.401 seconds
+Request count: 169
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4781 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4781 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
+******Stats for the Product****** minicoverage*******
+Package load time: 1.341 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4049 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 1.3699999 seconds
+Minimum calculation time: 0.038 seconds
+Maximum calculation time: 0.597 seconds
+Request count: 13
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4824 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4824 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
+******Stats for the Product****** UK-Pension*******
+Package load time: 1.537 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4881 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 1.6719999 seconds
+Minimum calculation time: 0.663 seconds
+Maximum calculation time: 1.009 seconds
+Request count: 2
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4209 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 4209 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
+******Stats for the Product****** Others*******
+Package load time: 2.958 seconds
+Memory usage after package load
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3672 KBytes
+nativePrivateDirty: 32 KBytes
+Total calculation time: 0.428 seconds
+Minimum calculation time: 0.428 seconds
+Maximum calculation time: 0.428 seconds
+Request count: 1
+Memory usage after calculations
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3744 KBytes
+nativePrivateDirty: 32 KBytes
+Memory usage at end
+nativePss: 32 KBytes
+nativePrivateDirty: 32 KBytes
+dalvikPss: 3744 KBytes
+nativePrivateDirty: 32 KBytes
+******Completed******
